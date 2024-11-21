@@ -1,0 +1,1882 @@
+// --------------------------------------------
+// Basics
+BACKUP ~TheEnemyWithin/backup~
+AUTHOR ~Zanso (pusimant@hotmail.com)~
+VERSION ~v1~
+
+LANGUAGE ~English~ ~English~ ~TheEnemyWithin/English/Setup-TheEnemyWithin.tra~
+
+// Component setup
+BEGIN @0
+
+INCLUDE ~TheEnemyWithin\lib\worldmap_update.tph~
+INCLUDE ~TheEnemyWithin\lib\addAR0800Door.tph~
+
+COPY_LARGE ~TheEnemyWithin/Areas/Tis~ ~override~
+COPY ~TheEnemyWithin/ids/gtimes.ids~ ~override~
+
+/* =====================================================
+
+		       AREAS
+
+===================================================== */
+
+COPY ~TheEnemyWithin/Areas/randoors~ ~override~
+COPY ~TheEnemyWithin/Areas/rani01~ ~override~
+COPY ~TheEnemyWithin/Areas/rani02~ ~override~
+COPY ~TheEnemyWithin/Areas/rani03~ ~override~
+COPY ~TheEnemyWithin/Areas/rani04~ ~override~
+COPY ~TheEnemyWithin/Areas/rani05~ ~override~
+COPY ~TheEnemyWithin/Areas/rani16~ ~override~
+COPY ~TheEnemyWithin/Areas/rani29~ ~override~
+COPY ~TheEnemyWithin/Areas/rani30~ ~override~
+COPY ~TheEnemyWithin/Areas/rani31~ ~override~
+COPY ~TheEnemyWithin/Areas/rani33~ ~override~
+COPY ~TheEnemyWithin/Areas/rani34~ ~override~
+COPY ~TheEnemyWithin/Areas/rani35~ ~override~
+COPY ~TheEnemyWithin/Areas/rani36~ ~override~
+COPY ~TheEnemyWithin/Areas/rani37~ ~override~
+COPY ~TheEnemyWithin/Areas/rani38~ ~override~
+COPY ~TheEnemyWithin/Areas/rani41~ ~override~
+COPY ~TheEnemyWithin/Areas/rani45~ ~override~
+COPY ~TheEnemyWithin/Areas/rani46~ ~override~
+COPY ~TheEnemyWithin/Areas/rani47~ ~override~
+COPY ~TheEnemyWithin/Areas/rani51~ ~override~
+COPY ~TheEnemyWithin/Areas/rani52~ ~override~
+COPY ~TheEnemyWithin/Areas/rani53~ ~override~
+COPY ~TheEnemyWithin/Areas/rani54~ ~override~
+COPY ~TheEnemyWithin/Areas/rani55~ ~override~
+COPY ~TheEnemyWithin/Areas/rani56~ ~override~
+COPY ~TheEnemyWithin/Areas/rani57~ ~override~
+COPY ~TheEnemyWithin/Areas/rani58~ ~override~
+COPY ~TheEnemyWithin/Areas/rani59~ ~override~
+COPY ~TheEnemyWithin/Areas/rani60~ ~override~
+COPY ~TheEnemyWithin/Areas/rani61~ ~override~
+COPY ~TheEnemyWithin/Areas/rani62~ ~override~
+COPY ~TheEnemyWithin/Areas/rani63~ ~override~
+COPY ~TheEnemyWithin/Areas/rani64~ ~override~
+COPY ~TheEnemyWithin/Areas/rani66~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta1~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta2~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta3~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta4~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta5~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta6~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta7~ ~override~
+COPY ~TheEnemyWithin/Areas/ranta8~ ~override~
+COPY ~TheEnemyWithin/Areas/ar0700~ ~override~
+COPY ~TheEnemyWithin/Areas/ar1300~ ~override~
+COPY ~TheEnemyWithin/Areas/ar3900~ ~override~
+
+// RANI01
+COPY ~TheEnemyWithin/Areas/rani01/rani01.are~ ~override~
+	SAY 0xb68 ~This passage has collapsed and now leads nowhere.~
+
+// RANI04
+COPY ~TheEnemyWithin/Areas/rani04/rani04.are~ ~override~
+	SAY 0x308 ~The stairs has collapsed and the floors above this one seem very unstable.~
+
+// RANI47
+COPY ~TheEnemyWithin/Areas/rani47/rani47.are~ ~override~
+	SAY 0xc98 ~Isap's Caravan Stop~
+	SAY 0xd5c ~This caravan cart seems to be filled with very flammable merchandise.~
+
+// RANI64
+COPY ~TheEnemyWithin/Areas/rani64/rani64.are~ ~override~
+	SAY 0x308 ~The door leads to the palisades, but seems to be blocked from the other side.~
+
+// RANTA1
+COPY ~TheEnemyWithin/Areas/ranta1/ranta1.are~ ~override~
+	ADD_MAP_NOTE #2929 #1086 ~gray~
+  		~Cragmyr Keep~
+
+	SAY 0x8fc ~It seems the man here was hanged quite recently.~
+	SAY 0xe58 ~This grave seems recently dug, but remains empty.~
+	SAY 0xcd0 ~Koril Maurancz. Beloved and brave to the end.~
+	SAY 0xd94 ~Sarias Maurancz. Beloved and brave to the end.~				
+
+// RANTA2
+COPY ~TheEnemyWithin/Areas/ranta2/ranta2.are~ ~override~
+	SAY 0xc20 ~Old Plough~
+
+	ADD_MAP_NOTE #834 #2301 ~gray~
+  		~Old Plough Tavern~
+
+	ADD_MAP_NOTE #3617 #729 ~gray~
+  		~Flaming Fist Camp~
+
+	ADD_MAP_NOTE #408 #1846 ~gray~
+  		~Cragmyr Store~
+
+// RANTA3
+COPY ~TheEnemyWithin/Areas/ranta3/ranta3.are~ ~override~
+
+// RANTA5
+COPY ~TheEnemyWithin/Areas/ranta5/ranta5.are~ ~override~
+	SAY 0xd30 ~Swimming Satyr~
+
+// RANTA6
+COPY ~TheEnemyWithin/Areas/ranta6/ranta6.are~ ~override~
+	ADD_MAP_NOTE #1792 #486 ~gray~
+  		~Old Hunter's Lodge~
+
+// RANTA8
+COPY ~TheEnemyWithin/Areas/ranta8/ranta8.are~ ~override~
+	SAY 0x354 @2000610
+	SAY 0x418 @2000610
+	SAY 0x4dc @2000610
+
+// RANI54
+COPY ~TheEnemyWithin/Areas/rani54/rani54.are~ ~override~
+	SAY 0x5ec ~This table holds a lot of alchemical ingredients you are unable to identify.~
+
+/* =====================================================
+
+			AREA PATCH
+
+===================================================== */
+
+EXTEND_TOP ~ar4905.bcs~ ~TheEnemyWithin/scripts/ar4905.baf~
+EXTEND_TOP ~ar3802.bcs~ ~TheEnemyWithin/scripts/ar3802.baf~
+EXTEND_TOP ~ar0226.bcs~ ~TheEnemyWithin/scripts/ar0226.baf~
+EXTEND_TOP ~ar0700.bcs~ ~TheEnemyWithin/scripts/ar0700.baf~  
+
+COPY_EXISTING ~ar0700.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 2    //travel
+    fj_box_left     = 2517
+    fj_box_top      = 1580
+    fj_box_right    = 2574
+    fj_box_bottom   = 1631
+    fj_cursor_idx   = 30   //door
+    fj_vertex_0     = 2517 + (1580 << 16)
+    fj_vertex_1     = 2527 + (1631 << 16)
+    fj_vertex_2     = 2566 + (1631 << 16)
+    fj_vertex_3     = 2574 + (1580 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = TORANI46
+    fj_destination_area = RANI46
+    fj_destination_name = FROMOUTSIDE
+    fj_loc_x = 2546
+    fj_loc_y = 1577
+    fj_alt_x = 2546
+    fj_alt_y = 1577
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 2570
+    fj_loc_y       = 1487
+    fj_orientation = 8   //N
+    STR_VAR
+    fj_structure_type = entrance
+    fj_name           = FROMRANI46
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 2691
+    fj_loc_y       = 1415
+    fj_dest_x      = 2691
+    fj_dest_y      = 1415
+    fj_orientation = 4   //W
+    STR_VAR
+    fj_structure_type = actor
+    fj_name	   = Beggar
+    fj_cre_resref  = R#BEGGAR
+END
+
+ADD_MAP_NOTE #2594 #1632 ~gray~
+  ~Tranth's Adornments~
+
+////
+COPY_EXISTING ~ar0706.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 675 
+    fj_loc_y       = 785
+    fj_dest_x      = 675
+    fj_dest_y      = 785
+    fj_orientation = 6   //NW
+    STR_VAR
+    fj_structure_type = actor
+    fj_name	   = Dhan "Untouchable" Menvhor
+    fj_cre_resref  = R#DHANM
+END
+
+////
+COPY_EXISTING ~ar3201.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 251 
+    fj_loc_y       = 223
+    fj_dest_x      = 251
+    fj_dest_y      = 223
+    fj_orientation = 0   //S
+    STR_VAR
+    fj_structure_type = actor
+    fj_name	   = Quinn Galan
+    fj_cre_resref  = r#quinn
+END
+
+////
+COPY_EXISTING ~ar4905.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 1    //info
+    fj_box_left     = 184
+    fj_box_top      = 161
+    fj_box_right    = 241
+    fj_box_bottom   = 205
+    fj_cursor_idx   = 22
+    fj_flags	    = 0x00000400
+    fj_alt_x = 217
+    fj_alt_y = 231
+    fj_vertex_0     = 203 + (205 << 16)
+    fj_vertex_1     = 209 + (205 << 16)
+    fj_vertex_2     = 215 + (203 << 16)
+    fj_vertex_3     = 221 + (199 << 16)
+    fj_vertex_4     = 226 + (194 << 16)
+    fj_vertex_5     = 229 + (186 << 16)
+    fj_vertex_6     = 229 + (182 << 16)
+    fj_vertex_7     = 232 + (183 << 16)
+    fj_vertex_8     = 236 + (184 << 16)
+    fj_vertex_9     = 239 + (184 << 16)
+    fj_vertex_10    = 241 + (179 << 16)
+    fj_vertex_11    = 237 + (177 << 16)
+    fj_vertex_12    = 232 + (177 << 16)
+    fj_vertex_13    = 230 + (176 << 16)
+    fj_vertex_14    = 228 + (172 << 16)
+    fj_vertex_15    = 230 + (170 << 16)
+    fj_vertex_16    = 232 + (172 << 16)
+    fj_vertex_17    = 235 + (173 << 16)
+    fj_vertex_18    = 238 + (173 << 16)
+    fj_vertex_19    = 239 + (172 << 16)
+    fj_vertex_20    = 234 + (167 << 16)
+    fj_vertex_21    = 231 + (164 << 16)
+    fj_vertex_22    = 225 + (164 << 16)
+    fj_vertex_23    = 219 + (164 << 16)
+    fj_vertex_24    = 215 + (161 << 16)
+    fj_vertex_25    = 205 + (161 << 16)
+    fj_vertex_26    = 198 + (162 << 16)
+    fj_vertex_27    = 192 + (166 << 16)
+    fj_vertex_28    = 189 + (171 << 16)
+    fj_vertex_29    = 186 + (179 << 16)
+    fj_vertex_30    = 186 + (185 << 16)
+    fj_vertex_31    = 186 + (188 << 16)
+    fj_vertex_32    = 184 + (190 << 16)
+    fj_vertex_33    = 184 + (197 << 16)
+    fj_vertex_34    = 186 + (200 << 16)
+    fj_vertex_35    = 191 + (200 << 16)
+    fj_vertex_36    = 193 + (199 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = Portal4905
+    fj_reg_script       = R#PORT04
+END
+
+////
+COPY_EXISTING ~ar1900.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 1    //info
+    fj_box_left     = 1324
+    fj_box_top      = 872
+    fj_box_right    = 1372
+    fj_box_bottom   = 955
+    fj_cursor_idx   = 22
+    fj_vertex_0     = 1372 + (955 << 16)
+    fj_vertex_1     = 1352 + (926 << 16)
+    fj_vertex_2     = 1348 + (912 << 16)
+    fj_vertex_3     = 1350 + (905 << 16)
+    fj_vertex_4     = 1370 + (905 << 16)
+    fj_vertex_5     = 1372 + (900 << 16)
+    fj_vertex_6     = 1350 + (900 << 16)
+    fj_vertex_7     = 1348 + (892 << 16)
+    fj_vertex_8     = 1340 + (894 << 16)
+    fj_vertex_9     = 1325 + (872 << 16)
+    fj_vertex_10    = 1325 + (882 << 16)
+    fj_vertex_11    = 1339 + (898 << 16)
+    fj_vertex_12    = 1339 + (911 << 16)
+    fj_vertex_13    = 1326 + (917 << 16)
+    fj_vertex_14    = 1324 + (937 << 16)
+    fj_vertex_15    = 1331 + (938 << 16)
+    fj_vertex_16    = 1335 + (920 << 16)
+    fj_vertex_17    = 1341 + (919 << 16)
+    fj_vertex_18    = 1347 + (919 << 16)
+    fj_vertex_19    = 1353 + (937 << 16)
+    fj_vertex_20    = 1360 + (949 << 16)
+    fj_info_point_strref = RESOLVE_STR_REF (~This man has been flayed alive all the way to the bones. A foul way to die.~)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = SUMMONGHOST03
+END
+
+COPY_EXISTING ~ar3802.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 0    //trap
+    fj_box_left     = 282
+    fj_box_top      = 187
+    fj_box_right    = 310
+    fj_box_bottom   = 310
+    fj_cursor_idx   = 30   //door
+    fj_vertex_0     = 310 + (189 << 16)
+    fj_vertex_1     = 295 + (187 << 16)
+    fj_vertex_2     = 282 + (309 << 16)
+    fj_vertex_3     = 296 + (310 << 16)
+    fj_loc_x        = 277
+    fj_loc_y        = 154
+    fj_alt_x        = 348
+    fj_alt_y        = 220
+    fj_trap_detect  = 60
+    fj_trap_remove  = 60
+    fj_trap_active  = 1
+    fj_trap_status  = 0
+    fj_flags        = 0x00000108
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = Trap1
+    fj_reg_script       = AR3802TR
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 0    //trap
+    fj_box_left     = 222
+    fj_box_top      = 182
+    fj_box_right    = 266
+    fj_box_bottom   = 327
+    fj_cursor_idx   = 30   //door
+    fj_vertex_0     = 249 + (182 << 16)
+    fj_vertex_1     = 266 + (183 << 16)
+    fj_vertex_2     = 238 + (327 << 16)
+    fj_vertex_3     = 222 + (325 << 16)
+    fj_loc_x        = 277
+    fj_loc_y        = 154
+    fj_alt_x        = 291
+    fj_alt_y        = 226
+    fj_trap_detect  = 70
+    fj_trap_remove  = 70
+    fj_trap_active  = 1
+    fj_trap_status  = 0
+    fj_flags        = 0x00000108
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = Trap2
+    fj_reg_script       = AR3802TR
+END
+
+COPY_EXISTING ~ar3308.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type        = 3 //drawer
+    fj_loc_x       = 445
+    fj_loc_y       = 385
+    fj_box_left    = 450
+    fj_box_top     = 335
+    fj_box_right   = 492
+    fj_box_bottom  = 378
+    fj_trap_loc_x  = 445
+    fj_trap_loc_y  = 385
+    fj_lock_diff   = 50
+    fj_trap_detect = 60
+    fj_trap_remove_diff = 999
+    fj_trap_active = 1
+    fj_flags       = 0
+    fj_flags       = 11
+    fj_vertex_0    = 459 + (335 << 16)
+    fj_vertex_1    = 492 + (345 << 16)
+    fj_vertex_2    = 492 + (368 << 16)
+    fj_vertex_3    = 485 + (378 << 16)
+    fj_vertex_4    = 450 + (368 << 16)
+    fj_vertex_5    = 450 + (348 << 16)
+    STR_VAR
+    fj_structure_type = container
+    fj_name           = ~HorbenDrawer~
+    fj_trap_script    = AR3308TR
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1 // identified
+    STR_VAR
+    fj_name           = R#lette2
+    fj_structure_type = itm
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1 // identified
+    STR_VAR
+    fj_name           = R#lette3
+    fj_structure_type = itm
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1 // identified
+    STR_VAR
+    fj_name           = R#lette4
+    fj_structure_type = itm
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1 // identified
+    STR_VAR
+    fj_name           = misc43
+    fj_structure_type = itm
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1 // identified
+    STR_VAR
+    fj_name           = RNDTRE03
+    fj_structure_type = itm
+END
+
+COPY_EXISTING ~ar3300.are~ ~override~
+LPF ALTER_AREA_CONTAINER
+    STR_VAR
+    container_name = ~Container 18~
+    container_script = AR3300TR
+END
+
+COPY_EXISTING ~ar3900.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 1    //info
+    fj_box_left     = 3497
+    fj_box_top      = 644
+    fj_box_right    = 3539
+    fj_box_bottom   = 673
+    fj_cursor_idx   = 8
+    fj_flags	    = 0x00000400
+    fj_alt_x 	    = 3521
+    fj_alt_y        = 687
+    fj_vertex_0     = 3522 + (644 << 16)
+    fj_vertex_1     = 3514 + (644 << 16)
+    fj_vertex_2     = 3504 + (648 << 16)
+    fj_vertex_3     = 3499 + (653 << 16)
+    fj_vertex_4     = 3497 + (661 << 16)
+    fj_vertex_5     = 3502 + (668 << 16)
+    fj_vertex_6     = 3508 + (672 << 16)
+    fj_vertex_7     = 3515 + (673 << 16)
+    fj_vertex_8     = 3524 + (673 << 16)
+    fj_vertex_9     = 3534 + (669 << 16)
+    fj_vertex_10    = 3539 + (661 << 16)
+    fj_vertex_11    = 3539 + (655 << 16)
+    fj_vertex_12    = 3536 + (649 << 16)
+    fj_vertex_13    = 3530 + (645 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = SummoncR
+    fj_reg_script       = R#AELEM3
+END
+
+	ADD_MAP_NOTE #3583 #658 ~gray~
+  		~Summoning Circle~
+
+COPY_EXISTING ~ar1300.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x = 997
+    fj_loc_y = 3378
+    fj_orientation = 8
+    STR_VAR
+    fj_structure_type = entrance
+    fj_name = RANTA5
+END
+
+COPY_EXISTING ~ar0226.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x = 2220
+    fj_loc_y = 3428
+    fj_orientation = 6
+    STR_VAR
+    fj_structure_type = entrance
+    fj_name = FROMRANI62
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 2    //travel
+    fj_box_left     = 2179
+    fj_box_top      = 3468
+    fj_box_right    = 2438
+    fj_box_bottom   = 3647
+    fj_cursor_idx   = 34
+    fj_flags	    = 0x00000400
+    fj_vertex_0     = 2438 + (3584 << 16)
+    fj_vertex_1     = 2314 + (3468 << 16)
+    fj_vertex_2     = 2179 + (3536 << 16)
+    fj_vertex_3     = 2290 + (3647 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = TORANI62
+    fj_destination_area = RANI62
+    fj_destination_name = FROMAR0226
+    fj_loc_x = 2299
+    fj_loc_y = 3546
+    fj_alt_x = 2299
+    fj_alt_y = 3546
+END
+
+COPY_EXISTING ~ar0606.are~ ~override~
+LPF ALTER_AREA_CONTAINER
+    INT_VAR
+    lock_difficulty = 999
+    flag_locked = 1
+    flag_mlocked = 1
+    STR_VAR
+    container_name = ~Container 1~
+    container_key = R#QUIN4
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1 // identified
+    STR_VAR
+    fj_name           = RNDTRE02
+    fj_structure_type = itm
+END
+
+COPY_EXISTING ~ar3100.are~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 3418
+    fj_loc_y       = 1907
+    fj_dest_x      = 3418
+    fj_dest_y      = 1907
+    fj_orientation = 0   //S
+    STR_VAR
+    fj_structure_type = actor
+    fj_name	   = Bombur
+    fj_cre_resref  = R#BOMBUR
+END
+
+/* =====================================================
+
+			JOURNAL
+
+===================================================== */
+
+/*
+
+// The Enemy Within
+ADD_JOURNAL TITLE (~The Enemy Within~)  @100000 @100001 @100014 @100015
+
+// Cragmyr Keep's Reconstruction
+ADD_JOURNAL TITLE (~The Enemy Within - Cragmyr's Reconstruction~) @100002 @100003 @100004 @100005 @100006
+
+// Helmed Horrors of Cragmyr
+ADD_JOURNAL TITLE (~The Enemy Within - Helmed Horrors of Cragmyr~) @100007 @100008 @100009 @100010 @100011 @100012 @100013
+
+// Trade Block over Cragmyr
+ADD_JOURNAL TITLE (~The Enemy Within - Trade Block over Cragmyr~) @100100 @100101 @100102 @100103 @100104 @100105 @100106 @100107 @100108 @100109 @100110 @100111 @100112 @100113 @100114 @100115 @100116 @100117
+
+// A Looming Threat
+ADD_JOURNAL TITLE (~The Enemy Within - A Looming Threat~) @100118 @100119 @100120 @100121 @100122 @100123 @100124 @100125 @100126 @100127 @100128 @100129 @100130
+
+// The Smugglers Den
+ADD_JOURNAL TITLE (~The Enemy Within - The Smugglers Den~) @100300
+
+// Troubles in Cragmyr (rumors)
+ADD_JOURNAL TITLE (~Troubles in Cragmyr~) @160000 @160001 @160002 @160003 @160004 @160005
+
+*/
+
+//NEW JOURNAL CODES
+
+ADD_JOURNAL @100000 @100001 @100014 @100015 @100002 @100003 @100004 @100005 @100006 @100007 @100008 @100009 @100010 @100011 @100012 @100013 @100100 @100101 @100102 @100103 @100104 @100105 @100106 @100107 @100108 @100109 @100110 @100111 @100112 @100113 @100114 @100115 @100116 @100117 @100118 @100119 @100120 @100121 @100122 @100123 @100124 @100125 @100126 @100127 @100128 @100129 @100130 @100300 @160000 @160001 @160002 @160003 @160004 @160005 USING ~TheEnemyWithin\%LANGUAGE%\Setup-TheEnemyWithin.TRA~
+
+
+/* =====================================================
+
+		BAMS, SOUNDS AND PORTRAITS
+
+===================================================== */
+
+// BAMS
+COPY ~TheEnemyWithin/Bams~ ~override~
+
+// Sounds
+COPY ~TheEnemyWithin/Sounds~ ~override~
+
+// Portraits
+COPY ~TheEnemyWithin/Portraits~ ~override~
+
+
+
+/* =====================================================
+
+		        DIALOGS
+
+===================================================== */
+
+// RUMORS BEREGOST
+COPY_EXISTING ~RBEREG.dlg~ ~override/RBEREG.dlg~
+
+// RUMORS NASHKEL
+COPY_EXISTING ~RNASHK.dlg~ ~override/RNASHK.dlg~
+
+// DIALOGS
+COMPILE ~TheEnemyWithin/Dialogs/TheEnemyWithin.d~ ~override~
+
+COPY ~TheEnemyWithin/Dialogs/r#mercg1.dlg~ ~override~
+
+ACTION_IF ENGINE_IS ~bgee~ BEGIN
+STRING_SET 5032 ~You there! You're under arrest for banditry and highway robbery! We know you're part of that bandit group who's been terrorizing the Coast Way. Or perhaps you're those smugglers reported by Lord Kuldak? Give yourselves up, or there will be trouble.~
+END
+
+
+/* =====================================================
+
+		2DA ENTRY AND IDENTIFIERS
+
+===================================================== */
+
+COPY_EXISTING ~TOOLTIP.2da~ ~override~
+
+	OUTER_SET ability1strref = RESOLVE_STR_REF (~Blinding Color Surge~)
+	OUTER_SET ability2strref = RESOLVE_STR_REF (~Distracting Ray~)
+	APPEND ~tooltip.2da~ ~r#dhanm1    %ability1strref%    %ability2strref%    -1~
+
+	OUTER_SET ability3strref = RESOLVE_STR_REF (~Minor Spell Deflection~)
+	APPEND ~tooltip.2da~ ~r#Elja      -1	%ability3strref%    -1	-1~
+
+	OUTER_SET ability4strref = RESOLVE_STR_REF (~Pixie Call~)
+	APPEND ~tooltip.2da~ ~r#nymphc      %ability4strref%    -1	-1~
+
+	OUTER_SET ability5strref = RESOLVE_STR_REF (~Time Stop~)
+	OUTER_SET ability6strref = RESOLVE_STR_REF (~Slow Poison~)
+	APPEND ~tooltip.2da~ ~r#bards    -1	%ability5strref%    %ability6strref%    -1~
+
+	OUTER_SET ability7strref = RESOLVE_STR_REF (~Flesh to Stone~)
+	APPEND ~tooltip.2da~ ~r#basili      %ability7strref%    -1	-1~
+
+COPY_EXISTING ~MASTAREA.2da~ ~override~
+
+	APPEND ~mastarea.2da~ ~RANTA1    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA2    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA3    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA4    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA5    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA6    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA7    value   -1~
+	APPEND ~mastarea.2da~ ~RANTA8    value   -1~
+	APPEND ~mastarea.2da~ ~RANI45    value   -1~
+	APPEND ~mastarea.2da~ ~RANI47    value   -1~
+
+COPY_EXISTING ~STATDESC.2da~ ~override~
+
+	OUTER_SET ability4strref = RESOLVE_STR_REF (~Portal Breach~)
+	APPEND ~STATDESC.2da~ ~166		%ability4strref%~
+/* =====================================================
+
+			MUSIC
+
+===================================================== */
+
+
+MKDIR ~music/rani55~					//creates directory rani55 in music
+COPY ~TheEnemyWithin/music/RANI55.mus~ ~music~		//copies the mus file to music
+COPY ~TheEnemyWithin/music/RANI55A.acm~ ~music/rani55~	//copies the acm file to music/rani55
+ADD_MUSIC ~RANI55~ ~music/RANI55.mus~			//adds the music file to songlist.2da, also adds RANI55 as variable to use it in a script or during area patching
+
+COPY_EXISTING "rani55.are" ~override~			//copy the areafile to override
+	READ_LONG 0xbc "song_offset" 			//get the song offset
+	WRITE_LONG ("%song_offset%") "%RANI55%"		//patch the daysong offset with the value in songlist.2da
+	WRITE_LONG ("%song_offset%")+4 "%RANI55%"	//patch the nightsong offset with the value in songlist.2da
+BUT_ONLY
+
+COPY_EXISTING "rani56.are" ~override~			//copy the areafile to override
+	READ_LONG 0xbc "song_offset" 			//get the song offset
+	WRITE_LONG ("%song_offset%") "%RANI55%"		//patch the daysong offset with the value in songlist.2da
+	WRITE_LONG ("%song_offset%")+4 "%RANI55%"	//patch the nightsong offset with the value in songlist.2da
+BUT_ONLY
+
+MKDIR ~music/rani33~					//creates directory rani33 in music
+COPY ~TheEnemyWithin/music/RANI33.mus~ ~music~		//copies the mus file to music
+COPY ~TheEnemyWithin/music/RANI33A.acm~ ~music/rani33~	//copies the acm file to music/rani33
+ADD_MUSIC ~RANI33~ ~music/RANI33.mus~			//adds the music file to songlist.2da, also adds RANI33 as variable to use it in a script or during area patching
+
+COPY_EXISTING "rani33.are" ~override~			//copy the areafile to override
+	READ_LONG 0xbc "song_offset" 			//get the song offset
+	WRITE_LONG ("%song_offset%") "%RANI33%"		//patch the daysong offset with the value in songlist.2da
+	WRITE_LONG ("%song_offset%")+4 "%RANI33%"	//patch the nightsong offset with the value in songlist.2da
+BUT_ONLY
+
+COPY_EXISTING "rani34.are" ~override~			//copy the areafile to override
+	READ_LONG 0xbc "song_offset" 			//get the song offset
+	WRITE_LONG ("%song_offset%") "%RANI33%"		//patch the daysong offset with the value in songlist.2da
+	WRITE_LONG ("%song_offset%")+4 "%RANI33%"	//patch the nightsong offset with the value in songlist.2da
+BUT_ONLY
+
+
+/* =====================================================
+
+		       STORES
+
+===================================================== */
+
+
+
+// Old Plough Tavern
+COPY ~TheEnemyWithin/Stores/R#OLDPL.sto~ ~override~
+	SAY 0xc ~Old Plough Tavern~
+
+// Cragmyr Store
+COPY ~TheEnemyWithin/Stores/R#CRAGST.sto~ ~override~
+	SAY 0xc ~Cragmyr Store~
+
+// Mal Swarley
+COPY ~TheEnemyWithin/Stores/R#SMITH.sto~ ~override~
+	SAY 0xc ~Swarley's Concoctions~
+
+// Talessyr Tranth
+COPY ~TheEnemyWithin/Stores/R#TALESS.sto~ ~override~
+	SAY 0xc ~Tranth's Adornments~
+
+// Hans Olo
+COPY ~TheEnemyWithin/Stores/R#Hans.sto~ ~override~
+	SAY 0xc ~Hans Olo Delivery~
+
+// Wallace
+COPY ~TheEnemyWithin/Stores/R#merc01.sto~ ~override~
+	SAY 0xc ~Wallace's Store~
+
+// Dhan Menhvor
+COPY ~TheEnemyWithin/Stores/R#dhanm.sto~ ~override~
+	SAY 0xc ~Dhan's Scrolls~
+
+// Sorcerous Sundries
+COPY_EXISTING ~STO0703.sto~ ~override/STO0703.sto~
+	ADD_STORE_ITEM ~r#spwi21~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~r#spwi22~ #0 #0 #0 ~IDENTIFIED~ #2
+	ADD_STORE_ITEM ~r#spwi41~ #0 #0 #0 ~IDENTIFIED~ #2
+
+// High Hedge 
+COPY_EXISTING ~HIGHHEDG.sto~ ~override/HIGHHEDG.sto~
+	ADD_STORE_ITEM ~r#spwi21~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~r#spwi22~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~r#spwi41~ #0 #0 #0 ~IDENTIFIED~ #2
+
+
+
+/* =====================================================
+
+		      CREATURES
+
+===================================================== */
+
+// ALL CREATURES
+COPY ~TheEnemyWithin/Creatures~ ~override~
+
+// Horben The Mystic
+COPY ~TheEnemyWithin/Creatures/r#horben.cre~ ~override~
+	SAY NAME1 ~Horben~
+	SAY NAME2 ~Horben~
+
+// Horben The Mystic
+COPY ~TheEnemyWithin/Creatures/r#horbes.cre~ ~override~
+	SAY NAME1 ~Horben~
+	SAY NAME2 ~Horben~
+
+// Lightning Elemental
+COPY ~TheEnemyWithin/Creatures/r#aelem.cre~ ~override~
+	SAY NAME1 ~Lightning Elemental~
+	SAY NAME2 ~Lightning Elemental~
+
+// Lightning Globe
+COPY ~TheEnemyWithin/Creatures/r#aelem2.cre~ ~override~
+	SAY NAME1 ~Lightning Globe~
+	SAY NAME2 ~Lightning Globe~
+
+// Amnian soldier
+COPY ~TheEnemyWithin/Creatures/r#amnis.cre~ ~override~
+
+// Amnian Legionary
+COPY ~TheEnemyWithin/Creatures/r#amnlg.cre~ ~override~
+	SAY NAME1 ~Amnian Legionary~
+	SAY NAME2 ~Amnian Legionary~
+
+// Arin Vemos
+COPY ~TheEnemyWithin/Creatures/r#arinve.cre~ ~override~
+	SAY NAME1 ~Arin Vemos~
+	SAY NAME2 ~Arin Vemos~
+
+// Bandit
+COPY ~TheEnemyWithin/Creatures/r#bandit.cre~ ~override~
+
+// Beggar
+COPY ~TheEnemyWithin/Creatures/r#beggar.cre~ ~override~
+
+// Beholder
+COPY ~TheEnemyWithin/Creatures/r#behold.cre~ ~override~
+	SAY NAME1 ~Beholder~
+	SAY NAME2 ~Beholder~
+
+// Bombur
+COPY ~TheEnemyWithin/Creatures/r#bombur.cre~ ~override~
+	SAY NAME1 ~Bombur~
+	SAY NAME2 ~Bombur~
+
+// Borbon
+COPY ~TheEnemyWithin/Creatures/r#borbon.cre~ ~override~
+	SAY NAME1 ~Borbon~
+	SAY NAME2 ~Borbon~
+
+// Caravan Cart
+COPY ~TheEnemyWithin/Creatures/r#carava.cre~ ~override~
+	SAY NAME1 ~Caravan Cart~
+	SAY NAME2 ~Caravan Cart~
+
+// Cragmyr Militia 1
+COPY ~TheEnemyWithin/Creatures/r#cragg1.cre~ ~override~
+	SAY NAME1 ~Cragmyr Militia~
+	SAY NAME2 ~Cragmyr Militia~
+
+// Cragmyr Militia 2
+COPY ~TheEnemyWithin/Creatures/r#cragg2.cre~ ~override~
+	SAY NAME1 ~Cragmyr Militia~
+	SAY NAME2 ~Cragmyr Militia~
+
+// Captain Eddard
+COPY ~TheEnemyWithin/Creatures/r#cragg3.cre~ ~override~
+	SAY NAME1 ~Captain Eddard~
+	SAY NAME2 ~Captain Eddard~
+
+// Storekeeper Eric
+COPY ~TheEnemyWithin/Creatures/r#cragst.cre~ ~override~
+	SAY NAME1 ~Eric~
+	SAY NAME2 ~Eric~
+
+// Hans Olo
+COPY ~TheEnemyWithin/Creatures/r#hans.cre~ ~override~
+	SAY NAME1 ~Hans Olo~
+	SAY NAME2 ~Hans Olo~
+
+// Dargo Moat
+COPY ~TheEnemyWithin/Creatures/r#dargo.cre~ ~override~
+	SAY NAME1 ~Dargo Moat~
+	SAY NAME2 ~Dargo Moat~
+
+// Fledgling Nabassu
+COPY ~TheEnemyWithin/Creatures/r#demon1.cre~ ~override~
+	SAY NAME1 ~Fledgling Nabassu~
+	SAY NAME2 ~Fledgling Nabassu~
+
+// Jovoc
+COPY ~TheEnemyWithin/Creatures/r#demon2.cre~ ~override~
+	SAY NAME1 ~Jovoc~
+	SAY NAME2 ~Jovoc~
+
+// Jovoc
+COPY ~TheEnemyWithin/Creatures/r#demon3.cre~ ~override~
+	SAY NAME1 ~Jovoc~
+	SAY NAME2 ~Jovoc~
+
+// Fledgling Nabassu
+COPY ~TheEnemyWithin/Creatures/r#demon4.cre~ ~override~
+	SAY NAME1 ~Fledgling Nabassu~
+	SAY NAME2 ~Fledgling Nabassu~
+
+// Deril the Hunter
+COPY ~TheEnemyWithin/Creatures/r#deril.cre~ ~override~
+	SAY NAME1 ~Deril~
+	SAY NAME2 ~Deril~
+
+// Hunter (with Deril)
+COPY ~TheEnemyWithin/Creatures/r#dhunt.cre~ ~override~
+	SAY NAME1 ~Hunter~
+	SAY NAME2 ~Hunter~
+
+// Dhan "Untouchable" Menvhor
+COPY ~TheEnemyWithin/Creatures/r#dhanm.cre~ ~override~
+	SAY NAME1 ~Dhan "Untouchable" Menvhor~
+	SAY NAME2 ~Dhan "Untouchable" Menvhor~
+
+// Noble Djinni
+COPY ~TheEnemyWithin/Creatures/r#djinni.cre~ ~override~
+	SAY NAME1 ~Noble Djinni~
+	SAY NAME2 ~Noble Djinni~
+
+// Dorim
+COPY ~TheEnemyWithin/Creatures/r#dorim.cre~ ~override~
+	SAY NAME1 ~Dorim~
+	SAY NAME2 ~Dorim~
+
+// Dol Mervul
+COPY ~TheEnemyWithin/Creatures/r#dolmer.cre~ ~override~
+	SAY NAME1 ~Dol Mervul~
+	SAY NAME2 ~Dol Mervul~
+
+// Eyeball
+COPY ~TheEnemyWithin/Creatures/r#eyebal.cre~ ~override~
+	SAY NAME1 ~Eyeball~
+	SAY NAME2 ~Eyeball~
+
+// Elijah Hjout
+COPY ~TheEnemyWithin/Creatures/r#Elja.cre~ ~override~
+	SAY NAME1 ~Officer Hjout~
+	SAY NAME2 ~Officer Hjout~
+	SAY 0x10c @14497
+	SAY 0x110 @14498
+	SAY 0x114 @14499
+
+// Flaming Fist Scout
+COPY ~TheEnemyWithin/Creatures/r#flam4.cre~ ~override~
+	SAY NAME1 ~Flaming Fist Scout~
+	SAY NAME2 ~Flaming Fist Scout~
+
+// Flaming Fist Scout
+COPY ~TheEnemyWithin/Creatures/r#flam5.cre~ ~override~
+	SAY NAME1 ~Flaming Fist Scout~
+	SAY NAME2 ~Flaming Fist Scout~
+
+// Magical Barrier
+COPY ~TheEnemyWithin/Creatures/r#flame.cre~ ~override~
+	SAY NAME1 ~Magical Barrier~
+	SAY NAME2 ~Magical Barrier~
+
+// Angry Spirit
+COPY ~TheEnemyWithin/Creatures/r#ghost1.cre~ ~override~
+	SAY NAME1 ~Angry Spirit~
+	SAY NAME2 ~Angry Spirit~
+
+
+// Alarik (spirit)
+COPY ~TheEnemyWithin/Creatures/r#ghost2.cre~ ~override~
+	SAY NAME1 ~Alarik~
+	SAY NAME2 ~Alarik~
+
+// Angry Spirit
+COPY ~TheEnemyWithin/Creatures/r#ghost3.cre~ ~override~
+	SAY NAME1 ~Robb~
+	SAY NAME2 ~Robb~
+
+// Goluk
+COPY ~TheEnemyWithin/Creatures/r#goluk.cre~ ~override~
+
+// Loaber Plashdeep
+COPY ~TheEnemyWithin/Creatures/r#loaber.cre~ ~override~
+	SAY NAME1 ~Loaber Plashdeep~
+	SAY NAME2 ~Loaber Plashdeep~
+
+// Sailor (male)
+COPY ~TheEnemyWithin/Creatures/r#sailor.cre~ ~override~
+	SAY NAME1 ~Sailor~
+	SAY NAME2 ~Sailor~
+	SAY 0xa4 @2001001
+	SAY 0xec @2001005
+	SAY 0xf0 @2001006
+	SAY 0x10c @2001001
+	SAY 0x110 @2001002
+	SAY 0x114 @2001003
+	SAY 0x118 @2001004
+	SAY 0x1b8 @2001002
+
+// Sailor (female)
+COPY ~TheEnemyWithin/Creatures/r#sailof.cre~ ~override~
+	SAY NAME1 ~Sailor~
+	SAY NAME2 ~Sailor~
+	SAY 0xa4 @2001011
+	SAY 0xec @2001015
+	SAY 0xf0 @2001016
+	SAY 0x10c @2001011
+	SAY 0x110 @2001012
+	SAY 0x114 @2001013
+	SAY 0x118 @2001014
+	SAY 0x1b8 @2001012
+
+// Lendali Firehair
+COPY ~TheEnemyWithin/Creatures/r#lendal.cre~ ~override~
+	SAY NAME1 ~Officer Firehair~
+	SAY NAME2 ~Officer Firehair~
+
+// Talessyr Tranth
+COPY ~TheEnemyWithin/Creatures/r#taless.cre~ ~override~
+	SAY NAME1 ~Talessyr Tranth~
+	SAY NAME2 ~Talessyr Tranth~
+
+// Talessyr Tranth
+COPY ~TheEnemyWithin/Creatures/r#tales2.cre~ ~override~
+	SAY NAME1 ~Talessyr Tranth~
+	SAY NAME2 ~Talessyr Tranth~
+
+
+// Thief1
+COPY ~TheEnemyWithin/Creatures/r#thief1.cre~ ~override~
+
+// Thief2
+COPY ~TheEnemyWithin/Creatures/r#thief2.cre~ ~override~
+
+// The Hidden
+COPY ~TheEnemyWithin/Creatures/r#hidden.cre~ ~override~
+	SAY NAME1 ~The Hidden~
+	SAY NAME2 ~The Hidden~
+
+// Helmed Horror
+COPY ~TheEnemyWithin/Creatures/r#helm01.cre~ ~override~
+
+// Helmed Horror
+COPY ~TheEnemyWithin/Creatures/r#helm02.cre~ ~override~
+
+// Helmed Horror
+COPY ~TheEnemyWithin/Creatures/r#helm03.cre~ ~override~
+
+// Iltar
+COPY ~TheEnemyWithin/Creatures/r#iltar.cre~ ~override~
+	SAY NAME1 ~Iltar~
+	SAY NAME2 ~Iltar~
+	SAY 0x10c @15497
+	SAY 0x110 @15498
+	SAY 0x114 @15499
+
+// Spectral Harpist
+COPY ~TheEnemyWithin/Creatures/r#harpis.cre~ ~override~
+	SAY NAME1 ~Spectral Harpist~
+	SAY NAME2 ~Spectral Harpist~
+
+// Luci
+COPY ~TheEnemyWithin/Creatures/r#luci.cre~ ~override~
+	SAY NAME1 ~Luci~
+	SAY NAME2 ~Luci~
+
+// Elder Ochre Jelly
+COPY ~TheEnemyWithin/Creatures/r#jellsp.cre~ ~override~
+	SAY NAME1 ~Elder Ochre Jelly~
+	SAY NAME2 ~Elder Ochre Jelly~
+
+// Elder Ochre Jelly
+COPY ~TheEnemyWithin/Creatures/r#jells1.cre~ ~override~
+	SAY NAME1 ~Elder Ochre Jelly~
+	SAY NAME2 ~Elder Ochre Jelly~
+
+// Elder Ochre Jelly
+COPY ~TheEnemyWithin/Creatures/r#jells2.cre~ ~override~
+	SAY NAME1 ~Elder Ochre Jelly~
+	SAY NAME2 ~Elder Ochre Jelly~
+
+// Elder Ochre Jelly
+COPY ~TheEnemyWithin/Creatures/r#jells3.cre~ ~override~
+	SAY NAME1 ~Elder Ochre Jelly~
+	SAY NAME2 ~Elder Ochre Jelly~
+
+// Elder Ochre Jelly
+COPY ~TheEnemyWithin/Creatures/r#jells4.cre~ ~override~
+	SAY NAME1 ~Elder Ochre Jelly~
+	SAY NAME2 ~Elder Ochre Jelly~
+
+// Kohrk
+COPY ~TheEnemyWithin/Creatures/r#kohrk.cre~ ~override~
+	SAY NAME1 ~Kohrk~
+	SAY NAME2 ~Korhk~
+
+// Kuldak
+COPY ~TheEnemyWithin/Creatures/r#kuldak.cre~ ~override~
+	SAY NAME1 ~Lord Kuldak~
+	SAY NAME2 ~Lord Kuldak~
+	SAY 0x10c @10298
+	SAY 0x110 @10299
+	SAY 0x114 @10298
+
+// Kuldak Sleep
+COPY ~TheEnemyWithin/Creatures/r#kuldas.cre~ ~override~
+	SAY NAME1 ~Lord Kuldak~
+	SAY NAME2 ~Lord Kuldak~
+
+// Portal Key (area rani55)
+COPY ~TheEnemyWithin/Creatures/r#port55.cre~ ~override~
+	SAY NAME1 ~Portal Key~
+	SAY NAME2 ~Portal Key~
+
+// Captain Nathlin Glaragh
+COPY ~TheEnemyWithin/Creatures/r#nath.cre~ ~override~
+	SAY NAME1 ~Captain Nathlin Glaragh~
+	SAY NAME2 ~Captain Nathlin Glaragh~
+
+// Ivyn the Nymph
+COPY ~TheEnemyWithin/Creatures/r#nymph.cre~ ~override~
+	SAY NAME1 ~Ivyn the Nymph~
+	SAY NAME2 ~Ivyn the Nymph~
+
+// Pixies
+COPY ~TheEnemyWithin/Creatures/r#nymphc.cre~ ~override~
+	SAY NAME1 ~Pixies~
+	SAY NAME2 ~Pixies~
+
+// Magic machine
+COPY ~TheEnemyWithin/Creatures/r#machin.cre~ ~override~
+	SAY NAME1 ~Magic Machine~
+	SAY NAME2 ~Magic Machine~
+
+// Mason 1
+COPY ~TheEnemyWithin/Creatures/r#mason.cre~ ~override~
+	SAY NAME1 ~Mason~
+	SAY NAME2 ~Mason~
+
+// Mason 2
+COPY ~TheEnemyWithin/Creatures/r#mason2.cre~ ~override~
+	SAY NAME1 ~Mason~
+	SAY NAME2 ~Mason~
+
+// Menro Morham
+COPY ~TheEnemyWithin/Creatures/r#menro.cre~ ~override~
+	SAY NAME1 ~Menro Morham~
+	SAY NAME2 ~Menro Morham~
+
+// Wallace
+COPY ~TheEnemyWithin/Creatures/r#merc01.cre~ ~override~
+	SAY NAME1 ~Wallace~
+	SAY NAME2 ~Wallace~
+
+// Bob
+COPY ~TheEnemyWithin/Creatures/r#merc02.cre~ ~override~
+	SAY NAME1 ~Bob~
+	SAY NAME2 ~Bob~
+
+// Kohark/Morag
+COPY ~TheEnemyWithin/Creatures/r#morag.cre~ ~override~
+	SAY NAME1 ~Kohark~
+	SAY NAME2 ~Kohark~
+
+// Innkeeper
+COPY ~TheEnemyWithin/Creatures/r#oldpl.cre~ ~override~
+	SAY NAME1 ~Innkeeper~
+	SAY NAME2 ~Innkeeper~
+
+// Otyugh
+COPY ~TheEnemyWithin/Creatures/r#otyugh.cre~ ~override~
+	SAY NAME1 ~Otyugh~
+	SAY NAME2 ~Otyugh~
+
+// Quinn Galan
+COPY ~TheEnemyWithin/Creatures/r#quinn.cre~ ~override~
+	SAY NAME1 ~Quinn~
+	SAY NAME2 ~Quinn~
+
+// Skeleton
+COPY ~TheEnemyWithin/Creatures/r#skel01.cre~ ~override~
+
+// Mal Swarley the inventor
+COPY ~TheEnemyWithin/Creatures/r#smith.cre~ ~override~
+	SAY NAME1 ~Mal Swarley~
+	SAY NAME2 ~Mal Swarley~
+	SAY 0x10c @10497
+	SAY 0x110 @10498
+	SAY 0x114 @10499
+
+// Door
+COPY ~TheEnemyWithin/Creatures/r#tdoor.cre~ ~override~
+	SAY NAME1 ~Door~
+	SAY NAME2 ~Door~
+
+// Tassiter
+COPY ~TheEnemyWithin/Creatures/r#tassi.cre~ ~override~
+	SAY NAME1 ~Tassiter~
+	SAY NAME2 ~Tassiter~
+
+// Talisa
+COPY ~TheEnemyWithin/Creatures/r#talisa.cre~ ~override~
+	SAY NAME1 ~Talisa~
+	SAY NAME2 ~Talisa~
+
+// Wanev
+COPY ~TheEnemyWithin/Creatures/r#wanev.cre~ ~override~
+	SAY NAME1 ~Wanev~
+	SAY NAME2 ~Wanev~
+
+// Wizard Eye
+COPY ~TheEnemyWithin/Creatures/r#wizeye.cre~ ~override~
+	SAY NAME1 ~Wizard Eye~
+	SAY NAME2 ~Wizard Eye~
+
+// Wererat
+COPY ~TheEnemyWithin/Creatures/r#werera.cre~ ~override~
+	SAY NAME1 ~Wererat~
+	SAY NAME2 ~Wererat~
+
+/* =====================================================
+
+		  CREATURE PATCH
+
+===================================================== */
+
+
+COPY_EXISTING ~spidgi.cre~ ~override/spidgi.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidhu.cre~ ~override/spidhu.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidland.cre~ ~override/spidland.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidph.cre~ ~override/spidph.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidphas.cre~ ~override/spidphas.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidsw.cre~ ~override/spidsw.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidsw01.cre~ ~override/spidsw01.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~spidwr.cre~ ~override/spidwr.cre~
+  ADD_CRE_ITEM ~R#RSSILK~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+
+COPY_EXISTING ~basilg.cre~ ~override/basilg.cre~
+  ADD_CRE_ITEM ~R#BASILE~ #0 #0 #0 ~unstealable~ ~LRING~
+
+COPY_EXISTING ~basilmut.cre~ ~override/basilmut.cre~
+  ADD_CRE_ITEM ~R#BASILE~ #0 #0 #0 ~unstealable~ ~LRING~
+
+COPY_EXISTING ~basilnad.cre~ ~override/basilnad.cre~
+  ADD_CRE_ITEM ~R#BASILE~ #0 #0 #0 ~unstealable~ ~LRING~
+
+COPY_EXISTING ~centeo.cre~ ~override/centeo.cre~
+  ADD_CRE_ITEM ~R#SSILK~ #5 #0 #0 ~unstealable~ ~LRING~
+
+/* =====================================================
+
+			ITEMS
+
+===================================================== */
+
+// ALL ITEMS
+COPY ~TheEnemyWithin/Items~ ~override~
+
+// Antimagic Field
+COPY ~TheEnemyWithin/Items/r#anti.itm~ ~override~
+	SAY NAME2 @228
+	SAY DESC @229
+
+// Bard's Tale
+COPY ~TheEnemyWithin/Items/r#bards.itm~ ~override~
+	SAY NAME2 @220
+	SAY DESC @221
+
+// Greater Basilisk Eye
+COPY ~TheEnemyWithin/Items/r#basile.itm~ ~override~
+	SAY NAME2 @142
+	SAY DESC @143
+
+// Eyes of the Basilisk
+COPY ~TheEnemyWithin/Items/r#basili.itm~ ~override~
+	SAY NAME2 @167
+	SAY DESC @168
+
+// Shroud of Bankao
+COPY ~TheEnemyWithin/Items/r#bankao.itm~ ~override~
+	SAY NAME2 @196
+	SAY DESC @197
+
+// Belib's Multiple Tool
+COPY ~TheEnemyWithin/Items/r#belibm.itm~ ~override~
+	SAY NAME2 @108
+	SAY DESC @109
+
+// Bombur's Fury
+
+COPY ~TheEnemyWithin/Items/r#bombur.itm~ ~override~
+	SAY NAME2 @110
+	SAY DESC @111
+
+// Dob's Sacrifice
+COPY ~TheEnemyWithin/Items/r#borbo1.itm~ ~override~
+	SAY NAME2 ~Dob's Sacrifice~
+
+// Waukeen's Touch
+COPY ~TheEnemyWithin/Items/r#dagg01.itm~ ~override~
+	SAY NAME2 @184
+	SAY DESC @185
+
+// ??
+COPY ~TheEnemyWithin/Items/r#darg1.itm~ ~override~
+
+// ??
+COPY ~TheEnemyWithin/Items/r#deril.itm~ ~override~
+	SAY NAME2 @179
+	SAY DESC @180
+
+// Demon items
+COPY ~TheEnemyWithin/Items/r#demon1.itm~ ~override~
+COPY ~TheEnemyWithin/Items/r#demon2.itm~ ~override~
+COPY ~TheEnemyWithin/Items/r#demon3.itm~ ~override~
+COPY ~TheEnemyWithin/Items/r#demon4.itm~ ~override~
+
+// Rainbow Sash
+COPY ~TheEnemyWithin/Items/r#dhanm1.itm~ ~override~
+	SAY NAME2 @116
+	SAY DESC @117
+
+// Elven Chain Mail
+COPY ~TheEnemyWithin/Items/r#dhanm2.itm~ ~override~
+
+// Portal Breach
+COPY ~TheEnemyWithin/Items/r#portal.itm~ ~override~
+	SAY NAME2 @163
+	SAY DESC @164
+
+// Tymora's Loop
+COPY ~TheEnemyWithin/Items/r#djinni.itm~ ~override~
+	SAY NAME2 @152
+	SAY DESC @153
+
+// Deflector +1
+COPY ~TheEnemyWithin/Items/r#Elja.itm~ ~override~
+	SAY NAME2 @114
+	SAY DESC @115
+
+// The Flaming Body
+COPY ~TheEnemyWithin/Items/r#flam5.itm~ ~override~
+	SAY NAME2 @224
+	SAY DESC @225
+
+// Howling Wolf Charm
+COPY ~TheEnemyWithin/Items/r#wolf.itm~ ~override~
+	SAY NAME1 ~Figurine~
+	SAY NAME2 @222
+	SAY UNIDENTIFIED_DESC ~This is a small animal figurine.~
+	SAY DESC @223
+
+// Spectral Harpist Hand Weapon
+COPY ~TheEnemyWithin/Items/r#Harpis.itm~ ~override~
+	SAY NAME1 ~Spectral Harpist Hand Weapon~
+	SAY NAME2 ~Spectral Harpist Hand Weapon~
+
+// Flaming Shield
+COPY ~TheEnemyWithin/Items/r#lendal.itm~ ~override~
+	SAY NAME2 @169
+	SAY DESC @170
+
+// Ring of Shadows
+COPY ~TheEnemyWithin/Items/r#luci1.itm~ ~override~
+	SAY NAME2 @214
+	SAY DESC @215
+
+// Luci's Body
+COPY ~TheEnemyWithin/Items/r#luci2.itm~ ~override~
+	SAY NAME1 @212
+	SAY NAME2 @212
+	SAY UNIDENTIFIED_DESC @213
+	SAY DESC @213
+
+// Luci's Trapped Soul
+COPY ~TheEnemyWithin/Items/r#luci3.itm~ ~override~
+	SAY NAME1 @226
+	SAY NAME2 @226
+	SAY UNIDENTIFIED_DESC @227
+	SAY DESC @227
+
+// Horben's Journal
+COPY ~TheEnemyWithin/Items/r#horbe1.itm~ ~override~
+	SAY NAME2 @161
+	SAY DESC @162
+
+// Magnetized Gloves
+COPY ~TheEnemyWithin/Items/r#magne.itm~ ~override~
+
+// Shoon Impering
+COPY ~TheEnemyWithin/Items/r#iltar.itm~ ~override~
+	SAY NAME2 @102
+	SAY DESC @103
+
+// Cragmyr's Revenge
+COPY ~TheEnemyWithin/Items/r#kuldak.itm~ ~override~
+	SAY NAME2 @100
+	SAY DESC @101
+
+// Letter 1
+COPY ~TheEnemyWithin/Items/r#lette1.itm~ ~override~
+	SAY NAME2 @159
+	SAY DESC @160
+
+// Letter 2
+COPY ~TheEnemyWithin/Items/r#lette2.itm~ ~override~
+	SAY NAME2 @206
+	SAY DESC @207
+
+// Letter 3
+COPY ~TheEnemyWithin/Items/r#lette3.itm~ ~override~
+	SAY NAME2 @208
+	SAY DESC @209
+
+// Letter 4
+COPY ~TheEnemyWithin/Items/r#lette4.itm~ ~override~
+	SAY NAME2 @210
+	SAY DESC @211
+
+// Pixie Duster
+COPY ~TheEnemyWithin/Items/r#nymphc.itm~ ~override~
+	SAY NAME2 @186
+	SAY DESC @187
+
+// Magnetic Gloves
+COPY ~TheEnemyWithin/Items/r#magne.itm~ ~override~
+	SAY NAME2 @138
+	SAY DESC @139
+
+// Warmth Killer
+COPY ~TheEnemyWithin/Items/r#menr1.itm~ ~override~
+	SAY NAME2 @118
+	SAY DESC @119
+
+// Flail of Frost
+COPY ~TheEnemyWithin/Items/r#menr2.itm~ ~override~
+	SAY NAME2 @120
+	SAY DESC @121
+
+// Reflective Katana +1
+COPY ~TheEnemyWithin/Items/r#morag1.itm~ ~override~
+	SAY NAME2 @112
+	SAY DESC @113
+
+// Reflective Katana +1 (only Morag)
+COPY ~TheEnemyWithin/Items/r#morag2.itm~ ~override~
+	SAY NAME2 @112
+
+
+// Resonance Stone
+COPY ~TheEnemyWithin/Items/r#mtrap.itm~ ~override~
+	SAY NAME2 @183
+	SAY DESC @184
+
+// Resonance Stone
+COPY ~TheEnemyWithin/Items/r#mtrap2.itm~ ~override~
+	SAY NAME2 @188
+	SAY DESC @189
+
+// Sword of Phasing
+COPY ~TheEnemyWithin/Items/r#phase.itm~ ~override~
+	SAY NAME2 @150
+	SAY DESC @151
+
+// Potion of Mind Flayer
+COPY ~TheEnemyWithin/Items/r#potn01.itm~ ~override~
+	SAY NAME2 @132
+	SAY DESC @133
+
+// Potion of Reflected Image
+COPY ~TheEnemyWithin/Items/r#potn02.itm~ ~override~
+	SAY NAME2 @144
+	SAY DESC @145
+
+// Potion of Blur
+COPY ~TheEnemyWithin/Items/r#potn03.itm~ ~override~
+	SAY NAME2 @146
+	SAY DESC @147
+
+// Potion of Mustard Jelly
+COPY ~TheEnemyWithin/Items/r#potn04.itm~ ~override~
+	SAY NAME2 @148
+	SAY DESC @149
+
+// Potion of Drow
+COPY ~TheEnemyWithin/Items/r#potn05.itm~ ~override~
+	SAY NAME2 @173
+	SAY DESC @174
+
+// Potion of Spider
+COPY ~TheEnemyWithin/Items/r#potn06.itm~ ~override~
+	SAY NAME2 @175
+	SAY DESC @176
+
+// Potion of Zombie
+COPY ~TheEnemyWithin/Items/r#potn07.itm~ ~override~
+	SAY NAME2 @181
+	SAY DESC @182
+
+// Potion of Clay Golem
+COPY ~TheEnemyWithin/Items/r#potn08.itm~ ~override~
+	SAY NAME2 @190
+	SAY DESC @191
+
+// Spell Diver
+COPY ~TheEnemyWithin/Items/r#speldi.itm~ ~override~
+	SAY NAME2 @104
+	SAY DESC @105
+
+// Shadow Blade
+COPY ~TheEnemyWithin/Items/r#quin1.itm~ ~override~
+	SAY NAME2 @204
+	SAY DESC @205
+
+// Quinn's Spellward
+COPY ~TheEnemyWithin/Items/r#quin2.itm~ ~override~
+	SAY NAME2 @106
+	SAY DESC @107
+
+// Quinn's Body
+COPY ~TheEnemyWithin/Items/r#quin3.itm~ ~override~
+	SAY NAME1 @157
+	SAY NAME2 @157
+	SAY UNIDENTIFIED_DESC @158
+	SAY DESC @158
+
+// Quinn's Odd Key
+COPY ~TheEnemyWithin/Items/r#quin4.itm~ ~override~
+	SAY NAME1 ~Quinn's Odd Key~
+	SAY NAME2 ~Quinn's Odd Key~
+
+// Rob's Wedding Ring
+COPY ~TheEnemyWithin/Items/r#robb01.itm~ ~override~
+	SAY NAME1 @202
+	SAY NAME2 @202
+	SAY UNIDENTIFIED_DESC @203
+	SAY DESC @203
+
+// Machinery Schematics
+COPY ~TheEnemyWithin/Items/r#schema.itm~ ~override~
+	SAY NAME1 @130
+	SAY NAME2 @130
+	SAY UNIDENTIFIED_DESC @131
+	SAY DESC @131
+
+// Skeleton Ring
+COPY ~TheEnemyWithin/Items/r#skel01.itm~ ~override~
+
+// Slave Gem 1
+COPY ~TheEnemyWithin/Items/r#slave1.itm~ ~override~
+	SAY NAME1 @200
+	SAY NAME2 @200
+	SAY UNIDENTIFIED_DESC @201
+	SAY DESC @201
+
+// Slave Gem 2
+COPY ~TheEnemyWithin/Items/r#slave2.itm~ ~override~
+	SAY NAME1 @198
+	SAY NAME2 @198
+	SAY UNIDENTIFIED_DESC @199
+	SAY DESC @199
+
+// Shadow Blade
+COPY ~TheEnemyWithin/Items/r#shadow.itm~ ~override~
+	SAY NAME2 @177
+	SAY DESC @178
+
+// Goggles of Fogcutting
+COPY ~TheEnemyWithin/Items/r#smith.itm~ ~override~
+	SAY NAME2 @128
+	SAY DESC @129
+
+// Mal's Mending
+COPY ~TheEnemyWithin/Items/r#smith3.itm~ ~override~
+	SAY NAME2 @165
+	SAY DESC @166
+
+// Spear of Venom
+COPY ~TheEnemyWithin/Items/r#sper01.itm~ ~override~
+	SAY NAME2 @124
+	SAY DESC @125
+
+// Cloak of Arachnida
+COPY ~TheEnemyWithin/Items/r#spide1.itm~ ~override~
+	SAY NAME2 @136
+	SAY DESC @137
+
+// Blinding Color Surge
+COPY ~TheEnemyWithin/Items/r#spwi21.itm~ ~override~
+	SAY NAME2 ~Blinding Color Surge~
+	SAY DESC @1000
+
+// Distracting Ray
+COPY ~TheEnemyWithin/Items/r#spwi22.itm~ ~override~
+	SAY NAME2 ~Distracting Ray~
+	SAY DESC @1001
+
+// Speak with Dead
+COPY ~TheEnemyWithin/Items/r#spwi41.itm~ ~override~
+	SAY NAME2 ~Speak with Dead~
+	SAY DESC @1002
+
+// Horben's Mystical Demon Call
+COPY ~TheEnemyWithin/Items/r#spwi51.itm~ ~override~
+	SAY NAME2 ~Horben's Mystical Demon Call~
+	SAY DESC @1007
+
+// Trap the Soul
+COPY ~TheEnemyWithin/Items/r#spwi52.itm~ ~override~
+	SAY NAME2 ~Trap the Soul~
+	SAY DESC @1008
+
+// Fresh Spider Silk
+COPY ~TheEnemyWithin/Items/r#ssilk.itm~ ~override~
+	SAY NAME1 @134
+	SAY NAME2 @134
+	SAY UNIDENTIFIED_DESC @135
+	SAY DESC @135
+
+// Fresh Spider Silk Randomiser
+COPY ~TheEnemyWithin/Items/r#rssilk.itm~ ~override~
+	SAY NAME1 ~Fresh Spider Silk Randomiser~
+	SAY NAME2 ~Fresh Spider Silk Randomiser~
+
+// Stick of Truth
+COPY ~TheEnemyWithin/Items/r#stick.itm~ ~override~
+	SAY NAME2 @122
+	SAY DESC @123
+
+// Talessyr's Robe of Blending
+COPY ~TheEnemyWithin/Items/r#taless.itm~ ~override~
+	SAY NAME2 @171
+	SAY DESC @172
+
+// Talessyr's Potion Log
+COPY ~TheEnemyWithin/Items/r#talesb.itm~ ~override~
+	SAY NAME1 @192
+	SAY NAME2 @192
+	SAY UNIDENTIFIED_DESC @193
+	SAY DESC @193
+
+// Talessyr's Body
+COPY ~TheEnemyWithin/Items/r#tales1.itm~ ~override~
+	SAY NAME1 @216
+	SAY NAME2 @216
+	SAY UNIDENTIFIED_DESC @217
+	SAY DESC @217
+
+// Letter (to Talessyr)
+COPY ~TheEnemyWithin/Items/r#tales2.itm~ ~override~
+	SAY NAME1 @194
+	SAY NAME2 @194
+	SAY UNIDENTIFIED_DESC @195
+	SAY DESC @195
+
+// Claw of Tassiter
+COPY ~TheEnemyWithin/Items/r#tassi.itm~ ~override~
+	SAY NAME2 @218
+	SAY DESC @219
+
+
+/* =====================================================
+
+			SPELLS
+
+===================================================== */
+
+// ALL SPELLS
+COPY ~TheEnemyWithin/Spells~ ~override~
+
+// Antimagic Field
+COPY ~TheEnemyWithin/Spells/r#anti.spl~ ~override~
+	SAY NAME1 ~Antimagic Field~
+	SAY NAME2 ~Antimagic Field~
+
+// Aura of Retribution
+COPY ~TheEnemyWithin/Spells/r#demon2.spl~ ~override~
+	SAY NAME1 ~Aura of Retribution~
+	SAY NAME2 ~Aura of Retribution~
+
+COPY ~TheEnemyWithin/Spells/r#demon3.spl~ ~override~
+COPY ~TheEnemyWithin/Spells/r#demon4.spl~ ~override~
+
+// Helmed Horror spell 3
+COPY ~TheEnemyWithin/Spells/r#helm03.spl~ ~override~
+	SAY NAME1 ~Magnetize~
+	SAY NAME2 ~Magnetize~
+
+// Helmed Horror spell 4
+COPY ~TheEnemyWithin/Spells/r#helm04.spl~ ~override~
+	SAY NAME1 ~Magnetize~
+	SAY NAME2 ~Magnetize~
+
+// Magnetize 1
+COPY ~TheEnemyWithin/Spells/r#magne1.spl~ ~override~
+	SAY NAME1 ~Magnetize~
+	SAY NAME2 ~Magnetize~
+
+// Magnetize 2
+COPY ~TheEnemyWithin/Spells/r#magne2.spl~ ~override~
+	SAY NAME1 ~Magnetize~
+	SAY NAME2 ~Magnetize~
+
+// Ray of Frost (Eyeball)
+COPY ~TheEnemyWithin/Spells/r#eyebal.spl~ ~override~
+	SAY NAME1 ~Ray of Frost~
+	SAY NAME2 ~Ray of Frost~
+
+// Speak with Dead
+COPY ~TheEnemyWithin/Spells/sppr330.spl~ ~override~
+	SAY NAME1 ~Speak with Dead~
+	SAY UNIDENTIFIED_DESC @1003
+
+// Blinding Color Surge
+COPY ~TheEnemyWithin/Spells/r#spwi21.spl~ ~override~
+	SAY NAME1 ~Blinding Color Surge~
+	SAY UNIDENTIFIED_DESC @1000
+
+// Distracting Ray
+COPY ~TheEnemyWithin/Spells/r#spwi22.spl~ ~override~
+	SAY NAME1 ~Distracting Ray~
+	SAY UNIDENTIFIED_DESC @1001
+
+// Speak with Dead
+COPY ~TheEnemyWithin/Spells/r#spwi41.spl~ ~override~
+	SAY NAME1 ~Speak with Dead~
+	SAY UNIDENTIFIED_DESC @1002
+
+// Horben's Mystical Demon Call
+COPY ~TheEnemyWithin/Spells/r#spwi51.spl~ ~override~
+	SAY NAME1 ~Horben's Mystical Demon Call~
+	SAY UNIDENTIFIED_DESC @1007
+
+// Trap the Soul
+COPY ~TheEnemyWithin/Spells/r#spwi52.spl~ ~override~
+	SAY NAME1 ~Trap the Soul~
+	SAY UNIDENTIFIED_DESC @1008
+
+// Trap the Soul
+COPY ~TheEnemyWithin/Spells/r#spwi5C.spl~ ~override~
+	SAY NAME1 ~Trap the Soul~
+
+// Gaseous Form
+COPY ~TheEnemyWithin/Spells/r#morga.spl~ ~override~
+	SAY NAME1 ~Gaseous Form~
+
+// Portal Key
+COPY ~TheEnemyWithin/Spells/r#porta.spl~ ~override~
+	SAY NAME1 ~Portal Breach~
+
+// Shapechange: Mustard Jelly
+COPY ~TheEnemyWithin/Spells/r#potn04.spl~ ~override~
+	SAY NAME1 ~Shapechange: Mustard Jelly~
+
+// Shapechange: Drow
+COPY ~TheEnemyWithin/Spells/r#potn05.spl~ ~override~
+	SAY NAME1 ~Shapechange: Drow~
+
+// Shapechange: Spider
+COPY ~TheEnemyWithin/Spells/r#potn06.spl~ ~override~
+	SAY NAME1 ~Shapechange: Spider~
+
+// Shapechange: Zombie
+COPY ~TheEnemyWithin/Spells/r#potn07.spl~ ~override~
+	SAY NAME1 ~Shapechange: Zombie~
+
+// Shapechange: Clay Golem
+COPY ~TheEnemyWithin/Spells/r#potn08.spl~ ~override~
+	SAY NAME1 ~Shapechange: Clay Golem~
+
+// Shapeshift: Wererat
+COPY ~TheEnemyWithin/Spells/r#werera.spl~ ~override~
+	SAY NAME1 ~Shapeshift: Wererat~
+
+// Filth Fever
+COPY ~TheEnemyWithin/Spells/r#werer1.spl~ ~override~
+	SAY NAME1 ~Filth Fever~
+
+
+/* =====================================================
+
+			SCRIPTS
+
+===================================================== */
+
+COPY ~TheEnemyWithin/Scripts~ ~override~
+
+COMPILE ~TheEnemyWithin/Scripts/rani45.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/rani45TR.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/rani45C1.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#mason.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#mason2.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/Rani03c2.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/Rani03c3.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#OGRE.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/RANI47.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/RANI52.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/RANI53.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/RANI53TR.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#TALEQ0.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#TALEQ1.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#TALEQ2.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#TALEQ3.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#TALEC1.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#TALEC2.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#PORT01.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#PORT03.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#PORT04.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/AR3308TR.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/R#GHOST.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/RANT5CO1.baf~ ~override~
+COMPILE ~TheEnemyWithin/Scripts/RANT5CO2.baf~ ~override~
+
+
+/* =====================================================
+
+			WORLDMAP
+
+===================================================== */
+
+
+PRINT "Updating Worldmap...."
+
+COPY_EXISTING ~worldmap.wmp~ ~override~
+PATCH_DEFINE_ASSOCIATIVE_ARRAY move_coordinates BEGIN //define array move_coordinates
+  //the dummy is needed, because the first argument must be unique in a associative array  
+  //dummy , x  , y, n/p x value, n/p y value => areaname		
+	dummy1, 2, 41, px, py => AR4300
+	dummy2, 21, 4, nx, py => AR4200
+	dummy3, 80, 44, px, ny => AR3700
+	dummy4, 20, 0, px, py => AR3800
+END
+PHP_EACH move_coordinates AS cord => aname //go through the array move_coordinates
+BEGIN
+	GET_OFFSET_ARRAY are_array WMP_AREAS //get predefined array WMP_AREAS
+	PHP_EACH are_array AS are_num => are_offset //go through the array WMP_AREAS
+	BEGIN
+	READ_ASCII are_offset are_name //write area reference in variable
+		PATCH_IF ~%are_name%~ STRING_EQUAL_CASE ~%aname%~ //check if the area_name has the same value as aname from the move_coordinates array
+		BEGIN
+			READ_LONG are_offset+0x38 xcord //read X coordinate into xcord variable
+			READ_LONG are_offset+0x3c ycord //read Y coordinate into xcord variable
+			PATCH_IF ~%cord_3%~ STRING_EQUAL_CASE ~px~ //if the xcord should be added
+			BEGIN
+				WRITE_LONG are_offset+0x38 (xcord+%cord_1%) //write X coordinate + second parameter (cord_0 would bec dummy1/2 in this case) from the move_coordinates array
+			END
+			PATCH_IF ~%cord_4%~ STRING_EQUAL_CASE ~py~ //if the ycord should be added
+			BEGIN
+			WRITE_LONG are_offset+0x3c (ycord+%cord_2%) //write Y coordinate + third parameter from the move_coordinates array
+			END
+			PATCH_IF ~%cord_3%~ STRING_EQUAL_CASE ~nx~ //if the xcord should be subtracted
+			BEGIN
+				WRITE_LONG are_offset+0x38 (xcord - %cord_1%) //write X coordinate - second parameter (cord_0 would bec dummy1/2 in this case) from the move_coordinates array
+			END
+			PATCH_IF ~%cord_4%~ STRING_EQUAL_CASE ~ny~ //if the ycord should be subtracted
+			BEGIN
+			WRITE_LONG are_offset+0x3c (ycord - %cord_2%) //write Y coordinate - third parameter from the move_coordinates array
+			END
+		END
+	END  
+END
+
+LAUNCH_ACTION_MACRO ~WORLDMAP_UPDATE~
+
+ACTION_IF FILE_EXISTS_IN_GAME ~RANTA1.are~ THEN BEGIN
+  ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
+    COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
+     APPEND_FILE ~TheEnemyWithin/Worldmap/areas.tbl~
+    COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
+     APPEND_FILE ~TheEnemyWithin/Worldmap/BGEE/links.tbl~
+  COPY - ~TheEnemyWithin/Worldmap/english/worldmap.tra~  ~tmp_worldmap.tra~
+  COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
+   APPEND_FILE ~tmp_worldmap.tra~
+  END
+  ELSE BEGIN
+    MKDIR ~Worldmap~
+    COPY ~TheEnemyWithin/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+    COPY ~TheEnemyWithin/Worldmap/BGEE/links.tbl~ ~Worldmap/map_mods_links.tbl~
+    COPY ~TheEnemyWithin/Worldmap/english/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+  END
+END
+
+
+
+
+
+

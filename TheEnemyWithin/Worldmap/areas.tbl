@@ -1,0 +1,14 @@
+
+//The Enemy Within New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME        TOOLTIP     LOAD_IM
+
+RANTA1      RANTA1   RANTA1     3      57        450    889    @TEW_70000  @TEW_70000  N        
+RANTA2      RANTA2   RANTA2     2      13        549    922    N	   N   	       N        
+RANTA3      RANTA3   RANTA3     2      12        371    813    N	   N   	       N        
+RANTA5      RANTA5   RANTA5     3      58        453    356    N	   N   	       N        
+RANTA6      RANTA6   RANTA6     2      10        351    887    N	   N   	       N        
+RANTA8      RANTA8   RANTA8     0      56        375    729    @TEW_70001  @TEW_70001  N        
+RANI45      RANI45   RANI45     2      53        668    471    N	   N   	       N        
+RANI47      RANI47   RANI47     2      53        539    1032   N	   N   	       N        
+
+
