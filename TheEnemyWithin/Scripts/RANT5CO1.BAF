@@ -1,0 +1,16 @@
+IF
+	See([PC])
+	Global("TALK_SWIMSATYR","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("TALK_SWIMSATYR","GLOBAL",1)
+		Wait(1)
+		DisplayStringHead(Myself,@2001100)
+		Wait(10)
+		DisplayStringHead(Myself,@2001102)
+		Wait(10)
+		DisplayStringHead(Myself,@2001104)
+		Wait(10)
+		DisplayStringHead(Myself,@2001106)
+		EscapeAreaObject("Toar1300")
+END

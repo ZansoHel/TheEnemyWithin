@@ -1,0 +1,18 @@
+IF
+	See([PC])
+	Global("KORAKHMAGICWA","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(NearestEnemyOf(Myself),@2000007)
+		SetGlobal("KORAKHMAGICWA","GLOBAL",1)
+END
+
+IF
+	Global("KORAKHMAGICWA","GLOBAL",2)
+	Global("HELP_KOHARK","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MoveToObject("R#MORAG")
+		Wait(10)
+		SetGlobal("HELP_KOHARK","GLOBAL",1)
+END

@@ -1,0 +1,136 @@
+IF
+	InMyArea(Player1)
+	Global("Caravan_Ambush","GLOBAL",0)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		MoveGlobal("RANI47",Player1,[372.277])
+		MoveGlobal("RANI47",Player2,[362.197])
+		MoveGlobal("RANI47",Player3,[362.197])
+		MoveGlobal("RANI47",Player4,[362.197])
+		MoveGlobal("RANI47",Player5,[362.197])
+		MoveGlobal("RANI47",Player6,[362.197])
+		ActionOverride(Player1,Face(S))
+		ActionOverride(Player2,Face(S))
+		ActionOverride(Player3,Face(S))
+		ActionOverride(Player4,Face(S))
+		ActionOverride(Player5,Face(S))
+		ActionOverride(Player6,Face(S))
+		UndoExplore()
+		MoveViewPoint([324.507],INSTANT)
+		CreateCreature("R#WIZEYE",[324.507],N) // Wizard Eye
+		FadeFromColor([20.0],0)
+		SetGlobal("Caravan_Ambush","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("RANI47C1")
+		Continue()
+END
+
+IF
+	Global("Caravan_Fire","GLOBAL",1)
+	Global("Caravan_inflames","RANI47",0)
+THEN
+	RESPONSE #100
+		AmbientActivate("CaravanFire1",TRUE)
+		AmbientActivate("CaravanFire2",TRUE)
+		AmbientActivate("CaravanFire3",TRUE)
+		AmbientActivate("CaravanFire4",TRUE)
+		SoundActivate("CaravanFire",TRUE)
+		TriggerActivation("Cartinfo",FALSE)
+		CloseDoor("DOOR0001")
+		SetGlobal("Caravan_inflames","RANI47",1)
+		Continue()
+END
+
+IF
+	Global("Caravan_Fire","GLOBAL",0)
+THEN
+	RESPONSE #100
+		AmbientActivate("CaravanFire1",FALSE)
+		AmbientActivate("CaravanFire2",FALSE)
+		AmbientActivate("CaravanFire3",FALSE)
+		AmbientActivate("CaravanFire4",FALSE)
+		SoundActivate("CaravanFire",FALSE)
+		TriggerActivation("Cartinfo",TRUE)
+		OpenDoor("DOOR0001")
+END
+
+IF
+	RealGlobalTimerExpired("Caravan_attack","RANI47")
+	Global("Caravan_Fire","GLOBAL",1)
+	Global("Caravan_Fire_M1","GLOBAL",0)
+	Global("RANI52_STEAL","GLOBAL",0)
+	!Dead("R#MERC01")
+THEN
+	RESPONSE #100
+		CreateCreature("R#MERC01",[1967.1022],S) // Wallace
+		Wait(1)
+		ActionOverride("R#MERC01",MoveToPoint([1887.1100]))
+		SetGlobal("Caravan_Fire_M1","GLOBAL",1)
+		Continue()
+END
+
+IF
+	RealGlobalTimerExpired("Caravan_attack","RANI47")
+	Global("Caravan_Fire","GLOBAL",1)
+	Global("Caravan_Fire_M1","GLOBAL",0)
+	Global("RANI52_STEAL","GLOBAL",1)
+	!Dead("R#MERC01")
+THEN
+	RESPONSE #100
+		CreateCreature("R#MERC01",[1967.1022],S) // Wallace
+		Wait(1)
+		ActionOverride("R#MERC01",Enemy())
+		SetGlobal("Caravan_Fire_M1","GLOBAL",1)
+		Continue()
+END
+
+IF
+	RealGlobalTimerExpired("Caravan_attack","RANI47")
+	Global("Caravan_Fire","GLOBAL",1)
+	Global("Caravan_Fire_M2","GLOBAL",0)
+	Global("RANI52_STEAL","GLOBAL",0)
+	!Dead("R#MERC02")
+THEN
+	RESPONSE #100
+		CreateCreature("R#MERC02",[2221.856],S) // Merchant
+		ActionOverride("R#MERC02",SetDialog(""))
+		Wait(1)
+		ActionOverride("R#MERC02",MoveToPoint([1975.1079]))
+		ActionOverride("R#MERC02",Face(SW))
+		SetGlobal("Caravan_Fire_M2","GLOBAL",1)
+		Continue()
+END
+
+IF
+	RealGlobalTimerExpired("Caravan_attack","RANI47")
+	Global("Caravan_Fire","GLOBAL",1)
+	Global("Caravan_Fire_M2","GLOBAL",0)
+	Global("RANI52_STEAL","GLOBAL",1)
+	!Dead("R#MERC02")
+THEN
+	RESPONSE #100
+		CreateCreature("R#MERC02",[2221.856],S) // Merchant
+		Wait(1)
+		ActionOverride("R#MERC02",Enemy())
+		SetGlobal("Caravan_Fire_M2","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("Caravan_Fire_M2","GLOBAL",1)
+	Global("Caravan_Fire_M1","GLOBAL",1)
+	Global("Caravan_Fire_D","RANI47",0)
+	Global("RANI52_STEAL","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Wait(8)
+		DisplayStringHead("R#MERC02",@2000008)
+		Wait(4)
+		DisplayStringHead("R#MERCG1",@2000009)
+		Wait(4)
+		DisplayStringHead("R#MERC02",@2000011)
+		Wait(5)
+		DisplayStringHead("R#MERC01",@2000010)
+		SetGlobal("Caravan_Fire_D","RANI47",1)
+END

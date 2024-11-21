@@ -1,0 +1,14 @@
+IF
+	See([PC])
+	Global("Conv_masons","GLOBAL",0)
+	Global("Keep_repairs","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("Conv_masons","GLOBAL",1)
+		Wait(1)
+		DisplayStringHead(Myself,@2000001) // Beautiful wall isn't it? And it's all my doing.
+		Wait(10)
+		DisplayStringHead(Myself,@2000003) // Yeah right. Your walls collapse and crumble with a stone throw.
+		Wait(23)
+		EscapeAreaObject("Tokeep")
+END

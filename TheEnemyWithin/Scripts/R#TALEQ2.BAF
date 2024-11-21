@@ -1,0 +1,94 @@
+IF
+	Global("TEW_caravanquest","GLOBAL",7)
+THEN
+	RESPONSE #100
+		Wait(5)
+		DestroySelf()
+END
+
+IF
+	Global("TALESS_DEAD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		SetGlobal("TALESS_DEAD","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0700")
+	TimeOfDay(NIGHT)
+	See([PC])
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@2000100) // I will not be followed by nosy adventurers! My business is mine and mine alone!
+		SetGlobal("TALESS_TAIL2","GLOBAL",0)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_DIMENSION_DOOR) // SPWI402.SPL (Dimension Door)
+		Wait(2)
+		DestroySelf()
+END
+
+IF
+	AreaCheck("AR0700")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	TimeOfDay(NIGHT)
+	Global("TALESS_TAIL1D","GLOBAL",1)
+	Global("TALESS_TAIL2D","GLOBAL",0)
+	Global("TALESS_TAIL2","GLOBAL",0)
+	Global("TEW_caravanquest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		Wait(1)
+		DisplayStringHead(Myself,@2000126) // A bit chilly tonight.
+		MoveToPoint([1214.1986])
+		Wait(1)
+		Face(N)
+		Wait(1)
+		Face(NNE)
+		Wait(1)
+		Face(NE)
+		Wait(1)
+		DisplayStringHead(Myself,@2000109) // I thought I heard something.
+		IncrementGlobal("TALESS_TAIL2","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0700")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	TimeOfDay(NIGHT)
+	Global("TALESS_TAIL2","GLOBAL",1)
+	Global("TEW_caravanquest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		Wait(1)
+		MoveToPoint([1228.3097])
+		Wait(3)
+		IncrementGlobal("TALESS_TAIL2","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0700")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	TimeOfDay(NIGHT)
+	Global("TALESS_TAIL2","GLOBAL",2)
+	Global("TEW_caravanquest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		CreateCreature("R#THIEF1",[2308.2464],0)
+		CreateCreature("R#THIEF2",[2204.2469],0)
+		MoveToPoint([2247.2503])
+		Wait(3)
+		IncrementGlobal("TALESS_TAIL2","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("R#TALEC2")
+END
+

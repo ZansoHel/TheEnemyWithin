@@ -1,0 +1,29 @@
+IF
+	Global("QUINN_CAVE","GLOBAL",2)
+	Global("TEW_ogrequest","GLOBAL",7)
+THEN
+	RESPONSE #100
+		CreateCreature("R#QUINN",[186.204],E) // Quinn Galan
+		TriggerActivation("Trap1",TRUE)
+		TriggerActivation("Trap2",TRUE)
+		SetGlobal("QUINN_CAVE","GLOBAL",3)
+END
+
+IF
+	PartyHasItem("R#QUIN2")
+	Global("TEW_ogrequest","GLOBAL",7)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@100125,QUEST)
+		EraseJournalEntry(@100122)
+		SetGlobal("TEW_ogrequest","GLOBAL",8)
+END
+
+IF
+	Global("QUINN_ALIVE","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Trap1",FALSE)
+		TriggerActivation("Trap2",FALSE)
+		SetGlobal("QUINN_ALIVE","GLOBAL",2)
+END

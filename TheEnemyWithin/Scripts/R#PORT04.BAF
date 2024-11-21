@@ -1,0 +1,49 @@
+IF
+	Clicked([ANYONE])
+	Global("TEW_KNOW_PORTAL","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000500) // Although this object seems to emit a hint of magical energy, its main purpose seems to be ornamental.
+END
+
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("R#PORTAL")
+	Global("TEW_KNOW_PORTAL","GLOBAL",2)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000504) // You need a Portal Breach scroll to use this portal key.
+END
+
+IF
+	Clicked([ANYONE])
+	Global("TEW_KNOW_PORTAL","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000503) // You need to know the specific keyword to use this portal key.
+END
+
+IF
+	Clicked([ANYONE])
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	PartyHasItem("R#PORTAL")
+	Global("TEW_KNOW_PORTAL","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player2,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player3,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player4,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player5,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player6,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",1)
+		DestroyItem("R#PORTAL")
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0)) 
+		ActionOverride(Player2,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player3,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player4,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player5,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player6,LeaveAreaLUA("RANI55","",[935.940],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND) 
+END

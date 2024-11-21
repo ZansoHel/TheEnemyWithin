@@ -1,0 +1,44 @@
+IF
+	Global("TEW_caravanquest","GLOBAL",5)
+	Global("TALES1_CREATED","GLOBAL",0)
+	Global("TALESS_DEAD","GLOBAL",0)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("R#TALESS",[2546.1506],8)
+		ActionOverride("R#TALESS",ChangeAIScript("R#TALEQ1",OVERRIDE))
+		SetGlobal("TALES1_CREATED","GLOBAL",1)
+END
+
+IF
+	Global("TEW_caravanquest","GLOBAL",5)
+	Global("TALES1_CREATED","GLOBAL",1)
+	TimeOfDay(DAY)
+THEN
+	RESPONSE #100
+		ActionOverride("R#TALESS",DestroySelf())
+		SetGlobal("TALES1_CREATED","GLOBAL",0)
+END
+
+IF
+	Global("TEW_caravanquest","GLOBAL",6)
+	Global("TALES2_CREATED","GLOBAL",0)
+	Global("TALESS_DEAD","GLOBAL",0)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("R#TALESS",[2546.1506],8)
+		ActionOverride("R#TALESS",ChangeAIScript("R#TALEQ2",OVERRIDE))
+		SetGlobal("TALES2_CREATED","GLOBAL",1)
+END
+
+IF
+	Global("TEW_caravanquest","GLOBAL",6)
+	Global("TALES2_CREATED","GLOBAL",1)
+	TimeOfDay(DAY)
+THEN
+	RESPONSE #100
+		ActionOverride("R#TALESS",DestroySelf())
+		SetGlobal("TALES2_CREATED","GLOBAL",0)
+END
+

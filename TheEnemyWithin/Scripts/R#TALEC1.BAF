@@ -1,0 +1,46 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ClearAllActions()
+		CreateCreature("R#WIZEYE",[3815.2845],N)
+		MoveViewPoint([3723.2881],INSTANT)
+		Wait(3)
+		DisplayStringHead("R#TALESS",@2000103) // He is late again. Hmph.
+		Wait(4)
+		CreateCreature("R#HIDDEN",[3680.2787],E)
+		ActionOverride("R#HIDDEN",FaceObject("R#TALESS"))
+		Wait(1)
+		ActionOverride("R#TALESS",FaceObject("R#HIDDEN"))
+		Wait(4)
+		DisplayStringHead("R#TALESS",@2000104) // Finally you are here! Do you have what I asked for?
+		Wait(6)
+		DisplayStringHead("R#TALESS",@2000105) // Good. Here is the transformation potions you required.
+		Wait(6)
+		DisplayStringHead("R#TALESS",@2000124) // No, I think it will have to wait till tomorrow night.
+		Wait(4)
+		DisplayStringHead("R#TALESS",@2000125) // I'll do the delivery then. I trust the stones' power lasts at least a couple of weeks?
+		Wait(6)
+		DisplayStringHead("R#TALESS",@2000106) // Yes, that is true. Till next time.
+		Wait(6)
+		ActionOverride("R#HIDDEN",SetSequence(SEQ_CAST))
+		ActionOverride("R#HIDDEN",ApplySpell(Myself,WIZARD_DIMENSION_DOOR))
+		DisplayStringHead("R#HIDDEN",@2000108) // Plane shift
+		Wait(1)
+		ActionOverride("R#HIDDEN",DestroySelf())
+		Wait(3)
+		ClearAllActions()
+		SetGlobal("TALES1_TELE","GLOBAL",1)
+		SetGlobal("TALESS_TAIL1D","GLOBAL",1)
+		SetGlobal("TEW_caravanquest","GLOBAL",6)
+		ActionOverride("R#WIZEYE",DestroySelf())
+		ActionOverride("R#TALESS",ForceSpell(Myself,WIZARD_DIMENSION_DOOR))
+		Wait(2)
+		ActionOverride("R#TALESS",DestroySelf())
+		DayNight(DAWN_START)
+		AddJournalEntry(@100111,QUEST)
+		EraseJournalEntry(@100110)
+		Wait(1)
+		EndCutSceneMode()
+END

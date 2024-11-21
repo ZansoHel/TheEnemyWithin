@@ -1,0 +1,36 @@
+IF
+	Global("Machine_repair","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ClearAllActions()
+		FadeToColor([20.0],0)
+		Wait(3)
+		MoveViewObject("R#MACHIN",INSTANT)
+		ActionOverride("R#SMITH",MoveToObject("R#MACHIN"))
+		FadeFromColor([20.0],0)
+		Wait(4)
+		ActionOverride("R#SMITH",DisplayStringHead(Myself,@10495)) // I hope this works! Without the schematics this is always a little bit hit-and-miss. Here we go!
+		Wait(2)
+		ActionOverride("R#SMITH",UseItem("R#SMIWA","R#MACHIN")) // Lightning Bolt
+		Wait(4)
+		ScreenShake([20.20],30)
+		Wait(2)
+		AmbientActivate("Lightning",TRUE)
+		Wait(1)
+		AmbientActivate("GLOBE",TRUE)
+		AmbientActivate("GLOBE2",TRUE)
+		AmbientActivate("GLOBE3",TRUE)
+		AmbientActivate("GLOBE4",TRUE)
+		SoundActivate("Globesound",TRUE)
+		SetGlobal("Machine_repair","GLOBAL",3)
+		ActionOverride("R#SMITH",DisplayStringHead(Myself,@10496)) // There. That wasn't so bad, was it?
+		Wait(2)
+		ActionOverride("R#SMITH",MoveToSavedLocationn("MAL_RANI03","RANI03"))
+		Wait(4)
+		AmbientActivate("Lightning",FALSE)
+		ActionOverride("R#MACHIN",DestroySelf())
+		SetGlobal("Machine_repair","GLOBAL",4)
+		EndCutSceneMode()
+END
+

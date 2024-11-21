@@ -1,0 +1,74 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		CreateCreature("R#WIZEYE",[2262.2469],N) // Wizard Eye
+		MoveViewPoint([2262.2469],VERY_FAST)
+		ActionOverride("R#THIEF1",FaceObject("R#TALESS"))
+		ActionOverride("R#THIEF2",FaceObject("R#TALESS"))
+		Wait(3)
+		DisplayStringHead("R#TALESS",@2000110) // Here are the potions and the stones.
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000111) // Make sure you hide the stones well and play your part precisely, as you have done so far. 
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000112) // We don't need the real Flaming Fist to come after us.
+		Wait(5)
+		DisplayStringHead("R#THIEF1",@2000113) // We will. I once made everyone believe I was the King of Cormyr, so don't worry.
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000114) // So, go ahead. Get on with it.
+		Wait(5)
+		DisplayStringHead("R#THIEF1",31249) // Quaffs a potion
+		CreateVisualEffectObject("SPPOLYMP","R#THIEF1")
+		CreateVisualEffectObject("POLYBACK","R#THIEF1")
+		ActionOverride("R#THIEF1",DestroySelf())
+		DisplayStringHead("R#THIEF2",31249) // Quaffs a potion
+		CreateVisualEffectObject("SPPOLYMP","R#THIEF2")
+		CreateVisualEffectObject("POLYBACK","R#THIEF2")
+		ActionOverride("R#THIEF2",DestroySelf())
+		Wait(1)
+		CreateCreature("R#FLAM1",[2308.2464],SW) // Flaming Fist Mercenary
+		ActionOverride("R#FLAM1",FaceObject("R#TALESS"))
+		CreateCreature("R#FLAM2",[2204.2469],SE) // Flaming Fist Mercenary
+		ActionOverride("R#FLAM2",FaceObject("R#TALESS"))
+		Wait(3)
+		DisplayStringHead("R#TALESS",@2000115) // Good. Now go and make your "caravan inspections".
+		Wait(5)
+		DisplayStringHead("R#FLAM1",@2000116) // One question, ma'am. What, if we run out of stones and potions?
+		Wait(5)
+		DisplayStringHead("R#FLAM2",@2000117) // Should we contact you?
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000118) // Absolutely not!
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000119) // My brother just bought a house near the eastern gate. You know the place. You can find all the potions and stones you need there.
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000127) // You can find all the potions and stones you need there.
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000128) // The front door is magically sealed to prevent unwanted visitors.
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000120) // The password to unlock the door is "Coconut". 
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000129) // Make sure you don't go upstairs.
+		Wait(5)
+		DisplayStringHead("R#TALESS",@2000121) // If you want to live.
+		Wait(5)
+		DisplayStringHead("R#FLAM1",@2000122) // Sure thing, ma'am.
+		Wait(4)
+		DisplayStringHead("R#FLAM2",@2000123) // We'll be off.
+		Wait(4)
+		ActionOverride("R#FLAM1",EscapeArea())
+		ActionOverride("R#FLAM2",EscapeArea())
+		Wait(3)
+		ActionOverride("R#WIZEYE",DestroySelf())
+		ActionOverride("R#TALESS",ForceSpell(Myself,WIZARD_DIMENSION_DOOR)) // SPWI402.SPL (Dimension Door)
+		Wait(2)
+		ActionOverride("R#TALESS",DestroySelf())
+		SetGlobal("TALESS_TAIL2D","GLOBAL",1)
+		SetGlobal("TEW_caravanquest","GLOBAL",7)
+		SetGlobal("TDOOR_PASS","GLOBAL",1)
+		Wait(4)
+		AddJournalEntry(@100112,QUEST)
+		EraseJournalEntry(@100111)
+		EndCutSceneMode()
+END
+

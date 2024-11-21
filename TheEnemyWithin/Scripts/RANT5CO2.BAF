@@ -1,0 +1,14 @@
+IF
+	Global("TALK_SWIMSATYR","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("TALK_SWIMSATYR","GLOBAL",2)
+		Wait(6)
+		DisplayStringHead(Myself,@2001101)
+		Wait(10)
+		DisplayStringHead(Myself,@2001103)
+		Wait(10)
+		DisplayStringHead(Myself,@2001105) 
+		Wait(6)
+		EscapeAreaObject("Toar1300")
+END

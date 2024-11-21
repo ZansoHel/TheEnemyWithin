@@ -1,0 +1,7 @@
+IF
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		PlaySound("Alarm1")
+		DisplayString(LastTrigger,@2000130)
+END

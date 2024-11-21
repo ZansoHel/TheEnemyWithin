@@ -1,0 +1,58 @@
+IF
+	!AreaCheck("RANI05")
+	!AreaCheck("RANTA1")
+	!AreaCheck("AR1900")
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000611)
+		DestroySelf()
+END
+
+IF
+	AreaCheck("RANI05")
+THEN
+	RESPONSE #100
+		CreateCreatureObject("R#GHOST1",Myself,0,0,0) // Angry Spirit
+		DestroySelf()
+END
+
+IF
+	AreaCheck("RANTA1")
+	Range("R#WIZEYE",30)
+	Global("TEW_ogrequest","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("R#GHOST2",[2304.1599],S) // Alarik
+		DestroySelf()
+END
+
+IF
+	AreaCheck("RANTA1")
+	OR(2)
+		!Range("R#WIZEYE",30)
+		!Global("TEW_ogrequest","GLOBAL",5)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000611)
+		DestroySelf()
+END
+
+IF
+	AreaCheck("AR1900")
+	Range("SUMMONGHOST03",30)
+	Global("R#GHOST3_SUM_T","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("R#GHOST3",[1331.1000],S) // Robb
+		DestroySelf()
+END
+
+IF
+	AreaCheck("AR1900")
+	!Range("SUMMONGHOST03",30)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000611)
+		DestroySelf()
+END
+

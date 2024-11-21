@@ -1,0 +1,58 @@
+IF
+	Clicked([ANYONE])
+	!Global("TEW_ogrequest","GLOBAL",14)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000500)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("TEW_KNOW_PORTAL","GLOBAL",1)
+	Global("TEW_ogrequest","GLOBAL",14)
+	!PartyHasItem("R#ANTI")
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000501)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("TEW_ogrequest","GLOBAL",14)
+	Global("TEW_KNOW_PORTAL","GLOBAL",1)
+	PartyHasItem("R#ANTI")
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		TakePartyItemNum("R#ANTI",1)
+		DestroyItem("R#ANTI")
+		ActionOverride(LastTrigger,ForceSpellRES("R#ANTI",Myself))
+		Wait(1)
+		DisplayStringHead(LastTrigger,@2000505)
+		CreateVisualEffect("SPFLESHS",[947.425])
+		SetGlobal("TEW_ogrequest","GLOBAL",15)
+		TriggerActivation("Statue",FALSE)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("TEW_ogrequest","GLOBAL",14)
+	Global("TEW_KNOW_PORTAL","GLOBAL",1)
+	PartyHasItem("R#ANTI")
+	OR(3)
+		TimeOfDay(DAY)
+		TimeOfDay(DUSK)
+		TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		TakePartyItemNum("R#ANTI",1)
+		DestroyItem("R#ANTI")
+		ActionOverride(LastTrigger,ForceSpellRES("R#ANTI",Myself))
+		Wait(1)
+		DisplayStringHead(LastTrigger,@2000506)
+		CreateVisualEffect("SPFLESHS",[947.425])
+		SetGlobal("RANTA3_STEAL","GLOBAL",1)
+		SetGlobal("TEW_ogrequest","GLOBAL",15)
+		TriggerActivation("Statue",FALSE)
+END
+

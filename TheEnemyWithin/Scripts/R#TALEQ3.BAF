@@ -1,0 +1,44 @@
+IF
+	Global("TALESS_DEAD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		SetGlobal("TALESS_DEAD","GLOBAL",1)
+END
+
+IF
+	TimeOfDay(DAY)
+	Global("TEW_BEGGARGOLD","GLOBAL",0)
+	Global("TALESS_ACTD","RANI54",0)
+THEN
+	RESPONSE #100
+		Deactivate(Myself)
+		SetGlobal("TALESS_ACTD","RANI54",1)
+		SetGlobal("TALESS_ACTN","RANI54",0)
+END
+
+IF
+	TimeOfDay(NIGHT)
+	Global("TALESS_ACTN","RANI54",0)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+		SetGlobal("TALESS_ACTD","RANI54",0)
+		SetGlobal("TALESS_ACTN","RANI54",1)
+END
+
+IF
+	See([PC])
+	Global("TDOOR_BREAKIN","GLOBAL",0)
+	AreaCheck("RANI54")
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+

@@ -1,0 +1,45 @@
+IF
+	Global("TALESS_DEAD","GLOBAL",1)
+
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Die()	
+THEN
+	RESPONSE #100
+		SetGlobal("TALESS_DEAD","GLOBAL",1)	
+END
+
+IF
+	Global("TALES0_ATK","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(2)
+		Deactivate(Myself)
+		SetGlobal("TALES0_ATK","GLOBAL",2)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	AreaCheck("RANI46")
+	Global("TALES0_ATK","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		ForceSpell(Myself,WIZARD_DIMENSION_DOOR) // SPWI402.SPL (Dimension Door)
+		SetGlobalTimer("TALES0_TELET","GLOBAL",EIGHT_HOURS)
+		SetGlobal("TALES0_ATK","GLOBAL",1)
+	
+END
+
+IF
+	GlobalTimerExpired("TALES0_TELET","GLOBAL")
+	Global("TALES0_ATK","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+		SetGlobal("TALES0_ATK","GLOBAL",0)
+END			

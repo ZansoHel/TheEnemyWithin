@@ -1,0 +1,20 @@
+IF
+	GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	Global("TEW_PORTAL3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("spdimndr",Player1)
+		CreateVisualEffectObject("spdimndr",Player2)
+		CreateVisualEffectObject("spdimndr",Player3)
+		CreateVisualEffectObject("spdimndr",Player4)
+		CreateVisualEffectObject("spdimndr",Player5)
+		CreateVisualEffectObject("spdimndr",Player6)
+		SetGlobal("TEW_PORTAL3","GLOBAL",1)
+END
+
+IF
+	GlobalTimerExpired("TEW_PORTAL","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("TEW_PORTAL3","GLOBAL",0)
+END

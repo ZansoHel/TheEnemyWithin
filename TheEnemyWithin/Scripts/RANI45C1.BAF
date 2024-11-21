@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		MoveViewObject("R#BANDI3",INSTANT)
+		Wait(2)
+		DisplayStringHead("R#BANDIT",@2000012)
+		Wait(4)
+		DisplayStringHead("R#BANDI3",@2000013)
+		Wait(4)
+		DisplayStringHead("R#BANDIT",@2000014)
+		Wait(4)
+		ActionOverride("R#WIZEYE",DestroySelf())
+		SetGlobal("BANDITS_TALK","RANI45",1)
+		EndCutSceneMode()
+END
+

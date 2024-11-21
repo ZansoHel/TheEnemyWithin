@@ -1,0 +1,58 @@
+IF
+	InMyArea(Player1)
+	Global("Mal_Ambush","GLOBAL",0)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		MoveGlobal("RANI45",Player1,[398.1410])
+		MoveGlobal("RANI45",Player2,[408.1490])
+		MoveGlobal("RANI45",Player3,[408.1490])
+		MoveGlobal("RANI45",Player4,[408.1490])
+		MoveGlobal("RANI45",Player5,[408.1490])
+		MoveGlobal("RANI45",Player6,[408.1490])
+		ActionOverride(Player1,Face(8))
+		ActionOverride(Player2,Face(8))
+		ActionOverride(Player3,Face(8))
+		ActionOverride(Player4,Face(8))
+		ActionOverride(Player5,Face(8))
+		ActionOverride(Player6,Face(8))
+		UndoExplore()
+		MoveViewPoint([441.1086],INSTANT)
+		CreateCreature("R#WIZEYE",[513.1131],8)
+		FadeFromColor([20.0],0)
+		SetGlobal("Mal_Ambush","GLOBAL",2)
+		StartCutSceneMode()
+		StartCutScene("RANI45C1")
+		Continue()
+END
+
+IF
+	Global("Mal_Ambush_Solved","GLOBAL",1)
+	Global("Know_Mal","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetEncounterProbability("AR2300","AR1400",0)
+		SetEncounterProbability("AR1400","AR2300",0)
+		TriggerActivation("Blocktravel",FALSE)
+		Continue()
+END
+
+IF
+	Global("Mal_Ambush_Solved","GLOBAL",1)
+	Global("Mal_Ambush_Journal","GLOBAL",0)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@100003)
+		AddJournalEntry(@100004,QUEST)
+		SetGlobal("Mal_Ambush_Journal","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("Know_Mal","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("R#SMITH",MoveToPoint([434.1306]))
+		Wait(8)
+		ActionOverride("R#SMITH",EscapeArea())
+END

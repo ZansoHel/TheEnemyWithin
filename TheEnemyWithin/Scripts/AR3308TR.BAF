@@ -1,0 +1,31 @@
+IF
+	Opened([ANYONE])
+	!PartyHasItem("R#HORBE1") // Horben's Wardstone
+	LevelGT(LastTrigger,8)
+	Range(LastTrigger,1)
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,@2000602)
+		CreateItem("R#SLAVE1",1,1,0) // Powerful Trapped Soul
+		ForceSpellRES("R#SPWI5C",LastTrigger) // Trap the Soul
+END
+
+IF
+	Opened([ANYONE])
+	!PartyHasItem("R#HORBE1") // Horben's Wardstone
+	LevelLT(LastTrigger,9)
+	!RealGlobalTimerNotExpired("HORBEN_INV","AR3308")
+	Range(LastTrigger,1)
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,@2000602)
+		CreateItem("R#SLAVE2",1,1,0) // Trapped Soul
+		ForceSpellRES("R#SPWI5C",LastTrigger) // Trap the Soul
+END
+
+IF
+	DisarmFailed([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,@2000603)
+END

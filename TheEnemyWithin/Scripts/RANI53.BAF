@@ -1,0 +1,23 @@
+IF
+	PartyHasItem("R#TALESB")
+	Global("TEW_caravanquest","GLOBAL",7)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@100113,QUEST)
+		EraseJournalEntry(@100112)
+		SetGlobal("TEW_caravanquest","GLOBAL",8)
+END
+
+IF
+	Global("TEW_BEGGARGOLD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Alarm",TRUE)
+END
+
+IF
+	Global("TEW_BEGGARGOLD","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Alarm",FALSE)
+END

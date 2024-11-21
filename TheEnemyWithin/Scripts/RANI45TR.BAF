@@ -1,0 +1,8 @@
+IF
+	Entered([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("Mal_Ambush_Solved","GLOBAL",1)
+		DisplayString(LastTrigger,@2000000)
+END
+

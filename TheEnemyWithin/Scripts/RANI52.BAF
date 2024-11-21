@@ -1,0 +1,22 @@
+IF
+  PartyHasItem("R#MTRAP")
+  Global("reso_stone_ob","GLOBAL",0)
+THEN
+  RESPONSE #100 
+    EraseJournalEntry(@100102)
+    EraseJournalEntry(@100103)
+    EraseJournalEntry(@100101)
+    AddJournalEntry(@100104,QUEST)
+    SetEncounterProbability("AR4300","AR4800",0)
+    SetEncounterProbability("AR4800","AR4300",0)
+    SetGlobal("reso_stone_ob","GLOBAL",1)
+END
+
+IF
+	Global("Caravan_Fire_M2","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("R#MERC02",DestroySelf())
+END
+
+

@@ -1,0 +1,10 @@
+IF
+	Global("ILTAR_QUEST1","GLOBAL",2)
+	Global("TASSI_ON","AR0226",0)
+THEN
+	RESPONSE #100
+		CreateCreature("R#TASSI",[3764.2794],6)
+		CreateCreature("R#THIEF3",[3724.2695],4)
+		CreateCreature("R#THIEF3",[3604.2857],8)
+		SetGlobal("TASSI_ON","AR0226",1)
+END

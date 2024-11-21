@@ -1,0 +1,1212 @@
+IF
+	OnCreation()
+	PartyHasItem("MISC35") // Horn Coral Gem
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),2)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC35",1) // Horn Coral Gem
+		DestroyItem("MISC35") // Horn Coral Gem
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC33") // Aquamarine Gem
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),2)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC33",1) // Aquamarine Gem
+		DestroyItem("MISC33") // Aquamarine Gem
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC34") // Garnet Gem
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),2)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC34",1) // Garnet Gem
+		DestroyItem("MISC34") // Garnet Gem
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC36") // Pearl
+	!PartyHasItem("MISC37") // Sphene Gem
+	!PartyHasItem("MISC38") // Black Opal
+	!PartyHasItem("MISC39") // Water Opal
+	!PartyHasItem("MISC40") // Moonbar Gem
+	!PartyHasItem("MISC41") // Star Sapphire
+	!PartyHasItem("MISC42") // Diamond
+	!PartyHasItem("MISC43") // Emerald
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),1)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC36") // Pearl
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),3)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC36",1) // Pearl
+		DestroyItem("MISC36") // Pearl
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC37") // Sphene Gem
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),3)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC37",1) // Sphene Gem
+		DestroyItem("MISC37") // Sphene Gem
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC38") // Black Opal
+	!PartyHasItem("MISC39") // Water Opal
+	!PartyHasItem("MISC40") // Moonbar Gem
+	!PartyHasItem("MISC41") // Star Sapphire
+	!PartyHasItem("MISC42") // Diamond
+	!PartyHasItem("MISC43") // Emerald
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),2)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC38") // Black Opal
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),4)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC38",1) // Black Opal
+		DestroyItem("MISC38") // Black Opal
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC39") // Water Opal
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),4)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC39",1) // Water Opal
+		DestroyItem("MISC39") // Water Opal
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0) // Chrysoberyl Gem
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC40") // Moonbar Gem
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),4)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC40",1) // Moonbar Gem
+		DestroyItem("MISC40") // Moonbar Gem
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0) // Chrysoberyl Gem
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC41") // Star Sapphire
+	!PartyHasItem("MISC42") // Diamond
+	!PartyHasItem("MISC43") // Emerald
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),3)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC41") // Star Sapphire
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),21)
+	LevelGT(NearestEnemyOf(Myself),8)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC41",1) // Star Sapphire
+		DestroyItem("MISC41") // Star Sapphire
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE1",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC41") // Star Sapphire
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),21)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC41",1) // Star Sapphire
+		DestroyItem("MISC41") // Star Sapphire
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),20)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC42") // Diamond
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),11)
+	LevelGT(NearestEnemyOf(Myself),8)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC42",1) // Diamond
+		DestroyItem("MISC42") // Diamond
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE1",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC42") // Diamond
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),11)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC42",1) // Diamond
+		DestroyItem("MISC42") // Diamond
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC41") // Star Sapphire
+	!PartyHasItem("MISC43") // Emerald
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),10)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC43") // Emerald
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),16)
+	LevelGT(NearestEnemyOf(Myself),8)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC43",1) // Emerald
+		DestroyItem("MISC43") // Emerald
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE1",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC43") // Emerald
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),16)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC43",1) // Emerald
+		DestroyItem("MISC43") // Emerald
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC41") // Star Sapphire
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),15)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC44") // King's Tears
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),41)
+	LevelGT(NearestEnemyOf(Myself),8)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC44",1) // King's Tears
+		DestroyItem("MISC44") // King's Tears
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE1",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC44") // King's Tears
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),41)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC44",1) // King's Tears
+		DestroyItem("MISC44") // King's Tears
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	!PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),40)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),51)
+	LevelGT(NearestEnemyOf(Myself),8)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC45",1) // Rogue Stone
+		DestroyItem("MISC45") // Rogue Stone
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE1",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	LevelLT(NearestEnemyOf(Myself),51)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	!AreaCheck("AR4900")
+	!AreaCheck("AR4901")
+	!AreaCheck("AR4902")
+	!AreaCheck("AR4903")
+	!AreaCheck("AR4904")
+	!AreaCheck("AR4905")
+	!AreaCheck("AR4906")
+	!AreaCheck("AR4907")
+	!AreaCheck("AR4908")
+	!AreaCheck("AR4909")
+	!AreaCheck("AR0700")
+	!AreaCheck("AR0707")
+	!AreaCheck("AR0708")
+	!AreaCheck("AR0709")
+	!AreaCheck("AR0710")
+	!AreaCheck("AR0711")
+	!AreaCheck("AR0712")
+	!AreaCheck("AR0713")
+	!AreaCheck("AR0714")
+	!AreaCheck("AR0715")
+	!AreaCheck("AR0716")
+	!AreaCheck("AR0717")
+	!AreaCheck("AR0718")
+	!AreaCheck("AR0719")
+	!AreaCheck("AR0720")
+	!AreaCheck("AR0721")
+	!AreaCheck("AR0722")
+	!AreaCheck("AR0723")
+	!AreaCheck("AR0724")
+	!AreaCheck("AR0725")
+	!AreaCheck("AR0726")
+	!AreaCheck("RANI46")
+	!AreaCheck("RANTA8")
+	!AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		TakePartyItemNum("MISC45",1) // Rogue Stone
+		DestroyItem("MISC45") // Rogue Stone
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		GiveItemCreate("R#SLAVE2",LastSummonerOf(Myself),1,1,0)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	See(NearestEnemyOf(Myself))
+	LevelGT(NearestEnemyOf(Myself),50)
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	OnCreation()
+	OR(13)
+		PartyHasItem("MISC33") // Aquamarine Gem
+		PartyHasItem("MISC34") // Garnet Gem
+		PartyHasItem("MISC35") // Horn Coral Gem
+		PartyHasItem("MISC36") // Pearl
+		PartyHasItem("MISC37") // Sphene Gem
+		PartyHasItem("MISC38") // Black Opal
+		PartyHasItem("MISC39") // Water Opal
+		PartyHasItem("MISC40") // Moonbar Gem
+		PartyHasItem("MISC41") // Star Sapphire
+		PartyHasItem("MISC42") // Diamond
+		PartyHasItem("MISC43") // Emerald
+		PartyHasItem("MISC44") // King's Tears
+		PartyHasItem("MISC45") // Rogue Stone
+	See(NearestEnemyOf(Myself))
+	!GlobalTimerNotExpired("R#SPWI52_T","GLOBAL")
+	Global("R#SPWI5","GLOBAL",1)
+	OR(34)
+		AreaCheck("AR4900")
+		AreaCheck("AR4901")
+		AreaCheck("AR4902")
+		AreaCheck("AR4903")
+		AreaCheck("AR4904")
+		AreaCheck("AR4905")
+		AreaCheck("AR4906")
+		AreaCheck("AR4907")
+		AreaCheck("AR4908")
+		AreaCheck("AR4909")
+		AreaCheck("AR0700")
+		AreaCheck("AR0707")
+		AreaCheck("AR0708")
+		AreaCheck("AR0709")
+		AreaCheck("AR0710")
+		AreaCheck("AR0711")
+		AreaCheck("AR0712")
+		AreaCheck("AR0713")
+		AreaCheck("AR0714")
+		AreaCheck("AR0715")
+		AreaCheck("AR0716")
+		AreaCheck("AR0717")
+		AreaCheck("AR0718")
+		AreaCheck("AR0719")
+		AreaCheck("AR0720")
+		AreaCheck("AR0721")
+		AreaCheck("AR0722")
+		AreaCheck("AR0723")
+		AreaCheck("AR0724")
+		AreaCheck("AR0725")
+		AreaCheck("AR0726")
+		AreaCheck("RANI46")
+		AreaCheck("RANTA8")
+		AreaCheck("RANI61")
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("R#SPWI5A",NearestEnemyOf(Myself)) // No such index
+		DisplayStringHead(LastSummonerOf(Myself),@2000600)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	Global("R#SPWI5","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		DestroySelf()
+END
+
+IF
+	!PartyHasItem("MISC33") // Aquamarine Gem
+	!PartyHasItem("MISC34") // Garnet Gem
+	!PartyHasItem("MISC35") // Horn Coral Gem
+	!PartyHasItem("MISC36") // Pearl
+	!PartyHasItem("MISC37") // Sphene Gem
+	!PartyHasItem("MISC38") // Black Opal
+	!PartyHasItem("MISC39") // Water Opal
+	!PartyHasItem("MISC40") // Moonbar Gem
+	!PartyHasItem("MISC41") // Star Sapphire
+	!PartyHasItem("MISC42") // Diamond
+	!PartyHasItem("MISC43") // Emerald
+	!PartyHasItem("MISC44") // King's Tears
+	!PartyHasItem("MISC45") // Rogue Stone
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastSummonerOf(Myself),@2000601)
+		Wait(1)
+		SetGlobalTimer("R#SPWI52_T","GLOBAL",ONE_ROUND)
+		SetGlobal("R#SPWI5","GLOBAL",0)
+END
+
+IF
+	GlobalTimerExpired("R#SPWI52_T","GLOBAL")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

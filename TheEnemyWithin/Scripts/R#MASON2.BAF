@@ -1,0 +1,17 @@
+IF
+	Global("Conv_masons","GLOBAL",1)
+	Global("Keep_repairs","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("Conv_masons","GLOBAL",2)
+		Wait(6)
+		DisplayStringHead(Myself,@2000002) // What?! Your doing? I did most of the work!
+		Wait(10)
+		DisplayStringHead(Myself,@2000004) // And your won't? I'll show you!
+		Wait(6)
+		DisplayStringHead(Myself,@2000005) // *Throws a stone at the wall.*
+		Wait(6)
+		DisplayStringHead(Myself,@2000006) // Damn, it's still standing.
+		Wait(6)
+		EscapeAreaObject("Tokeep")
+END
