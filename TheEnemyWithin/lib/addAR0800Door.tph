@@ -1,0 +1,155 @@
+COPY_EXISTING ~AR0800.are~ ~override~
+//Delete's Info Region, you don't have to change anything below
+GET_OFFSET_ARRAY region_array ARE_V10_REGIONS
+PHP_EACH region_array AS reg_num => reg_offset
+BEGIN
+	READ_ASCII reg_offset 		reg_name (9)
+	READ_SHORT reg_offset+0x22	reg_Xmin
+	PATCH_IF ((~%reg_name%~ STRING_EQUAL_CASE ~InfoHouse~) AND (~%reg_Xmin%~ = ~2761~))
+	BEGIN
+		PATCH_PRINT ~%reg_num% %reg_name% %reg_Xmin%~
+		LPF fj_are_structure
+			INT_VAR 
+				fj_delete_mode = %reg_num%
+			STR_VAR
+				fj_structure_type = region
+		END
+	END
+END
+//Deletes wrong door, you don't have to change anything below
+GET_OFFSET_ARRAY door_array ARE_V10_DOORS 
+PHP_EACH door_array AS door_num => door_offset
+BEGIN
+	READ_ASCII door_offset door_name (14)
+	PATCH_IF ~%door_name%~ STRING_EQUAL_CASE ~Door Object 15~
+	BEGIN
+		PATCH_PRINT ~%door_num% %door_name%~
+		LPF fj_are_structure
+			INT_VAR 
+				fj_delete_mode = %door_num%
+			STR_VAR
+				fj_structure_type = door
+		END
+	END
+END
+
+//Add new door, only change some of the STR_VARs
+LPF fj_are_structure
+	INT_VAR								//don't change any INT_VARs
+		fj_open_box_left       = 2722
+		fj_open_box_top        = 233
+		fj_open_box_right      = 2771
+		fj_open_box_bottom     = 299
+		fj_cursor_idx          = 30
+		fj_trap_loc_x          = 2744
+		fj_trap_loc_y          = 323
+		fj_open_loc_x          = 2782
+		fj_open_loc_y          = 380
+		fj_closed_loc_x        = 2751
+		fj_closed_loc_y        = 323
+		fj_door_open_vert_0    = 2771 + (299 << 16)
+		fj_door_open_vert_1    = 2771 + (234 << 16)
+		fj_door_open_vert_2    = 2722 + (233 << 16)
+		fj_door_open_vert_3    = 2722 + (299 << 16)
+		fj_cell_open_vert_0    = 170 + (18 << 16)
+		fj_cell_open_vert_1    = 170 + (19 << 16)
+		fj_cell_open_vert_2    = 170 + (20 << 16)
+		fj_cell_open_vert_3    = 170 + (21 << 16)
+		fj_cell_open_vert_4    = 170 + (22 << 16)
+		fj_cell_open_vert_5    = 170 + (23 << 16)
+		fj_cell_open_vert_6    = 171 + (18 << 16)
+		fj_cell_open_vert_7    = 171 + (19 << 16)
+		fj_cell_open_vert_8    = 171 + (20 << 16)
+		fj_cell_open_vert_9    = 171 + (21 << 16)
+		fj_cell_open_vert_10   = 171 + (22 << 16)
+		fj_cell_open_vert_11   = 171 + (23 << 16)
+		fj_cell_open_vert_12   = 172 + (18 << 16)
+		fj_cell_open_vert_13   = 172 + (19 << 16)
+		fj_cell_open_vert_14   = 172 + (20 << 16)
+		fj_cell_open_vert_15   = 172 + (21 << 16)
+		fj_cell_open_vert_16   = 172 + (22 << 16)
+		fj_cell_open_vert_17   = 172 + (23 << 16)
+		fj_cell_closed_vert_0  = 172 + (20 << 16)
+		fj_cell_closed_vert_1  = 172 + (21 << 16)
+		fj_cell_closed_vert_2  = 172 + (22 << 16)
+		fj_cell_closed_vert_3  = 172 + (23 << 16)
+		fj_cell_closed_vert_4  = 172 + (24 << 16)
+		fj_cell_closed_vert_5  = 173 + (20 << 16)
+		fj_cell_closed_vert_6  = 173 + (21 << 16)
+		fj_cell_closed_vert_7  = 173 + (22 << 16)
+		fj_cell_closed_vert_8  = 173 + (23 << 16)
+		fj_cell_closed_vert_9  = 173 + (24 << 16)
+		fj_cell_closed_vert_10 = 173 + (25 << 16)
+		fj_flags = 64
+		fj_lockpick_strref = RESOLVE_STR_REF (#23169)
+    STR_VAR
+		fj_structure_type      = door			//don't change this!
+		fj_name                = RANI53DOOR		//give it some Name
+		fj_door_wed_id         = DOOR05			//don't change this!
+		fj_travel_trigger      = TORANI53		//this is the name of the Travel Region added below
+		fj_dlg_resref	       = R#TDOOR
+END
+//Add new travel region, only change some of the STR_VARs
+LPF fj_are_structure
+    INT_VAR							//don't change any INT_VARs
+    fj_type         = 2
+    fj_box_left     = 2761
+    fj_box_top      = 229
+    fj_box_right    = 2838
+    fj_box_bottom   = 334
+    fj_cursor_idx   = 30
+    fj_vertex_0     = 2761 + (295 << 16)
+    fj_vertex_1     = 2785 + (334 << 16)
+    fj_vertex_2     = 2838 + (319 << 16)
+    fj_vertex_3     = 2761 + (229 << 16)
+    fj_flags	    = 0x00000800
+    STR_VAR
+    fj_structure_type   = region				//don't change this!
+    fj_name             = TORANI53				//give it some Name
+    fj_destination_area = RANI53				//give it a new area (which is not included using this patch)
+    fj_destination_name = Fromoutside				//that's the Entrance name in your new area
+END
+//Add new entrance, only change some of the STR_VARs
+LPF fj_are_structure
+    INT_VAR							//don't change any INT_VARs
+    fj_loc_x       = 2743
+    fj_loc_y       = 339
+    fj_orientation = 1
+    STR_VAR
+    fj_structure_type = entrance				//don't change this!
+    fj_name           = FROMRANI53				//that's the entrance name you choose from your new area traveling to... ;)
+END
+//Add door dialogue creature
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 2782 
+    fj_loc_y       = 380
+    fj_dest_x      = 2782
+    fj_dest_y      = 380
+    fj_orientation = 0   //S
+    STR_VAR
+    fj_structure_type = actor
+    fj_name	   = Door
+    fj_cre_resref  = r#tdoor
+END
+//Add closed door trigger
+LPF fj_are_structure
+    INT_VAR
+    fj_type 	   = 1								
+    fj_box_left    = 2764
+    fj_box_top     = 238
+    fj_box_right   = 2783
+    fj_box_bottom  = 329
+    fj_cursor_idx  = 22
+    fj_flags	   = 0x00000400
+    fj_alt_x	   = 2741
+    fj_alt_y	   = 330
+    fj_vertex_0  = 2765 + (238 << 16)
+    fj_vertex_1  = 2764 + (300 << 16)
+    fj_vertex_2  = 2783 + (329 << 16)
+    fj_vertex_3  = 2783 + (268 << 16)
+    STR_VAR
+    fj_structure_type   = region			
+    fj_name        = DOOR05Closed
+    fj_reg_script  = R#TDOOR				
+END
