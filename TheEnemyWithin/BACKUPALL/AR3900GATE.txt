@@ -1,0 +1,17 @@
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x = 3392
+    fj_loc_y = 563
+    fj_bam_seq = 0
+    fj_bam_fram = 0
+    fj_flags = 0x00001105
+    fj_loc_z = 0
+    fj_transparent = 0
+    fj_init_frame = 0
+    fj_loop_chance = 0
+    fj_skip_cycles = 0
+    STR_VAR
+    fj_structure_type = animation
+    fj_name = Summonc
+    fj_bam_resref = AR3900PO
+END

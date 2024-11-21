@@ -1,0 +1,22 @@
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("R#PORTAL")
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000500)
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("R#PORTAL")
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+THEN
+	RESPONSE #100
+		OpenDoor("Rani54secretroom")
+		ActionOverride(LastTrigger,ForceSpellPointRES("R#PORTA",[226.357]))
+		TakePartyItemNum("R#PORTAL",1) // Protection From Acid
+		DestroyItem("R#PORTAL")
+		Wait(3)
+		CreateVisualEffectObject("spdimndr",LastTrigger)
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND)
+END

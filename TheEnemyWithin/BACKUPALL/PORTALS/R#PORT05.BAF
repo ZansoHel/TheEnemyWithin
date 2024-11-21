@@ -1,0 +1,331 @@
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("R#PORTAL")
+	Global("KNOW_PORTAL","GLOBAL",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000500) // This object is clearly magical, but you have no clue what its actual function might be.
+END
+
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("R#PORTAL")
+	Global("KNOW_PORTAL","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000504) // You need a Portal Breach scroll to use this specific portal key.
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("R#PORTAL")
+	Global("TALES0_ATK","GLOBAL",0)
+	Global("TALESS_DEAD","GLOBAL",0)
+	TimeOfDay(DAY)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000505) // Unbeknownst to Horben, this object might be a portal key. You better come back at night.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(6)
+	NumInPartyAliveLT(6)
+	PartyHasItem("R#PORTAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000502) // You need to have all your party members alive when using this portal key. It won't accept dead weight.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(5)
+	NumInPartyAliveLT(5)
+	PartyHasItem("R#PORTAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000502) // You need to have all your party members alive when using this portal key. It won't accept dead weight.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(4)
+	NumInPartyAliveLT(4)
+	PartyHasItem("R#PORTAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000502) // You need to have all your party members alive when using this portal key. It won't accept dead weight.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(3)
+	NumInPartyAliveLT(3)
+	PartyHasItem("R#PORTAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000502) // You need to have all your party members alive when using this portal key. It won't accept dead weight.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(2)
+	NumInPartyAliveLT(2)
+	PartyHasItem("R#PORTAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000502) // You need to have all your party members alive when using this portal key. It won't accept dead weight.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(6)
+	NumItemsPartyLT("R#PORTAL",6)
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000503) // You need to have as many Breach Portal scrolls as you have party members to use this portal key.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(5)
+	NumItemsPartyLT("R#PORTAL",5)
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000503) // You need to have as many Breach Portal scrolls as you have party members to use this portal key.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(4)
+	NumItemsPartyLT("R#PORTAL",4)
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000503) // You need to have as many Breach Portal scrolls as you have party members to use this portal key.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(3)
+	NumItemsPartyLT("R#PORTAL",3)
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000503) // You need to have as many Breach Portal scrolls as you have party members to use this portal key.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(2)
+	NumItemsPartyLT("R#PORTAL",2)
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(LastTrigger,@2000503) // You need to have as many Breach Portal scrolls as you have party members to use this portal key.
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(6)
+	NumInPartyAlive(6)
+	NumItemsPartyGT("R#PORTAL",5)
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player2,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player3,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player4,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player5,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player6,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",6)
+		DestroyItem("R#PORTAL")
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0)) 
+		ActionOverride(Player2,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player3,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player4,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player5,LeaveAreaLUA("RANI55","",[935.940],0)) 
+		ActionOverride(Player6,LeaveAreaLUA("RANI55","",[935.940],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND) 
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(5)
+	NumInPartyAlive(5)
+	NumItemsPartyGT("R#PORTAL",4)
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player2,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player3,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player4,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player5,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",5)
+		DestroyItem("R#PORTAL")
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0))
+		ActionOverride(Player2,LeaveAreaLUA("RANI55","",[935.940],0))
+		ActionOverride(Player3,LeaveAreaLUA("RANI55","",[935.940],0))
+		ActionOverride(Player4,LeaveAreaLUA("RANI55","",[935.940],0))
+		ActionOverride(Player5,LeaveAreaLUA("RANI55","",[935.940],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(4)
+	NumInPartyAlive(4)
+	NumItemsPartyGT("R#PORTAL",3)
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player2,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player3,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player4,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",4)
+		DestroyItem("R#PORTAL")
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0))
+		ActionOverride(Player2,LeaveAreaLUA("RANI55","",[935.940],0))
+		ActionOverride(Player3,LeaveAreaLUA("RANI55","",[935.940],0))
+		ActionOverride(Player4,LeaveAreaLUA("RANI55","",[935.940],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(3)
+	NumInPartyAlive(3)
+	NumItemsPartyGT("R#PORTAL",2)
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player2,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player3,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",3)
+		DestroyItem("R#PORTAL")
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0))
+		ActionOverride(Player2,LeaveAreaLUA("RANI55","",[935.940],0))
+		ActionOverride(Player3,LeaveAreaLUA("RANI55","",[935.940],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(2)
+	NumInPartyAlive(2)
+	NumItemsPartyGT("R#PORTAL",1)
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		ActionOverride(Player2,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",2)
+		DestroyItem("R#PORTAL")
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0))
+		ActionOverride(Player2,LeaveAreaLUA("RANI55","",[935.940],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND)
+END
+
+IF
+	Clicked([ANYONE])
+	NumInParty(1)
+	NumInPartyAlive(1)
+	NumItemsPartyGT("R#PORTAL",0)
+	!GlobalTimerNotExpired("TEW_PORTAL","GLOBAL")
+	OR(3)
+		Global("TALES0_ATK","GLOBAL",2)
+		Global("TALESS_DEAD","GLOBAL",1)
+		TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,ForceSpellRES("R#PORTA",Myself))
+		TakePartyItemNum("R#PORTAL",1)
+		DestroyItem("R#PORTAL")
+		SetGlobal("KNOW_PORTAL","GLOBAL",1)
+		Wait(4)
+		ActionOverride(Player1,LeaveAreaLUA("RANI55","",[945.950],0))
+		SetGlobalTimer("TEW_PORTAL","GLOBAL",ONE_ROUND)
+END
+

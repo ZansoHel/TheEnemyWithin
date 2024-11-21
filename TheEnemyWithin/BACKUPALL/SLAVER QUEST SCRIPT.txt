@@ -1,0 +1,18 @@
+// TO POSSIBLE SLAVES (SHOUT.BCS APPEND?)
+IF
+	!ActuallyInCombat()
+	StateCheck(Myself,STATE_CHARMED)
+	Class(Myself,INNOCENT)
+	CheckStatLT(Myself,13,INT)
+	!GlobalTimerNotExpired("TEW_SLAVEST","GLOBAL")
+	Global("TEW_SLAVER","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		SetGlobalTimer("TEW_SLAVEST","GLOBAL",12)
+		IncrementGlobal("TEW_SLAVES","GLOBAL",1)
+		IncrementGlobal("TEW_SLAVES_TOTAL","GLOBAL",1)
+		DisplayStringHead(Myself,26234) // Iron Skins
+		ReputationInc(-1)
+		EscapeArea()
+END

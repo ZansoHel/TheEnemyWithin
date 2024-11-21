@@ -1,0 +1,202 @@
+IF
+	Global("TEW_caravanquest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		Wait(5)
+		DestroySelf()
+END
+
+IF
+	!Global("TEW_caravanquest","GLOBAL",5)
+	Global("TALES1_DACT","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Deactivate(Myself)
+		SetGlobal("TALES1_DACT","GLOBAL",1)
+END
+
+IF
+	Global("TEW_caravanquest","GLOBAL",5)
+	Global("TALES1_ACT","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+		JumpToPoint([2546.1506])
+		SetGlobal("TALES1_ACT","GLOBAL",1)
+END
+
+IF
+	Global("TALESS_DEAD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Die()	
+THEN
+	RESPONSE #100
+		SetGlobal("TALESS_DEAD","GLOBAL",1)	
+END
+
+IF
+	GlobalTimerExpired("TALES1_NIGHTT","GLOBAL")
+	Global("TALES1_NIGHTB","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("TALES1_NIGHTA","GLOBAL",0)
+		SetGlobal("TALES1_NIGHTB","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0700")
+	Global("TALES1_TELE","GLOBAL",1)	
+THEN
+	RESPONSE #100
+		JumpToPoint([2546.1506])
+		SetGlobal("TALESS_TAIL1","GLOBAL",0)
+		SetGlobalTimer("TALES1_TELET","GLOBAL",EIGHT_HOURS)
+		SetGlobal("TALES1_TELE","GLOBAL",2)
+		Deactivate(Myself)
+END
+
+IF
+	AreaCheck("AR0225")
+	TimeOfDay(DAY)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SpawnPtActivate("Spawn Point 1")
+		SetGlobal("TALES1_TELE","GLOBAL",1)
+		Wait(2)
+		MoveBetweenAreas("AR0700",[2546.1506],N)
+END
+
+IF
+	AreaCheck("AR0700")
+	TimeOfDay(NIGHT)
+	Global("TEW_caravanquest","GLOBAL",5)
+	!GlobalTimerNotExpired("TALES1_TELET","GLOBAL")
+	Global("TALES1_NIGHTA","GLOBAL",0)
+THEN
+	RESPONSE #100
+		JumpToPoint([2546.1506])
+		Activate(Myself)
+		Face(N)
+		SetGlobal("TALES1_TELE","GLOBAL",0)
+		SetGlobal("TALES1_NIGHTA","GLOBAL",1)
+		SetGlobal("TALES1_NIGHTB","GLOBAL",0)
+		SetGlobalTimer("TALES1_NIGHTT","GLOBAL",EIGHT_HOURS)
+END
+
+IF
+	AreaCheck("AR0225")
+	TimeOfDay(NIGHT)
+	See([PC])
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SpawnPtActivate("Spawn Point 1")
+		DisplayStringHead(Myself,@2000100) // I will not be followed by nosy adventurers! My business is mine and mine alone!
+		SetGlobal("TALESS_TAIL1","GLOBAL",0)
+		SetGlobal("TALES1_TELE","GLOBAL",1)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_DIMENSION_DOOR) // SPWI402.SPL (Dimension Door)
+		Wait(2)
+		MoveBetweenAreas("AR0700",[2546.1506],N)		
+END
+
+IF
+	AreaCheck("AR0700")
+	TimeOfDay(NIGHT)
+	See([PC])
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@2000100) // I will not be followed by nosy adventurers! My business is mine and mine alone!
+		SetGlobal("TALESS_TAIL1","GLOBAL",0)
+		SetGlobal("TALES1_TELE","GLOBAL",1)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_DIMENSION_DOOR) // SPWI402.SPL (Dimension Door)
+		Wait(2)
+		JumpToPoint([2546.1506])
+END
+
+IF
+	AreaCheck("AR0700")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	TimeOfDay(NIGHT)
+	Global("TALESS_TAIL1D","GLOBAL",0)
+	Global("TALESS_TAIL1","GLOBAL",0)
+	Global("TALESS_TAIL2D","GLOBAL",0)
+	Global("TEW_caravanquest","GLOBAL",5)
+	Global("TALES1_TELE","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Face(N)
+		Wait(2)
+		DisplayStringHead(Myself,@2000101) // Hmph. Why does he always want to meet in the sewers?
+		MoveToPoint([2031.863])
+		IncrementGlobal("TALESS_TAIL1","GLOBAL",1)
+		Wait(1)
+		MoveBetweenAreas("AR0225",[2475.735],E)
+END
+
+IF
+	AreaCheck("AR0225")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	Global("TALESS_TAIL1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SpawnPtDeactivate("Spawn Point 1")
+		DisplayStringHead(Myself,@2000102) // Better drink a potion of zombie to keep the jellies at bay.
+		Wait(2)
+		DisplayStringHead(Myself,31249) // Quaffs a potion
+		UseItem("R#POTN07",Myself) // Potion of Zombie
+		Wait(2)
+		MoveToPoint([3608.1676])
+		IncrementGlobal("TALESS_TAIL1","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0225")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	Global("TALESS_TAIL1","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(2)
+		MoveToPoint([3725.2520])
+		IncrementGlobal("TALESS_TAIL1","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0225")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	Global("TALESS_TAIL1","GLOBAL",3)
+THEN
+	RESPONSE #100
+		Wait(2)
+		DisplayStringHead(Myself,@2000107) // Damn rats. I hate rats.
+		Wait(2)
+		ForceSpellPoint([3716.2807],WIZARD_FIREBALL)
+		Wait(2)
+		MoveToPoint([3763.2786])
+		IncrementGlobal("TALESS_TAIL1","GLOBAL",1)
+END
+
+IF
+	AreaCheck("AR0225")
+	!See([PC])
+	Range(Nearest([PC]),30)
+	Global("TALESS_TAIL1","GLOBAL",4)
+THEN
+	RESPONSE #100
+		Wait(3)
+		IncrementGlobal("TALESS_TAIL1","GLOBAL",1)
+		SpawnPtActivate("Spawn Point 1")
+		StartCutSceneMode()
+		StartCutScene("R#TALEC1")
+END
