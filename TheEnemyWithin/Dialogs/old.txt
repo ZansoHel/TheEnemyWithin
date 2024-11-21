@@ -1,0 +1,25 @@
+IF ~~ THEN BEGIN 28
+  SAY @15043 /* ~It is as I suspected. I have something you need, and you have something I need. Actually I have somethings, in plural if you missed that, I need from you. We had a little... accident, so to say, in one of our holdings in Amn. The Coordinator of that facility, Wanev, had a bad reaction to a particular spell that unhinged him quite dramatically. In other words, he went mad.~ [R#ILT21] */
+  IF ~~ THEN GOTO 29
+END
+
+IF ~~ THEN BEGIN 29
+  SAY @15044 /* ~And now he has gone on a little "holiday" of his own and is somewhere on the Sword Coast. And due to the political climate in the air, the Cowled Wizards of Amn just cannot go looking for him without causing an aggressive reaction from Baldur's Gate. And in the other hand, we just cannot let him roam free. He is, as I stated before, quite mad. If he kills somebody important and is identified as a Cowled Wizard of Amn, it just might be the spark this situation needs for all this to escalate into a war.~ */
+  IF ~~ THEN GOTO 30
+END
+
+IF ~~ THEN BEGIN 30
+  SAY @15045 /* ~So, what I need from you is to locate him and bring him to me. Do not kill him. We need to know more what caused this kind of insanity to avoid it in the future. My colleagues have back in Amn have been very... demanding, that I take care of this matter.~ */
+  IF ~~ THEN REPLY @15046 /* ~Couldn't you catch him yourself? You have the resources, right?~ */ GOTO 31
+END
+
+IF ~~ THEN BEGIN 31
+  SAY @15047 /* ~True, true. But, we need your assistance. As I stated before, we cannot go running around the Sword Coast due to the political climate. We do want to keep quiet about this and avoid escalating this to a scandal. Imagine, if people found out that one of our own has turned into magical deviant. That's why we need your help. We don't want to make this public knowledge.~ [R#ILT31] */
+  IF ~~ THEN REPLY @15048 /* ~How am I supposed to bring him back alive?~ */ GOTO 32
+END
+
+IF ~~ THEN BEGIN 32
+  SAY @15049 /* ~Hmmm. Well, I have a spell that you might use for this occasion. However, you need to have some expensive gem to actually use it. But, I can provide the spell for you. But now, to the second matter at hand.~ */
+  IF ~~ THEN DO ~GiveItemCreate("R#SPWI52",[PC],1,1,0)
+~ GOTO 24
+END
