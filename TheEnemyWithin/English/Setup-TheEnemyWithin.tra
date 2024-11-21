@@ -1,0 +1,2170 @@
+@0 = ~The Enemy Within mod for Baldur's Gate Enhanced Edition~
+
+/* CHARACTER NAMES */
+@10 = ~~
+
+
+/* =====================================================
+
+			ITEMS
+
+===================================================== */
+
+@100 = ~Cragmyr's Revenge: Sword of Sharpness~
+@101 = ~This old sword has clearly seen better days, but it still holds a sharp edge. The sword has been carried by the Lords of the Cragmyr Keep for as long as anyone can remember. Its power is still great and with a good hit, it will cause severe bleeding and injury to the target's limbs.
+
+STATISTICS:
+
+Combat abilities:
+25% chance per hit that the target must save vs. Death at -2 or suffer 2 hp/round bleeding damage and have a limb injury for next 2 rounds (movement speed penalty -5)
+
+Equipped abilities:
++5% chance to score critical hits
+This weapon is treated as +3 for purposes of who or what can be hit by it
+
+THAC0: +1
+Damage: 2d4+1 (slashing)
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 9~
+
+
+
+@102 = ~Iltarian Shoon Impering~
+@103 = ~The Shoon Impering used to be a ring. The ring and several of its type were originally crafted by wizards of the Shoon Imperium mages to make their spell casting more quick. Many of the rings and even more powerful of its kind have somehow for unknown reasons ended up in the hands of the Cowled Wizards. This particular ring's magic and power was however transformed into a pair of ioun stones by Iltar.
+
+STATISTICS:
+
+Equipped abilities:
+Improves casting speed by 1
+Caster level increased by 1
+
+Weight: 2~
+
+
+
+@104 = ~Spell Diver~
+@105 = ~The sellsword Naradon of Thesk was known for his ability to quickly and efficiently defeat enemy mages even when outnumbered. He earned this reputation with the help of three items: Potions of Speed, Boots of Speed, and his trusted short sword, Spell Diver. Unlike many other magical weapons, Spell Diver does not have a dark, murderous history. Naradon retired from adventuring when he was thirty-two. His fondness for Potions of Speed caught up with him when he died of old age four years later. His only heir had no desires to be an adventurer. He sold the weapon to a known cat burglar a few years after his father's death. The sword can be recognized by the kingfisher stamped into the ricasso.
+
+STATISTICS:
+
+Equipped abilities:
+Save vs. Spell: +1
+
+Damage: 1d6+2 (piercing)
+THAC0: +2
+Special: 50% of all hits nullify the target's ability cast spells for 1 round
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+
+
+@106 = ~Quinn's Note~
+@107 = ~If I end up dead, please believe me when I write this: I am not a deserter. Me and my wife were attacked by a Flaming Fist Battle Wizard during the night. I myself suspect Horben, since Luci knew something about Officer Hjout's and Horben's discriminating dealings. I sadly do not know what she knew. I believe Horben used Trap the Soul spell to imprison Luci into a gem, and I have no way of releasing her or finding out where she might be. I guess when the heat goes away from me I should look for Harpers, monks of Candlekeep or the Cowled Wizards for help. They do have a lot of magical resources and that's what is needed to find her.~
+
+
+
+@108 = ~Belib's Multiple Tool~
+@109 = ~Belib the Wary was a very bright gnome, and self-proclaimed adventurer, who believed in covering every angle of his tiny arse before leaving on grand quests.  He created magical items that literally saturated the gamut of possible situations that could arise from his high adventures.  These magical items would have been the envy of all adventurers, had Belib been successful in leaving his domicile with his equipment.
+
+After many years of creating his incredible inventory of enchanted do-dads, Belib finally gathered his wares into an immense backpack (naturally, it was enchanted to carry far more than what would normally fit into a gnome's pack) and set out to quest for the grandest quests.  Unfortunately for Belib, one of his tiny feet tripped over his home's threshold and he was summarily crushed under the enormous weight of his pack.  The backpack burst open and scattered his enchanted wares all across his front yard.  One would like to think that passing sentient beings would stop and help the crushed gnome, but the most that passersby did was loot Belib's goods.
+
+One of Belib's more popular goodies, especially with the vermin that make stealing and looting a career, was Belib's Multiple Tool.  Disguised as an ornate amulet, this tool would help make even the most inept rogue a master of lock picking and trap disarming.  As is usually the case with items that aid in the thieving arts, Belib's Multiple Tool has found its way into many greased palms over the years.
+
+STATISTICS:
+
+Special:
++10% to Open Locks
++10% to Find Traps
+
+Weight: 1~
+
+
+
+@110 = ~Bombur's Fury
+~
+@111 = ~This morning star's history is a mystery. The rumor says it was actually made by a powerful druid for himself to prevent his enemies from fleeing melee combat. However, it is a morning star which means he could have never actually used the weapon. How it ended up in the hands of Bombur and stayed there for atleast a decade  - and helped him to keep all his opponents in melee - is another mystery. 
+
+
+
+STATISTICS:
+
+Combat abilities:
+On hit there is a 50% chance that the opponent is entangled to the place for 10 seconds.
+
+Equipped abilities:
+Immunity to entangle spell.
+
+Damage: 2d4+1 (crushing)
+THAC0: +1
+
+
+Speed Factor: 4
+
+Proficiency Type: Flail/Morning Star
+
+Type: One-handed
+
+Requires:
+ 
+ 10 Strength
+
+
+
+Weight: 10~
+
+
+
+@112 = ~Reflective Katana +1~
+@113 = ~
+
+
+
+
+
+
+STATISTICS:
+
+Combat abilities:
+Each hit dispels all illusonary protections from the target up to level 2 (blur, mirror image etc.)
+
+
+
+Damage: 1d10+1 (slashing)
+THAC0: +1
+
+
+Speed Factor: 3
+
+Proficiency Type: Katana
+Type: One-handed
+
+Requires:
+ 
+ 6 Strength
+
+
+
+Weight: 5~
+
+
+
+@114 = ~Deflector +1~
+@115 = ~This long sword was first made to fight and kill wizards. It still serves the same purpose although the owner is no longer the same.
+
+STATISTICS:
+
+Charge abilities:
+Minor Spell Deflection
+  Duration: 1 turn
+
+Combat abilities:
+Every hit has a 10% chance to instantly cast Minor Spell Deflection upon the wielder of the sword
+
+THAC0: +1
+Damage: 1d8+1 (slashing)
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+
+
+@116 = ~Rainbow Sash~
+@117 = ~A famous writer and scoundrel called Dhan Menvhor made this girdle at the beginning of his career to dazzle his enemies, and friends as well. This very flamboyant sash keeps constantly changing color and has all the colors of a rainbow in it and looks very flamboyant.
+
+STATISTICS:
+
+Charge abilities:
+Blinding Color Surge
+  Blind spray for 1 round, invisibility to self
+  Range: 50 ft.
+  Area of Effect: 90-degree arc
+  Duration: 10 rounds
+
+Distracting Ray
+  Miscast spray
+  Range: 50 ft.
+  Area of Effect: 90-degree arc
+  Duration: 1 round
+
+Weight: 2~
+
+
+
+@118 = ~Warmth Killer~
+@119 = ~One cleric of Auril, known as Jasha Istor, once made this flail to kill all of her enemies who were prepared to fight her spells and attacks of cold. However, after a while she found it useless and sold it to a passing merchant worshipping Auril.
+
+STATISTICS:
+
+Combat abilities:
+Each hit reduces the target's cold resistance by 20 for 1 turn
+
+Damage: 1d6+2 (crushing)
+THAC0: +1
+Speed Factor: 6
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 13 Strength
+
+Weight: 13~
+
+
+
+@120 = ~Flail of Frost~
+@121 = ~One wizard, one vampire, this princess of horror has declared a war against a Cormyr. The kingdom, and all its churches made an alliance to defeat her. They managed to defeat her, but their losses were heavy. And she escaped... This is one of the vampire's weapons of death that she had forged in the time between her life of humanity and her life of becoming an undead. This flail has been known to be so cold that it can make frozen statues out of its victims.  
+
+STATISTICS:
+
+Combat abilities:
+Each hit slows the target for 2 rounds (no save)
+Each hit has 5% chance of turning target into ice (save vs Death negates)
+
+Damage: 1d6+1, +2 cold damage
+THAC0: +1
+Speed Factor: 6
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 13 Strength
+
+Weight: 13~
+
+
+
+@122 = ~Stick of Truth~
+@123 = ~This legendary twig possesses limitless power. However, due to nobody able to control its power, not even the known gods, it was decided that its power is too great for any person to hold and it was throw into Stark's Pond. Wherever that might be. 
+
+STATISTICS:
+
+Combat abilities:
+Each hit causes, due to it limitless uncontrollable power, everyone in the area to explode.
+
+Damage: 1d6+5 (crushing)
+THAC0: +5
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
+
+
+
+@124 = ~Spear of Life Stealing~
+@125 = ~This spear is a potent weapon that steals life energy from its targets and by many is considered to be an evil vampiric weapon. Most good aligned people will refuse to use this weapon.
+
+STATISTICS:
+
+Combat abilities:
+Drains 1d4 hit points from the target and transfers it to the wielder
+
+THAC0: +1
+Damage: 1d6+1 (piercing)
+Speed Factor: 5
+Proficiency Type: Spear
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 5~
+
+
+
+@126 = ~Piece of Machinery~
+@127 = ~This seems to be a piece of some elaborate machine.
+
+STATISTICS:
+
+Weight: 25~
+
+
+
+@128 = ~Goggles of Fogcutting~
+@129 = ~These goggles are made of carefully-polished pearls, with frames of polished brass and a simple leather strap and buckle sized for a giant's head, but are easily adjustable for smaller wearers. The goggles allow the wearer to see through magical and normal fogs, mists, and similar obscurement and makes the wearer immune to blindness. Sadly however, the goggles also distort and skew vision strangely.
+
+STATISTICS:
+
+Equipped abilities:
+Immunity to Blindness
+Find Traps: -5%
+Pick Pockets: -5%
+Open Locks: -5%
+THACO: -1
+
+Weight: 2~
+
+
+
+@130 = ~Machinery Schematics~
+@131 = ~This seems to be schematics of some elaborate machine.
+
+STATISTICS:
+
+Weight: 0~
+
+
+
+@132 = ~Potion of Mind Flayer~
+@133 = ~Potion of Mind Flayer will transform its drinker into a mind flayer. This is a concoction of Talessyr Tranth.
+
+STATISTICS:
+
+Special: Shapechange into a mind flayer
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@134 = ~Fresh Spider Silk~
+@135 = ~This filament appears to have been extracted from a fresh spider. It is one of the components of Mal's Mending spell of the Helmed Horrors.
+
+Weight: 0~
+
+
+
+@136 = ~Cloak of Arachnida~
+@137 = ~This black garment, embroidered with a weblike pattern in spider silk. This cloak was made by an invertor Mal Swarley. The cloak gives its wearer better protection against poisons and webs.
+
+STATISTICS:
+
+Equipped abilities:
+Save vs. Death: +2
+Protection from Web
+
+Charge abilities:
+Web
+  Causes enemies to get stuck in place unless they save vs. Spell with a -2 penalty.
+  Range: 40 ft.
+  Area of Effect: 30-ft. radius
+  Duration: 2 turns
+
+Weight: 3~
+
+
+
+@138 = ~Magneto Helmet~
+@139 = ~This metallic helmet made by Mal Swarley repels all mental attacks. However, due to its strange resonance, which calls the wearer to avoid Cragmyr Keep, the wearer loses his focus.
+
+STATISTICS:
+
+Equipped abilities:
+Protects against critical hits
+This helmet confers the wearer protection against charm, confusion, fear, domination, ESP, Detect Alignment, hold, stun, psionics, sleep, and feeblemind, much like the 8th-level wizard spell Mind Blank. However, due the constant resonance of the helmet the wearer loses the ability to cast spells and suffers a -2 penalty to Thac0.
+
+Weight: 2~
+
+
+
+@140 = ~Law and Order~
+@141 = ~This sword was once forged by a man who saw law and order the most important thing in the world. To him the end never justified the means, so he forged a sword that would stop chaos. Something however went wrong and with all that chaos defeated, it sometimes stroke back and drove the wielder of the sword insane for a brief moment.
+
+STATISTICS:
+
+Equipped abilities:
+On a successful hit, the wielder of the sword has 5% chance to go berserk for 5 rounds
+
+THAC0: +1, +3 vs chaotic creatures
+Damage: 1d8+1 (slashing), +5 vs chaotic creatures
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+
+
+@142 = ~Greater Basilisk Eye~
+@143 = ~This is an eye of a greater basilisk. It is often used as an ingridient for spells and suchs.
+
+STATISTICS:
+
+Weight: 1~
+
+
+
+@144 = ~Potion of Reflected Image~
+@145 = ~This potion confers reflected image similar to the 1st-level wizard spell of the same name.
+
+STATISTICS:
+
+Special: Reflected Image
+  Duration: 4 rounds
+
+Weight: 1~
+
+
+
+@146 = ~Potion of Blur~
+@147 = ~This potion confers blur similar to the 2nd-level wizard spell of the same name.
+
+STATISTICS:
+
+Special: Blur
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@148 = ~Potion of Mustard Jelly~
+@149 = ~Potion of Mustard Jelly will transform its drinker into a mustard jelly. This is a concoction of Talessyr Tranth.
+
+STATISTICS:
+
+Special: Shapechange into a mustard jelly
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@150 = ~Sword of Phasing~
+@151 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Combat abilities:
+25% chance target is phased (takes 1 damage per second) for 10 seconds
+
+THAC0: +1
+Damage: 1d8+1 (slashing)
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+
+
+@152 = ~Tymora's Loop~
+@153 = ~This ring has received the blessings of Tymora and will bring good luck to those who wear it. Sadly the ring has seen better days and is not what it used to be.
+
+STATISTICS:
+
+Equipped abilities:
+Luck: +1
+
+Weight: 0~
+
+
+
+@154 = ~Elemental Jar~
+@155 = ~This is a custom magic jar created by inventor Mal Swarley. Its sole purpose is to gather elemental spirits for later use. Any elemental spirit too weak to resist will be absorbed by the liquid and preserved. The liquid, when released from the bottle, will also attract all the nearby elementals from hiding and approach them even if they are not weak enough to be absorbed. This jar has been modified by Mal to only absorb and attract lightning elementals.
+
+STATISTICS:
+
+Special: Elemental Liquid (see text)
+
+Weight: 1~
+
+
+
+@156 = ~This is a custom magic jar created by inventor Mal Swarley. Its sole purpose is to gather elemental spirits for later use. Any elemental spirit too weak to resist will be absorbed by the liquid and preserved. The liquid, when released from the bottle, will also attract all the nearby elementals from hiding and approach them even if they are not weak enough to be absorbed. This jar is already full and cannot hold more elemental spirits.
+
+Weight: 1~
+
+
+
+@157 = ~Quinn's Body~
+@158 = ~The body of Quinn Galan, a Flaming Fist deserter wanted along the Sword Coast.
+
+Weight: 100~
+
+
+
+@159 = ~Orders from Officer Hjout~
+@160 = ~To Officer Lendali Firehair,
+
+This party of <CHARNAME> has been assigned to aid and function as reinforcements to Officer Lendali Firehair and her unit.
+
+Officer Elijah Hjout~
+
+
+
+@161 = ~Horben's Wardstone~
+@162 = ~A simple house is inscribed on this stone. The wardstone will most likely allow entrance to a house or container without setting its protective spells.~
+
+
+
+@163 = ~Portal Breach~
+@164 = ~A Portal Breach scroll invokes a very powerful magic to breach otherwise locked portals. The spell has many uses, but it is mainly used with actual permanent portals and portal keys. Its only combat use is making the user immune to Teleport Field spell. The effect is not permanent, however, and will wear off within 2 hours.
+
+STATISTICS:
+
+Immunity to Teleport Field
+  Range: 0
+  Area of Effect: The user
+  Duration: 2 hours~
+
+
+
+@165 = ~Mal's Mending~
+@166 = ~The mending spell requires the following ingredients:
+
+Fresh Spider Silk, atleast five bundles
+Diamond, atleast one
+High quality steel, lesser magical weapon or Kara-Turian sword
+High density wood for fire, already have this
+Belladonna Paste, already have this from my own private stock!~
+
+
+
+@167 = ~Eyes of the Basilisk~
+@168 = ~These two ioun stones were made by Mal Swarley and they hold a great deal of power against basilisks, medusas, gorgons or any other magical creatures that might try to turn their prey into stone.
+
+Equipped abilities:
+Immunity to all forms of petrification
+
+Charge abilities:
+Flesh to Stone, 2 charges 
+  Range: Sight of the caster
+  Casting time: 6
+  Area of Effect: 1 creature
+  Saving throw: Negative.
+
+Weight: 2~
+
+
+
+@169 = ~Flaming Shield~
+@170 = ~These rings were made for a certain infantry of Flaming Fist mercenaries to protect them from evil planar creatures. The rings are being used for the same purpose to this date.
+
+STATISTICS:
+
+Equipped abilities:
+Protection from Evil
+
+Weight: 0~
+
+
+
+@171 = ~Talessyr's Robe of Blending~
+@172 = ~When this robe is put on, the wearer intuitively knows that the garment has very special properties. A robe of blending enables its wearer to appear to be part of his surroundings. This particular robe was made by Talessyr Tranth.
+
+STATISTICS:
+
+Equipped abilities:
+When getting hit in combat, there is a 25% chance that the wearer blends into the surrounding environment for 6 seconds (as invisibility spell)
+
+Weight: 3~
+
+
+
+@173 = ~Potion of Drow~
+@174 = ~Potion of Drow will transform its drinker into a drow. This will grant the drinker +60% magic resistance and +2 bonus to her saving throws vs. spells. This is a concoction of Talessyr Tranth.
+
+STATISTICS:
+
+Special: Shapechange into a drow
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@175 = ~Potion of Spider~
+@176 = ~Potion of Spider will transform its drinker into a spider. This is a concoction of Talessyr Tranth.
+
+STATISTICS:
+
+Special: Shapechange into a spider
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@177 = ~Shadowblade~
+@178 = ~This blade is made out of shadowy material of the Plane of Shadow. Attacks with the weapon are purely immaterial granting a +4 bonus to all attacks. However, since the weapon is immaterial, strength bonus doesn't apply to THAC0 or damage. Users more attuned with the Plane of Shadow can utilise it better than others.
+
+STATISTICS:
+
+Combat abilities:
+No strength bonus to THAC0 or damage
+If the weapon is carried by a shadowdancer, it grants +2 bonus to damage and +1 bonus to backstab modifier
+
+THAC0: +4
+Damage: 1d6+1 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 0 Strength
+
+Weight: 0~
+
+
+
+@179 = ~Deril's Animal Slayer~
+@180 = ~This longbow was a Deril the Hunter's family heirloom. It was made to kill animals, magical or otherwise.
+
+STATISTICS:
+
+Combat abilities:
++4 Damage bonus against animals and magical beasts (bears, wolves, dogs, ankhegs and basilisks)
+
+THAC0: +2
+Damage: +1
+Speed Factor: 6
+Proficiency Type: Longbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+
+
+@181 = ~Potion of Zombie~
+@182 = ~Potion of Zombie will transform its drinker into a zombie, or at least almost. Since transforming yourself into a zombie would mean death, this actually only partially transforms the drinker into a zombie. The transformation will grant the drinker +50 cold resistance. She becomes unable to speak, and therefore will become unable to use spells or other abilities that require speech. However, the smell will make all slimes and carrion crawlers ignore the drinker. The transformation isn't very stable, therefore if the drinker hits anyone with his hands, the transformation will end. This is a concoction of Talessyr Tranth.
+
+STATISTICS:
+
+Special: Shapechange into a zombie
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@183 = ~Resonance Stone~
+@184 = ~This stone, made out of crystal, is around the size of an egg. You have no idea what its use might actually be and where it originates, but you feel a strange urge to avoid Cragmyr Keep when in its proximity, as if commanded by the Flaming Fist itself.
+
+Weight: 1~
+
+
+
+@184 = ~Waukeen's Touch~
+@185 = ~This stiletto dagger has amazing, but quite young history. This dagger was once a normal barely enchanted dagger, but years ago during the Time of Troubles, when all the gods walked on Toril, this dagger was blessed by Waukeen herself and become a merchants' and traders' tool of dreams.
+
+STATISTICS:
+
+Equipped abilities:
+Wearer gains the status effect vocalized.
+Lore: +10 bonus
+
+Charge abilities:
+Friends
+  Duration: 11 rounds
+
+
+THAC0: +1
+Damage: 1d4+1 (piercing)
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+
+
+@186 = ~Pixie Duster~
+@187 = ~This strange cloak made of out leafs seems to repulse all roots, magical or otherwise, and attract on sprites, especially pixies. However, its true potential can only be discovered by druids and rangers.
+
+STATISTICS:
+
+Equipped abilities:
+Immunity to entangle
+
+Charge abilities:
+Pixie Call
+  Summons a group of 6 pixies to fight for you.
+  Duration: 1 turn
+
+Weight: 3~
+
+
+
+@188 = ~Resonance Stone~
+@189 = ~This stone, made out of crystal, is around the size of an egg. You feel a strange urge to avoid Cragmyr Keep when in its proximity, as if commanded by the Flaming Fist itself. These stone are sometimes used by enchanters and psionic races, such as mind flayers, to deliver suggestions to anyone within short distance from it. The stone carries the markings of a peddlar of transmutation potions called Talessyr Tranth.
+
+Weight: 1~
+
+
+
+@190 = ~Potion of Clay Golem~
+@191 = ~Potion of Clay Golem will transform its drinker into a clay golem. This is a concoction of Talessyr Tranth.
+
+STATISTICS:
+
+Special: Shapechange into a clay golem
+  Duration: 1 turn
+
+Weight: 1~
+
+
+
+@192 = ~Talessyr's Potion Log~
+@193 = ~This book contains written information about all potions and their usage or purpose by Talessyr Tranth. It contains information that Talessyr was contacted by her brother, Iltar, to prevent caravans from stopping at Cragmyr Keep by any means necessary letting the blame fall on the Flaming Fist. She resolved to hire rogues and have them conduct illegal "caravan inspections" on all southward caravans disguides as Flaming Fist officers. The resonance stones, obtained from a business acquintance of hers, were to be hidden in all the caravans and the disguised rogues amplified the suggestion spell places in the stones. It is a definite proof that Iltar and his sister, Talessyr, has been behind the trade block. You should hold on to this book.
+
+Weight: 2~
+
+
+
+@194 = ~Letter~
+@195 = ~Dear sister,
+I, and Amn, are in a dire need of your help. The war between Amn and Baldur's Gate now seems imminent, and Nashkel is poorly defended against any attacks from the north. Due to the Sothillisian War, Amn cannot send enough troops to defend Nashkel, so we need another way to defend our great nation. The Cowled Wizards found an answer: the Cragmyr Keep. It has a excellent location between Beregost and Nashkel, and most of all, it has a ancient Netherese Helmed Horror machine which was moved there a couple centuries ago. It is unoperational for now, but I believe I will be able to fix it when I get my hands on the documents. 
+
+What I need from you is another matter however. You have lived in Baldur's Gate for a long time and are trusted there, so I need you to help me orchestrate a trade block on Craggmyr and make the Flaming Fist take all the blame. With the Flaming Fist discredited, I have a better chance to make Lord Kuldak choose an alliance with Amn, not Baldur's Gate and the Flaming Fist. 
+
+Cowled Wizards, and Amn, need that machine and your help. I already inquired from our mutual hidden "friend" and he would be prepared to provide any necessary enchantment spells. Dear sister, the future of Amn and our homeland is in your hands.
+
+Your brother~
+
+
+
+@196 = ~Shroud of Bankao~
+@197 = ~Believed to be the burial shroud of a mysterious eastern warlord, the Shroud of Bankao has been by some of the most notorious thugs and murderers on the Sword Coast. Its coarse black fabric has grown coal gray over many years of use. Its last known owner was Polger Carallo, an extortionist who operated in the worst parts of Waterdeep. Polger made his living shaking down the residents of the poor districts of the city. A priest of Bane told Polger that he owned the church a tribute for his success. Polger refused the priest's offer and died at the end of the Banite's morningstar.
+
+STATISTICS:
+
+Equipped abilities:
+Immunity to the spells Skull Trap and Glyph of Warding
+
+Charge abilities:
+Ghoul Touch
+  Duration: 5 rounds
+
+Weight: 3~
+
+
+
+@198 = ~Trapped Soul~
+@199 = ~This gem seems like it holds something, or someone, inside it. Cutting it open without proper knowledge and training would most likely prove fatal to whoever resides inside. It is almost impossible to identify the original gem's type since it has been transformed by magic.
+
+STATISTICS:
+
+Weight: 0~
+
+
+
+@200 = ~Trapped Lightning Elemental~
+@201 = ~This gem seems like it holds something, or someone elemental, inside it. Cutting it open without proper knowledge and training would most likely prove fatal to whoever resides inside. It is almost impossible to identify the original gem's type since it has been transformed by magic.
+
+STATISTICS:
+
+Weight: 0~
+
+
+
+@202 = ~Robb's Wedding Ring~
+@203 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.
+
+The ring has a small inscription inside it: "I love you. Do you hear me! I love you."
+
+STATISTICS:
+
+Weight: 0~
+
+
+
+@204 = ~Shadow Blade~
+@205 = ~Many don't understand the nature of this blade and therefore fear it. It is a poweful blade, and if one wields it too long, terrible things might come to pass. The blade is made out of shadow material of the Shadow Plane and therefore is almost completely immaterial. Normal users feel uneasy when wielding it and therefore choose not to. Many who does wield it for too long start to become shadows themselves. Some are tempted to understand it better and will take a different approach, such as becoming shadowdancers. 
+
+STATISTICS:
+
+Equipped abilities:
+Due to its immaterial nature, strength bonuses do not apply to this weapon's damage or Thac0
+
+Combat Abilities (Shadowdancers only):
+  Damage: +2
+  Backstabbing: increases backstab multiplier by 1
+
+Damage: 1d6+1 (piercing)
+THAC0: +4
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 0 Strength
+
+Weight: 0~
+
+
+
+@206 = ~Letter~
+@207 = ~Horben,
+As you know, I have been assigned to bring Cragmyr Keep into the fold. However, I know Lord Kuldak won't side with Flaming Fist, or Amn for that matter, if there is no real threat to him or his people. I need to show him that we, the Flaming Fist, can protect him and his people. For this I need you help.
+
+Can I count on you? Can you find a way to get out of your duties for a while and come to Beregost? I assume you would be staying at your usual room at the Burning Wizard, correct?
+
+Your friend,
+Elijah Hjout~
+
+
+
+@208 = ~Letter~
+@209 = ~Horben,
+That is an excellent idea! Trap the souls and bodies of the two more powerful ogre magi into gems, and release them after Lord Kuldak has made the alliance. That way the remaining ogre mage, Kohark I believe, will turn his attention to Cragmyr and we will be its saviors without losing any of our own. Ingenious! 
+
+Some Cragmyr militia and people will surely die in the process, but that is a necessary cost I am willing to take. I am sure you don't have any objections to that either.
+
+I heard you have been reassigned to Officer Firehair's unit. Luckily enough, their mission is to keep an eye on the very same ogre magi we want to capture. Remember to keep low profile. The first ogre mage, Kahrk, captured is a big step. We still however need the other one.
+
+Your friend,
+Elijah Hjout~
+
+
+
+@210 = ~Letter~
+@211 = ~Horben,
+What do you mean you lost the gems? So you are saying the gem of Kahrk was stolen from you? And the other one, you have do idea where he is since you captured him into a gem, but for some reason he isn't inside the gem? Where the hell is he then? He just disappeard? What about that girl, Luci, who found out what we were doing? You have her or did she disappear too? Should we expect to be attacked by his husband? How could this have happened? This is a disaster! Now when Lord Kuldak makes the alliance with the Flaming Fist, we will have no ogre magi. 
+
+I shouldn't had to mention this, but Lord Kuldak, or anyone else, must not find out what we have done here. Keep this all to yourself. After all our actions caused the death of a lot of people, including Lord Kuldak's sons.
+
+I'll try to send you help to figure out how to solve this, since we are both tied to our assignments for now. I will be overstepping my jurisdiction here. Damnit, I shouldn't even know about Officer Firehair's classified operation.
+
+Your friend,
+Elijah Hjout~
+
+
+
+@212 = ~Luci's Body~
+@213 = ~The body of Luci Galan, a Flaming Fist deserter wanted along the Sword Coast.
+
+Weight: 90~
+
+
+
+@214 = ~Amulet of Fresh Roses~
+@215 = ~This amulet's properties are not clear at first inspection as it tends to mesmerize any one on at first: it smells like the favorite things of anyone who wears it. Bildor the Botanist, the creator of this amulet, loved the smell of fresh roses and therefore named it after them. However, after a moment anyone will understand that it actually tends to block all bad smells or poisons out, giving the wearer total immunity to all spells and effects that are delivered through breathing or smell.
+
+STATISTICS:
+
+Equipped abilities:
+The wearer is immune to spells that are delivered through breathing, such as Stinking Cloud and Cloudkill.
+
+
+Weight: 1~
+
+
+
+@216 = ~Talessyr's Body~
+@217 = ~The body of Talessyr Tranth, an alchemist and sister of Iltar Tranth of the Cowled Wizards of Amn.
+
+Weight: 90~
+
+
+
+@218 = ~Claw of Tassiter~
+@219 = ~This club looks like a claw of a big nasty rat. The club itself is made out of rat fur and wood, glued together with some strange alchemical mixture. It seems that Tassiter made the club himself, or had it made for him.
+
+STATISTICS:
+
+Combat Abilities:
+Increased damage, 1d8 instead of 1d6
+
+THAC0: +1
+Damage: 1d8+1 (crushing)
+Speed Factor: 3
+Proficiency Type: Club
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+
+@220 = ~Bard's Tale~
+@221 = ~Long ago, when magic still prevailed strong, the evil wizard Mangar the Dark threatened a small but harmonious country town called Skara Brae. Evil creatures oozed into Skara Brae and joined his shadow domain. Mangar froze the surrounding lands with a spell of Eternal Winter, totally isolating Skara Brae from any possible help. Then, one night the town militiamen all disappeared.
+
+The future of Skara Brae hung in the balance. And who was left to resist? Only a handful of unproven young Warriors, junior Magic Users, a couple of Bards barely old enough to drink, and some out of work Rogues.
+
+However, there was one bard by the name of Ogan, who tricked Magnar with his song into stepping through a portal with limitless treasure and power on the other side. In truth, this door was a portal to another distant plane of unknown destination where none had never returned, and Magnar got trapped there for all eternity. This dagger was later made by the town elders as a reward to the young bard by the name of Ogan.
+
+STATISTICS:
+
+Equipped abilities:
+Saving Throws: +2
+
+Charge abilities:
+Time Stop, 1 charge
+  Stops the time for everyone apart from the caster.
+  Duration: 3 rounds
+  Special: After using this spell, the weapon will be destroyed
+
+Slow Poison, 3 times per day
+  Neutralizes nearly all forms of poison, except for the most deadly ones.
+  Range: Touch
+  Duration: Instant
+  Area of Effect: 1 creature
+
+THAC0: +1
+Damage: 1d4+1 (piercing)
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+
+
+@222 = ~Howling Wolf Charm~
+@223 = ~This is a smallish, silver wolf's head charm of the sort sometimes fashioned by Rashemen shamans of the Tribe of the Wolf. By gripping the charm tightly and howling towards the heavens, one may summon a fierce gray wolf to aid him or her in battle. Such charms are said to tarnish as their power wanes, and eventually disintegrate into silvery powder when the last of their summoning energy has been consumed.
+
+STATISTICS:
+
+Summon Wolf x 3
+
+Weight: 1~
+
+
+
+@224 = ~The Flaming Body~
+@225 = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place. 
+
+STATISTICS:
+
+Equipped abilities:
+Cold Resistance: -25%
+May only be removed with a Remove Curse spell
+
+Charge abilities:
+Fire Shield (Red)
+  A protective shield that surrounds the wearer of the armor as per the 4th level wizard spell Fire Shield (Red).
+
+Armor Class: 6 (4 vs. slashing, 5 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 15~
+
+
+
+@226 = ~Luci's Trapped Soul~
+@227 = ~This gem seems like it holds Luci inside it. It seems the gem has already been prepared for breaking and Luci can therefore be freed by anyone. It is almost impossible to identify the original gem's type since it has been transformed by magic.
+
+STATISTICS:
+
+Weight: 0~
+
+
+
+@228 = ~Antimagic Field~
+@229 = ~An Antimagic Field scroll invokes a very powerful, but brief, antimagic field centered on the user. All magic within the area will cease to exist for a brief moment. Conjured magical items, summoned creatures or items with unstable or weak magical properties will be destroyed.
+
+STATISTICS:
+
+Antimagic Field
+  Range: Self
+  Area of Effect: 30-ft. radius
+  Duration: Instant~
+
+
+
+/* =====================================================
+
+			SPELLS
+
+===================================================== */
+
+
+@1000 = ~Blinding Color Surge
+(Illusion)
+
+Level: 2
+Range: 50 ft.
+Duration: 1 round/level
+Casting Time: 1
+Area of Effect: 90-degree arc
+Saving Throw: Special
+
+The colors of your clothing, skin, and hair shine for a brief moment before they surge away from you, forming a multicolored fan-shaped spray of clashing colors to spring forth from the caster's hand. The target clutches his eyes and staggers. Anyone caught in the area of the spray must make a successful Saving Throw or be rendered blind for one round. You also gain the benefit of invisibility, for the duration of this spell, even if the target creatures succeed on their saves or if its spell resistance protects it.~
+
+
+@1001 = ~Distracting Ray
+(Abjuration)
+
+Level: 2
+Range: 50 ft.
+Duration: 1 round
+Casting Time: 1
+Area of Effect: 90-degree arc
+Saving Throw: None
+
+You blast a nearby creatures with a multicolored fan-shaped spray. The spray explodes on contact to form a dizzying array of bizarre swirling and flashing lights around the targeted creature. This spray attempts to undo magic as it is being cast. The spray interferes with the manipulation of divine or arcane magic by dazzling the target. The target will be affected by 100% miscast for the duration of the spell.~
+
+
+@1002 = ~Speak with Dead
+(Necromancy)
+
+Level: 4
+Range: 30 ft.
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+You call upon the souls who died in the vicinity of the spell, they however may not answer to your call. The spirit’s knowledge is limited to what the creature knew during life, including the languages it spoke. Answers are usually brief, cryptic, or repetitive. This spell does not let you actually speak to the person whose soul has departed. It instead draws on the imprinted knowledge stored in the area. The spirit retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The spirit, however, cannot learn new information and might be "upset" that it has been called upon.~
+
+
+@1003 = ~Speak with Dead
+(Necromancy)
+
+Level: 3
+Range: 30 ft.
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+You call upon the souls who died in the vicinity of the spell, they however may not answer to your call. The spirit’s knowledge is limited to what the creature knew during life, including the languages it spoke. Answers are usually brief, cryptic, or repetitive. This spell does not let you actually speak to the person whose soul has departed. It instead draws on the imprinted knowledge stored in the area. The spirit retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The spirit, however, cannot learn new information and might be "upset" that it has been called upon.~
+
+
+@1004 = ~Fog Cloud
+(Conjuration)
+
+Level: 2
+Range: 90 ft.
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: 40-ft. radius
+Saving Throw: None
+
+A bank of fog billows out from the point you designate. The fog obscures all sight, including darkvision, beyond 5 feet. All the creatures inside the area are blinded and will remain so as long as they stay shrouded in the fog. All creatures in the fog also gain concealment, so therefore creatures cannot be targeted with spells from outside the fog and all attacks become backstabs inside the fog.~
+
+
+@1005 = ~Solid Fog
+(Conjuration)
+
+Level: 4
+Range: 90 ft.
+Duration: 1 turn
+Casting Time: 3
+Area of Effect: 40-ft. radius
+Saving Throw: None
+
+This spell functions like fog cloud, but in addition to obscuring sight, the solid fog is so thick that any creature attempting to move through it move only at half their normal speed, and takes a -2 penalty on THAC0 and damage rolls. The vapors prevent effective ranged weapon attacks (+10 bonus to AC and -10 penalty to THAC0 to anyone inside the fog).~
+
+
+@1006 = ~Mistform
+(Alteration)
+
+Level: 3
+Range: 0
+Duration: 2 rounds/level
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+When this spell is cast, the wizard and all of <PRO_HISHER> gear become insubstantial. The caster's body transforms into mist and <PRO_HESHE> can therefore move and see in any kind of clouds or fogs, magical or not, without them affecting or damaging <PRO_HIMHER> in any way. The caster also receives immunity to poison and backstabs for the duration of the spell, but takes -1 penalty to casting time.~
+
+
+
+@1007 = ~Horben's Mystical Demon Call
+(Conjuration/Summoning)
+
+Level: 5
+Range: 35 ft.
+Duration: 15 rounds
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+When this spell is cast, it teleports in a fledling nabassu that will go on a rampage and attack everything in sight. Anyone under the effects of a Protection From Evil spell or scroll will not be targeted by the fiend. This is a dangerous spell to invoke, best saved for desperate times.~
+
+
+
+@1008 = ~Trap the Soul
+(Conjuration/Summoning)
+
+Level: 5
+Range: 25 ft.
+Duration: Permanent
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+Trap the soul forces a creature’s life force (and its material body) into a gem. The gem holds the trapped entity indefinitely or until the gem is broken and the life force is released, which allows the material body to reform. Freeing a creature from the gem is delicate work and takes practice and skill. If the gem is dismantled or broken incorrectly, the creature trapped inside might die. If the trapped creature is a powerful creature from another plane it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken. The intended subject of the spell receives a Saving Throw vs. Spell to avoid the effect.
+
+Only gems which has a base value of at least 100gp can be used to trap creatures (Horn Coral Gem is the cheapest). However, it requires at least 100gp of value for each HD the creature has. For example, a level two fighter could not be trapped with a gem worth only 100gp. The spell will automatically always use the cheapest gem in the inventory. The gem used to trap a creature will transform into a unrecognizable lump and lose its original value. Powerful creatures (9 or more HD) trapped with the spell create more potent and easily recognizable gems.~
+
+
+
+
+/* =====================================================
+
+			DIALOGS
+
+===================================================== */
+
+/////// Old Plough Innkeeper
+
+@10001 = ~Ya should do yerself a favor and stay indoors tonight. I've heard of all sorts of weird things happening at night.~
+@10002 = ~What can you give me today?~
+@10003 = ~I don't need anything at the moment.~
+@10004 = ~Have you ever danced with the devil in the pale moonlight? Well, neither have I.~
+
+/////// Cragmyr Storekeeper Eric
+
+@10005 = ~Damn cart man is running late. I am running low on my inventory. Well couldn't afford half of the stuff anyway. What can I do for you?~
+@10006 = ~Can I see what you have for sale?~
+@10007 = ~Nothing sorry. Maybe later.~
+
+/////// Cragmyr Guard
+
+@10008 = ~We represent Lord Kuldak Maurancz. You are accused of thievery and must surrender yourselves to the mercy of the law.~
+
+/////// Lord Kuldak
+
+@10009 = ~What's this? New face in town, eh? Well met, stranger. The name is Kuldak Maurancz, and I am the Lord of these lands and Cragmyr Keep. Who might you be?~ [R#KUL00]
+@10010 = ~Greetings Lord Kuldak. My name is <GABBER>.~
+@10011 = ~Who I am is none of your concern.~
+@10012 = ~Well then! Whatever your business in these parts might be, I would offer you this small piece of advice: while you're in my town, you'd do well to be on your best behavior.~ [R#KUL01]
+@10013 = ~These folk are under my protection, and anyone who would seek to do harm to them in any way shall answer to me.~ [R#KUL02]
+@10014 = ~Well met, friend. And welcome to my home. Make yourselves comfortable, but try not to break anything. Many of these curiosities that you see lying about have... sentimental value.~ [R#KUL03]
+@10015 = ~Where did you get all this stuff?~
+@10016 = ~Sentimental value? You don't strike me as the sentimental type.~
+@10017 = ~You have quite a collection here.~
+@10018 = ~Ah, they're all remembrances of my adventuring days, little trinkets and the like that I picked up here and there. More keepsakes than valuables really, leftovers from my days of fortune and glory.~ [R#KUL04]
+@10019 = ~Adventuring days? So you are retired then?~
+@10020 = ~Fortune and glory, eh? Looks to me like you've had more than your share of glory, if not fortune.~
+@10021 = ~Impressive. I sincerely hope I have as much luck in my quest for fortune and glory.~
+@10022 = ~Semi-retired, actually. This region is still untamed and fraught with many dangers. Ogres are the biggest problem. My sons... the... they were killed fighting them not that long ago. For some reason the ogres and hobgoblins in the area have become more organized lately.~ [R#KUL05]
+@10023 = ~That is what I wanted to speak to you about. Recently the three dissenting hordes of monsters in the area led by ogre magi unified themselves into one single clan. This is a very alarming development. In the past they have been fighting mostly amongst themselves with only a few rare skirmishes now and then. But now, an attack against the Cragmyr Keep is imminent and the keep is in bad condition with almost no credible defense. I intend to change that.~ [R#KUL06]
+@10024 = ~How do you intend to accomplish this?~
+@10025 = ~What do you need me for?~
+@10026 = ~Oh, I've seen my share of fortune as well, rest assured. I've beheld more treasure than most kings, I'd wager.~ [R#KUL07]
+@10027 = ~But it wasn't for coins that I fought and bled all those years. It was for something grander, more powerful than mere riches. Adventuring is something that is in your blood, not in your purse.~ [R#KUL08]
+@10028 = ~Well said. I too heed a similar call to adventure.~
+@10029 = ~You're daft, I say. Why risk your neck when there is no coin to be made?~
+@10030 = ~Hmm... interesting. I'm not sure I agree with you, though.~
+@10031 = ~Indeed? Well then, this might interest you. Recently the three dissenting hordes of monsters in the area led by ogre magi unified themselves into one single clan. This is a very alarming development. In the past they have been fighting mostly amongst themselves with only a few rare skirmishes now and then. But now, an attack against the Cragmyr Keep is imminent and the keep is in bad condition with almost no credible defense. I intend to change that.~ [R#KUL09]
+@10032 = ~How do you intend to accomplish this?~
+@10033 = ~Sorry, not interested. Farewell.~
+@10034 = ~The walls need to be repaired on all vital spots and I need to find someone to fix the Helmed Horrors in the keep. One of those is more effective than 10 soldiers and they could keep the whole area safe. I myself however just cannot take off due to the constant ogre threat and the ongoing negotiations with the delegation of Flaming Fist.~
+@10035 = ~What say you? Interested in keeping the people of Cragmyr safe? In the mean time I will have to deal with the delegation of the Flaming Fist.~ [R#KUL11]
+@10036 = ~What are you negotiating with the Flaming Fist?~
+@10037 = ~Sounds exciting. Count me in.~
+@10038 = ~If there's gold to be had, I'm in.~
+@10039 = ~Sounds like a waste of time. Maybe some other time. Farewell.~
+@10040 = ~If this Iron Crisis develops into a war, this would be a perfect position for either side as a first line of defense. So the Flaming Fist is very eager to make an alliance with me and I bet it won't take long until an Amnian delegation arrives at my door. However, I rather stay neutral in conflicts like these, since there is no clear good and evil here. Sad thing is I most likely will be forced to pick a side, if this escalates into a war.~
+@10041 = ~So what's it going to be? Are you in or out?~ [R#KUL10]
+@10042 = ~Hold a moment just, just hear me out. I am willing to offer a very reasonable reward for helping me to find a skilled engineer to repair the keep into atleast partial operational capability.~ [R#KUL14]
+@10043 = ~Really? What's wrong with the keep and its functionality?~
+@10044 = ~Why don't you do it yourself?~
+@10045 = ~Sorry, still not interested. Farewell.~
+@10046 = ~Well, as you wish. Can't say I'm not disappointed, though. I took you for the adventuring type. Oh well... Farewell.~ [R#KUL15]
+@10047 = ~All right, all right. I'll do what you ask.~
+@10048 = ~Farewell.~
+@10049 = ~Excellent! Glad to have you onboard. You should speak with the captain of Cragmyr militia, Eddard. He will give more details about the task in hand.~ [R#KUL16]
+@10050 = ~In the meantime I have to deal with the delegation of the Flaming Fist and other matters at hand. But for now...~
+@10051 = ~Back again I see. Have you reconsidered my offer to help me repair this keep and guarantee safety for the people of the village?~ [R#KUL18]
+@10052 = ~All right, all right. I'll do what you ask.~
+@10053 = ~No, just stopping by to say hello. Farewell.~
+@10054 = ~Good luck. Safe journey.~ [R#KUL33]
+@10055 = ~A spirited one, eh? I like that. Well, whatever your business in these parts might be, I would offer you this small piece of advice: while you're in my town, you'd do well to be on your best behavior.~ [R#KUL22]
+@10056 = ~That said, I'll let you get back to your cups. I wish I could join you, but there are things that require my attention presently.~ [R#KUL23]
+@10057 = ~Once you've had a chance to rest up and get your bearings, come by and see me at my house. There's some business I would discuss with you. Farewell.~ [R#KUL24]
+@10058 = ~Farewell.~
+@10059 = ~Please. Stay here and relax awhile. I wish I could join you, but there are things that require my attention presently. Come by my house later and we shall talk. Farewell.~ [R#KUL27]
+@10060 = ~Ah, good... you've returned. I hope you have good news.~ [R#KUL39]
+@10061 = ~No news, I'm afraid. The repairs are still underway. Farewell for now.~
+@10062 = ~We found the supplies for wall reconstruction. Supplies are being recovered as we speak. Sadly, the people of the caravan however had been massacred.~
+@10063 = ~I found a very capable inven... engineer called Mal Swarley. He said he would come speak to you about the matter.~
+@10064 = ~In any case, at least we can still retrieve the supplies, thanks to you. You've proven yourself to be quite capable... well I hope I will be seeing you soon regarding the keeps reconstruction, but farewell for now.~ [R#KUL40]
+@10065 = ~This is terrific news! The militia's numbers were starting to grow thin and now I have some leverage not to surrender my people's lives in the hands of these heartless nations. Now with the Helmed Horrors repaired Cragmyr will once again have some kind of defense against the ogres... and... other threats lurking nearby...~
+@10066 = ~However, Cragmyr's problems doesn't end here.~
+@10067 = ~Problems? More problems? Maybe I could help?~
+@10068 = ~Actually, now that I think about it, maybe you *can* help.~ [R#KUL28]
+@10069 = ~A delegation of Amn, a Cowled Wizard called Iltar, arrived here couple days ago and had some new disturbing information at hand. As you may know, the caravans have been avoiding Cragmyr lately and Iltar informed me that it has actually been Flaming Fist all along who issued a trade block on Cragmyr.~
+@10070 = ~However, his timing is what bothers me. It could not have been more convenient. I suspect the Cowled Wizards are only after the Helmed Horror machine of the keep and doesn't care much for the people of the village. I however cannot shake the feeling that the intentions of the Flaming Fist are not what they seem either. One of my scouts even found out that they have had a military camp near ogre mage's cave for sometime now and has taken no actions against the ogres. My so... sons... could maybe have been saved if they had. I need to find out if the Flaming Fist is hiding something else and what other forceful measures they might take against Cragmyr in the future, if I decide not to make an alliance with them.~
+@10071 = ~You've proven yourself to be quite capable... I can't leave Cragmyr to find out what the Flaming Fist intends to do next, since it would only raise suspicion. So I need someone who they are not familiar with and who's affiliations to Cragmyr are not widely known. You are the only one I trust and capable enough to do this. I am asking you to find out what the Flaming Fist is hiding and bring the information to me. What say you?~ [R#KUL43]
+@10072 = ~Very well. I will help you.~
+@10073 = ~I have done enough for Cragmyr. I'll think about it. Farewell.~
+@10074 = ~Excellent! Glad to have you onboard. If I were you I would start speaking to their commanding officer and ambassodor, Elijah Hjout. Also visiting their "secret" camp north of here might be worth of shot.~ [R#KUL16]
+@10075 = ~Very well. I'll do that. Farewell for now.~
+@10076 = ~Back again I see. Have you reconsidered to help me find out what the Flaming Fist might be hiding?~ [R#KUL18]
+@10077 = ~No, just stopping by to say hello. Farewell.~
+@10078 = ~Good luck. Safe journey.~ [R#KUL33]
+@10079 = ~Ah, good... you've returned. Have you found out the intetions of the Flaming Fist and what they might be hiding?~ [R#KUL39]
+@10080 = ~There was a spat between Hans and his associates. But the matter is settled now and the supplies are safe and sound. It might well be you won't be seeing Hans no more.~
+@10081 = ~No haven't found anything yet.~
+@10082 = ~I helped Mal repair the Helmed Horrors. They are operitional now.~
+@10083 = ~Yes he visited me already and we talked about repairing the Helmed Horrors. After some inspection however, he said it's going to be harder than what we first thought.~
+@10084 = ~How so? Something wrong with the machine?~
+@10085 = ~Well he told me that he has actually never seen a Helmed Horror machine like that, and since the machine schematics have been lost long ago, he is going to need someone to help him with the repairs.~
+@10086 = ~What say you? You willing to help me out once more? I will of course pay you for your time.~ [R#KUL11]
+@10087 = ~Sure. Sounds like a deal!~
+@10088 = ~Excellent! But for now I have to attend some other business. You can find Mal in the dungeon inspecting the machine.~
+@10089 = ~Very well. Farewell for now.~
+@10090 = ~I found out that Ambassador Iltar had something to do with the stolen items from the keep. I bet he was after something related to the Helmed Horror machine. Sadly I do not have any proof beyond my word.~
+@10091 = ~Well in this case as we don't have proof I cannot do anything about the situation without angering the Cowled Wizards of Amn. But I thank you for bringing this information to me. This fortifies my view of this slimy wizard.~
+@10092 = ~Also Iltar, the Amnian ambassador, has just recently arrived from Amn and is staying at the Old Plough. I do not like him and I have no intention in making an alliance with them, but I cannot force him to leave if he wishes to stay. I somehow doubt you will get much out of him, but you can try. As you may know, due to the negotiations with the Flaming Fist, Elijah has had a station set up by the Trade Way for quite a while now.~
+
+@10298 = ~A spirited one, eh? I like that.~ [R#KUL98]
+@10299 = ~Ho there, friend.~ [R#KUL99]
+
+
+/////// Mal Swarley the Smith
+
+@10300 = ~Ohmmmmmmmm...~ [R#SMI00]
+@10301 = ~Hey there! Wake up!~
+@10302 = ~Huh?!  What?! Oh!  Pardon me... I must've fallen asleep again. Phew!~ [R#SMI01]
+@10303 = ~You fell asleep? I think you were knocked out... or you feinted.~
+@10304 = ~It was simply beautiful... I was a baby kraken, swimming through river clouds of soft, molten gemstone. Those episodes are rare, but have happened before...~ [R#SMI02]
+@10305 = ~Oh! My apologies... What can I do for you? Or was there something I was supposed to do for you?~ [R#SMI03]
+@10306 = ~Uh, I think this is the first time we've met... isn't it?~
+@10307 = ~Actually, you owe me five gold pieces. Don't you remember?~
+@10308 = ~Who are you?~
+@10309 = ~Perhaps... yes, yes, I think I would have remembered you. I'm sure of it. I think.~ [R#SMI04]
+@10310 = ~I see. I'm <CHARNAME>. Who are you?~
+@10311 = ~Then perhaps introductions would be in order.~
+@10312 = ~Introductions, of course, introductions. Sometimes the ideas will start rattling around in my head, and I'll wake up to find I'm somewhere else. Or talking to someone else.~ [R#SMI05]
+@10313 = ~A pleasure to meet you. My name's Mal. Swarley is the last name.~ [R#SMI06]
+@10314 = ~So... What are you doing here? What happened here?~
+@10315 = ~Pleasure to meet you, Mal. What happened here?~
+@10316 = ~Oh, my! Did I borrow such a sum? I'm afraid you caught me a little short at the moment, not height-wise, mind you, but you know, light in the purse.~ [R#SMI07]
+@10317 = ~Never mind, I was just kid-~
+@10318 = ~Then you better *find* some g-~
+@10319 = ~Oh, but wait! Would you settle for one of my concoctions instead? I just brewed it, and I'm almost completely certain it's quite potent... whatever it does.~ [R#SMI08]
+@10320 = ~Uh, no thanks. I'm <CHARNAME> - who are you?~
+@10321 = ~I'll take it, thanks. This should settle your debt to me... whoever you are.~
+@10322 = ~Well, you know, accidents happen, and the wind's awfully strong... but... by the looks of it I would have to say this was no accident.~ [R#SMI09]
+@10323 = ~Ouh really? Accidents? To me it seems like bandits attacked you and the caravan.~
+@10324 = ~Are you sure? Well, you know, you must be. Yes, YES! I am starting to remember!~ [R#SMI10]
+@10325 = ~Did you see where they came from? Did they have a leader?~
+@10326 = ~Well - everywhere. Quite a mob of them. 'N a lot of arrows, you know. I told them to stop it on many occasions, but they only seem to understand after I dumped several casks of flaming oil on them.~ [R#SMI11]
+@10327 = ~And they didn't? Well what a bunch of as-~
+@10328 = ~Oh, didn't I tell you? But I must have.~ [R#SMI12]
+@10329 = ~Tell me what?~
+@10330 = ~Are you some kind of idiot?~
+@10331 = ~Why, I make potions! I mean, well, among other things. I'm an inventor. I make things. And potions. Did I say that?~ [R#SMI13]
+@10332 = ~Do you have any potions to sell?~
+@10333 = ~Do you test these potions on yourself after making them?~ 
+@10334 = ~Not often. Very dangerous, some of them. Others are volatile. Some are both.~ [R#SMI14]
+@10335 = ~Did some of those... dangerous... potions cause all this damage here?~
+@10336 = ~Most certainly. I'd be more than happy to supply you with whatever potions you might need... at a fair price, of course.~ [R#SMI15]
+@10337 = ~Well can I take a look then?~
+@10338 = ~Oh, you'll have to wait - my stock is quite empty now. Since, the bandits... and well... my potions... destroyed 'em all.~ [R#SMI16]
+@10339 = ~So you have no potions left? Is it that bad?~
+@10340 = ~Yes - worse than ever before. Well, I just have to cook up some more potions when I arrive to Cragmyr village. But you can always find me there, if you need some... well... potions or inventions.~ [R#SMI17]
+@10341 = ~Why Cragmyr village? What reasons could you have to go to Cragmyr?~
+@10342 = ~Well, a lot of things. It is a quiet little hamlet with little distractions to my studies... and experiments. And Candlekeep, if I ever need to lend some books, is very close!~ [R#SMI18]
+@10343 = ~Well this is a coincidence! Lord Kuldak of Cragmyr is searching for an eng... an inventor to fix his Helmed Horrors. As an inventor might you be familiar with such constructs?~ 
+@10344 = ~I must take my leave, Mal. Farewell.~
+@10345 = ~Of course! I was actually able to fix and even enhance Lord Pembridge's Horrors in Waterdeep with spell of my own creation! Such a spell! I.. what were we talking about?~ [R#SMI19]
+@10346 = ~About Helmed Horrors and how you know how to fix them.~
+@10347 = ~Oh, yes, the damage there - well... it took some time to put out the flames. But my fire extinguishing potions came to rescue.~ [R#SMI22]
+@10348 = ~So it was only a matter of time before the flames died down. Quite a mess, but we got it all sorted out.~ [R#SMI23]
+@10349 = ~We? But you are alone here? Was there someone else here too?~
+@10350 = ~Oh, well... yes. But, I have no idea where they are now. That's strange. Well nevermind them.~ [R#SMI24]
+@10351 = ~So do you sell these fire extinguishing potions of yours?~
+@10352 = ~Yes, Yes! I do know how to fix Helmed Horrors! Of course it's going to take time and gold, but I have the first and I guess he has the second!~ [R#SMI20]
+@10353 = ~Yes, I guess so. So what say you? You willing to talk this over with Lord Kuldak and forge a deal to fix his Helmed Horrors?~
+@10354 = ~Absolutely! I'll head to the keep right away and have a business discussion with him. But ta ta for now! Come see me if you are ever there!~ [R#SMI21]
+@10355 = ~Farewell Mal.~
+@10356 = ~Why, hello again! Can I help you with anything else?~ [R#SMI26]
+@10357 = ~Help you? I saved you? Remember?~
+@10358 = ~Oh, be quiet, you! The ladies of the house doesn't need to know that, you know. Ladies love a hero.~ [R#SMI27]
+@10359 = ~Ummm.... What ladies?~
+@10360 = ~Well there aren't any now, but rumors fly in small hamlets like these! So how can I help you today?~
+@10361 = ~You know, Lord Kuldak is searching for an eng... an inventor to fix his Helmed Horrors. As an inventor might you be familiar with such constructs?~
+@10362 = ~Just stopped by to say hello. I'll be off. Farewell.~
+@10363 = ~Hello!~
+@10364 = ~Oh! Hello. I am quite busy right now, but I think you should go speak to Lord Kuldak about our problem here. Have to get back to work now! Bye!~ [R#SMI99]
+@10365 = ~Oh! My apologies... I didn't see you standing there. What can I do for you? Or was there something I was supposed to do for you?~ [R#SMI29]
+@10366 = ~Lord Kuldak said that you needed some help. So is your mending spells working on the Helmed Horrors?~
+@10367 = ~My mending spell takes a stretch of time to complete, so you won't see any changes immediately. I can already feel it working, however - I can feel it in my toes!~ [R#SMI30]
+@10368 = ~So, you are saying you can fix the Helmed Horrors?~
+@10369 = ~Of course I can! I'll need to find more components though...~ [R#SMI31]
+@10370 = ~What components do you still need?~
+@10371 = ~Hmmm... let's see... there's spider silk - fresh spider silk, mind you, not old - belladonna paste, crushed diamonds, a little bit of iron ore, some wood, of course... and um, well, can't remember the last bits, but I have it all written down.~ [R#SMI32]
+@10372 = ~I have belladonna paste from my own storage already and Lord Kuldak promised to supply me with wood. But what I am missing are the rest. The iron ore in the area is so tainted that I need to get my hands on a lesser magical weapon or a weapon that is certainly not tainted, like a katana.~
+@10373 = ~So that is what I need help with... for now at least. Gathering the rest of the ingredients.~
+@10374 = ~I wrote them all down in that book over there. Interested?~ [R#SMI35]
+@10375 = ~Alright. I'll keep my eyes open when travelling.~
+@10376 = ~Most excellent! When you find the ingredients just place them on the table over there. I'll take care of the rest. But farewell for now!~ [R#SMI36]
+@10377 = ~Farewell.~
+@10378 = ~Ah, welcome back! Something I can help you with? A potion to put some color in your cheeks, perhaps?~ [R#SMI37]
+@10379 = ~Have you had a chance to restock your storage? Can I have a look what you have?~
+@10380 = ~So you are an inventor? I wonder if you could make me some equipment perhaps?~
+@10381 = ~Is the cloak ready already?~
+@10382 = ~Are the ioun stones ready already?~
+@10383 = ~Are the goggles ready already?~
+@10384 = ~Are the gloves ready already?~
+@10385 = ~Just stopped by to say hello. Bye!~
+@10386 = ~Absolutely!  I can make *beautiful* clothing thick enough to ward off this winter chill. What would you like? Boots? A cloak? Perhaps a scarf or hat? Are gloves more to your liking? It'll take some time, though - a half-day at least... and a few hundred gold?~ [R#SMI38]
+@10387 = ~Do I have anything you could make into something, then?~
+@10388 = ~Hmmm... I couldn't say. I am not a diviner you see. Let me have a look into your goods.~
+@10389 = ~Hmm. Nope. You've nothing amongst your goods that I could work with. If you come across anything interesting later, you know where to come. Yes?~
+@10390 = ~It seems you have some fresh spider silk. However there is not enough, but if you get more... I would say 15 batches should be enough to make a Cloak of Arachnida.~
+@10391 = ~It seems you have a lot of spider silk. I could make a Cloak of Arachnida for you if you want? The payment would be... let's say 5000 gold coins. What say you?~
+@10392 = ~Sure let's do it.~
+@10393 = ~No thanks. Do I have anything else you could use?~
+@10394 = ~Let's have another look.~
+@10395 = ~It seems you have a basilisk eye. With one more eye and couple of water opal gems I could make you a great pair of ioun stones for you.~
+@10396 = ~It seems you have two basilisk eyes and couple of water opal gems. I could make a great pair of ioun stones for you? The payment would be... let's say 5000 gold coins. What say you?~
+@10397 = ~It seems you have some succubus hair! That is a rare sight indeed. It holds the powers of alteration. With couple of pearls and studded leather armor for materials I could make some great goggles to see in any kind of darkness. Come back with the materials and the money, so I can make them for you.~
+@10398 = ~It seems you have some succubus hair! That is a rare sight indeed. It holds the powers of alteration. With couple of pearls and studded leather armor for materials I could make some great goggles to see in any kind of darkness. The payment would be... let's say 5000 gold coins. What say you?~ 
+@10399 = ~It seems you have a Resonance Stone! If you bring me a Helmet of Charm Protection and that stone I can make a Magneto Helmet. It would be a beautiful work of art!~
+@10400 = ~It seems you have the required items to make a Magneto Helmet if you wish. It takes a Resonance Stone and Helmet of Charm Protection. The payment would be... let's say 5000 gold coins. What say you?~
+@10401 = ~Well it seems that is all I could work with. Come back if you find something else interesting.~
+@10402 = ~Most excellent! It shouldn't take long at all to make. Check back with me later... oh, and don't forget to bring enough gold with you.~ [R#SMI53]
+@10403 = ~No, no, it's not ready yet. Give me a little more time.~ [R#SMI54]
+@10404 = ~Yes, yes! Here it is. Mighty fine craftsmanship too, if I do say so myself.~ [R#SMI55]
+@10405 = ~Oh great! Here is the gold. Thank you!~ 
+@10406 = ~I am sorry. I don't have the gold to use for it yet. I'll be back.~
+@10407 = ~You did it! But it is not functional yet I am afraid. We still need a huge jolt of electricity to turn it on. I might know where to get something like that... but... it will be very dangerous!~ [R#SMI59]
+@10408 = ~What is it? What would I need to do?~
+@10409 = ~Well I have... for some time now tried to find a way to produce such a huge jolt of electricity that is needed and I only found one way. There is an old summoning portal, a gate so to say, in Ulcaster ruins that leads to many different planes.~
+@10410 = ~If we could open a gate to the Quasi-Elemental Plane of Lightning and lure a Lighting Elemental to our Material Plane, we could capture it in a gem. This is actually one of the summoning portals many functions. Binding planar creatures into items. I would be careful with the summoning circle however. It's very old and the circle will take its toll on each summoning. I bet it can't take many summonings any more before breaking.~
+@10411 = ~A spirit of a Lightning Elemental would surely be enough to turn the machine on. However, summoning one isn't going to be easy. I doubt that the magic circle to trap the creature is fully functional anymore, so you have to fight the elemental and weaken it. Remember not to go too far away from the circle or the trap will most likely break.~
+@10412 = ~So what do I need to open the gate to Quasi-Elemental Plane of Lightning?~
+@10413 = ~Well, a scroll of Portal Breach, which I can give you. If you need more than one then you need to find a merchant who sells those. I bought mine in Baldur's Gate from a elven merchant. His name escapes me. And you are going to need an Aquamarine Gem to bind the elemental. I sadly don't have any, but surely you won't have any problems finding one. And of course you are going to need to find a name of a Lightning Elemental, otherwise it is highly propable that no elemental will show up. I suggest looking through the books here in Cragmyr. Maybe you can find something.~ 
+@10414 = ~Very well. I shall try to obtain the spirit for you.~
+@10415 = ~Most excellent! You can just place the gem on the table when you have it. I will do the rest! And almost forgot! Here is the Portal Breach scroll you will need. Ta ta for now!~ [R#SMI64]
+@10416 = ~You did it! I bet it wasn't easy defeating such a creature. But nonetheless the machine and the helmed horrors are now fully operational! I think you should be the one to inform Lord Kuldak these happy news.~ [R#SMI59]
+@10417 = ~Sure thing. I will inform him.~
+@10418 = ~And if you are ever in a need concoctions, elixirs or potions, come back and browse! I would be delighted.~
+
+@10495 = ~Excellent!  Just let me adjust a few things here, and - All right! Here we go!~ [R#SMI95]
+@10496 = ~There. That wasn't so bad, was it?~ [R#SMI96]
+@10497 = ~Aahhh! Oh, it's you.~ [R#SMI97]
+@10498 = ~Huh?! What?! Oh! Pardon me...~ [R#SMI98]
+@10499 = ~Oh! Hello.~ [R#SMI99]
+
+/////// Captain Eddard
+
+@10500 = ~Hello there. You have no business here in Cragmyr Keep. I think you should leave or speak to Lord Kuldak in the Old Plough tavern.~
+@10501 = ~Hello there. I think you should speak to Lord Kuldak. If you accept his offer, come to me afterwards.~
+@10502 = ~Hello there. So Lord Kuldak sent you to me to do some tasks to repair the keep and its defenses. Good. You seem capable enough.~
+@10503 = ~But first things first. Introductions that is. I am Captain Eddard and I'm second in charge here. Anyone causing trouble in Cragmyr shall answer to me.~
+@10504 = ~Well met Ed... Captain Eddard. My name is <CHARNAME>.~
+@10505 = ~I am not here to chitchat. Let's get into business.~
+@10506 = ~Yes, well... I suspect Kuldak explained our situation here. The keep is in even worse condition than Kuldak knows. He is a Lord of the surrounding lands so his feet are not always on the ground.~
+@10507 = ~So what is the problem?~
+@10508 = ~Well, first of all we have of a problem of multiplying ochre jellys in the dungeon and we don't seem to get rid of them no matter how many we kill. I cannot lose anymore my militia's morale or limbs to these things, so I need 'em gone.~
+@10509 = ~I would bet my month's pay that the big one is hiding in the old Helmed Horror machinery room. But since it has not been in use in 50 years, nobody actually knows where it is and the militia doesn't have time to search for secret hidden rooms. So your task is to find that room and get rid of them all.~
+@10510 = ~We've already been down into the dungeon and killed all the ochre jellys we found down there.~
+@10511 = ~I will kill those for you... for a price.~
+@10512 = ~I see what I can do.~
+@10513 = ~Well now! Aren't we a greedy one? Very well, I will give you 50 gold coins from my own pay to get rid of them.~
+@10514 = ~All right, all right. I'll see what I can do.~
+@10515 = ~Any luck getting rid of those nasty jellys? We have equipment there we could use, so make haste.~
+@10516 = ~Not just yet. I'm working on it, though.~
+@10517 = ~It is done. I found a big ugly one hiding where you said it would be hiding. Those ochre jellys won't be troubling you anymore.~
+@10518 = ~You're a lifesaver. Just do me one more favor... keep this little jelly problem between you and me. I don't want folks thinking Cragmyr Keep has problems like these.~
+@10519 = ~But then to the second matter at hand. We had a lot of new construction equipment and such coming from Baldur's Gate. But it seems the caravan has failed to deliver.~
+@10520 = ~My worst fear is it was attacked by bandits. However, we cannot be sure, so maybe you can find out what happened. It could be anywhere between here and Baldur's Gate. If you find the equipment, I shall pay you what the equipment are worth.~
+@10521 = ~Very well. I keep my eyes open when travelling.~
+@10522 = ~Back again I see. Do you have any new information about the caravan? Do you know what happened?~
+@10523 = ~I found the caravan just north of Friendly Arm Inn. It had been attacked by bandits, but it seems they only took everything made out of iron. So you could send your people to gather the construction equipment.~
+@10524 = ~No news yet, sorry.~
+@10525 = ~This is dire and good news at the same time. Very well. I shall send my men to gather the equipment so we can at least fix some of the walls. I recommend you keep searching for that engineer Lord Kuldak wants you to find. And I guess you should inform Kuldak about our progress here since he also has the gold I promised.~
+@10526 = ~Good job! And farewell for now.~
+@10527 = ~My men are fetching the supplies as we speak. You should speak to Lord Kuldak.~
+@10528 = ~We are fixing the walls as we speak. Thanks to you! Keep up the good work soldier!~ 
+
+/////// Noble Djinni
+@10600 = ~Who has summoned me? Answer me. Now!~
+@10601 = ~I'm <CHARNAME>. Who... or what are you?~
+@10602 = ~None of your business. What are you?~
+@10603 = ~I am the noblest of noble djinni and it seems you have attempted to trap me. The trap is too feeble to hold me, but you however look like a challenge which I am not eager to take. Let's make a compromise. For your lost gem and me leaving this plane in peace, I will grant you one wish. Choose wisely!~
+@10604 = ~I wish to be unbelievably lucky.~
+@10605 = ~I wish to be physically more strong.~
+@10606 = ~I wish for more endurance.~
+@10607 = ~I wish for more agility.~
+@10608 = ~I wish for more wisdom to make my decisions.~
+@10609 = ~I wish to be smarter more.~
+@10610 = ~I wish I could dazzle my enemies with my words.~
+@10611 = ~Then you shall have it.~
+@10612 = ~Study this book and you shall receive what you ask.~
+
+/////// Talessyr Tranth
+@12000 = ~Welcome, my little friends! Please, relax, and keep your weapons at your sides. So, how may I help you? Would you like to change your appearance perhaps? Or just to scare your neighbours?~ [ALATS01]
+@12001 = ~What do you actually sell? Cosmetics?~
+@12002 = ~Adornments, concoctions, elixirs and potions of transmutation in nature. But the best way to understand is try them yourself. Care to browse?~
+@12003 = ~Sure. Let me see what you have.~
+@12004 = ~Not today. Maybe some other time. Bye.~
+@12005 = ~Sure. Let me see what you have.~
+@12006 = ~I heard a rumor that you might be dealing and tampering with some strange magical resonance stones. Is this true?~ 
+@12007 = ~What? Where did you hear such nonsense? I am a simple merchant of transmutation potions. Nothing illegal or sinister happening here. Now, if you are not buying anything I will have to ask you to leave.~
+@12008 = ~Burglars? How the hell did you obtain the password? But... You are the meddlesome adventurers who have been following me! That beggar could have been a little more specific as who is following me.~
+@12009 = ~The beggar told you we would be following you?~
+@12010 = ~Yes. A little bit too late, but still. I should have listened to my brother. He warned me about you.~
+@12012 = ~You're a woman? How come?~
+@12014 = ~Haha! How observant of you. I guess you never heard about transmutation magic. I hope my brother won't be too sad when I get rid of you. Let's dance!~
+@12015 = ~I guess Iltar never bothered to mention that you are his sister.~
+@12016 = ~Of course not. And why should he. Not that many even know that I am a woman. But enough chit chat. You have obviously come to kill me, so let's give it a go, shall we?~
+@12017 = ~Burglars? How the hell did you obtain the password? But... You are the ones my brother warned me about! You have been following me, haven't you? It did feel like I was being followed the other night.~
+@12018 = ~I guess you should have listened to your feeling.~
+@12019 = ~Yes. I guess I should have. I also should have listened to my brother. He did warn me about you, but I did not listen.~
+
+/////// Talessyr Door
+@12100 = ~The mechanism that operates this door does not have a conventional lock, and may be warded against simple spells.~
+@12101 = ~Coconut.~
+@12102 = ~Leave.~
+@12103 = ~It seems the password has been changed. You cannot enter the building anymore.~
+
+/////// RANI55 Portal
+@12200 = ~This object seems to operate as portal link to the magical beholder traps. You feel there is at least a dozen different portal traps this one leads to, but it is safe to use only the ones you know about.~
+@12201 = ~Use the portal link to enter Nashkel Carnival.~
+@12202 = ~Use the portal link to enter the Wide in Baldur's Gate.~
+
+/////// Beggar
+@12500 = ~Pardon me, but I take you are looking into Talessyr's dirty laundry? Am I correct?~
+@12501 = ~Yes, you are correct. Do you know something?~
+@12502 = ~Well, yes I do. He always leaves sometime during the night and goes into the sewers. I do not know where he goes, but that he does.~
+@12503 = ~Hmmm. Thank you for the information.~
+@12504 = ~The information was obviously worth something to you. So, maybe you could spare a few platinum coins to a helpful stranger?~
+@12505 = ~Sure. Here you go.~
+@12506 = ~Platinum coins? That's like a hundred gold coins! Get lost!~
+@12507 = ~Ungrateful bastard!~
+
+/////// Hans Olo
+@13000 = ~Good business, my <LADYLORD>. I don't think I've seen you before... perhaps you might be interested in looking at some well-priced goods that have fallen into my hands?~
+@13001 = ~Are you trying to tell me that these goods are stolen?~
+@13002 = ~Sure, let me see what you have.~
+@13003 = ~No, I'm not interested in anything.~
+@13004 = ~I don't think of them as stolen, my <PRO_LADYLORD>. Since I am merely a messenger of these fine goods. I take these goods from Amn to the Baldur's Gate and back, and I ask no questions where they came from.~
+@13005 = ~Well, I'll have no qualms about it. Let me see what you have to offer.~
+@13006 = ~Not interested.~
+@13007 = ~A most prudent choice, and one you'll quickly see is worth your while.~
+@13008 = ~That is too bad, my <LADYLORD>. Perhaps you are in need of a few coppers? Or shall I find you some swaddling clothes?~
+@13009 = ~Ah! It is good to see you again, my <LADYLORD>. Might you be interested in perusing some goods that have fallen into my hands?~
+@13010 = ~You are selling stolen goods?~
+@13011 = ~Yes, let me see what you have.~
+@13012 = ~No, thanks.~
+
+/////// Wallace
+@13100 = ~Hello, friend. Would you care to see my wares?~
+@13101 = ~I would like to see what you have for sale.~
+@13102 = ~If I may inquire, what are you doing here in the middle of nowhere with all the bandits around? Wouldn't it have been safer to stop at Cragmyr for example?~
+@13103 = ~No, thanks.~
+@13104 = ~As you will. Farewell.~
+@13105 = ~Yes it propably would have been. But we cannot stop there. We just... cannot.~ 
+@13106 = ~Why not?~
+@13107 = ~Stop with your silly questions. We just cannot! This is an issue between the caravan and Flaming Fist. Not you. Now! Do you want to see what I have for sale or not?~
+@13108 = ~Hello, friend. I think you might be my bestest of friends! How can I help you?~
+@13109 = ~Could you maybe tell your best friend why the caravan didn't stop at Cragmyr Keep?~
+@13110 = ~I wish I could! Everyone just felt we couldn't stop there. We felt an unexplainable urge to avoid the whole place! As if we were commanded by the Flaming Fist itself. But I do know something: there is something fishy going on in the next tent, my bestest of friends. I bet you could find some answers there!~
+@13111 = ~The obnoxious gem merchant there however doesn't like anyone entering his tent and he will call guards if anyone does. Be warned!~
+@13112 = ~Alright. Thanks for the tip, friend.~
+
+/////// Bob the Merchant
+@13200 = ~What are you doing here! You have no business in my tent. Get out of here or I call the guards!~
+
+/////// Thalantyr
+@13300 = ~I heard that you might be someone who knows quite a lot about magical items. Care to take a look at this? Or should I take it to someone else? Maybe Halbazzer Drin?~
+@13301 = ~What!? Nonsense! I know these things better than he does. What is the item? Let me see.~
+@13302 = ~Hmmm. Most interesting. This is a resonance stone. Sometimes used by enchanters and psionic races, such as mind flayers, to deliver suggestions to anyone within short distance from it.~
+@13303 = ~This particular stone obviously tries to keep anyone away from Cragmyr Keep. The stone however seems to be a minor and nonpermanent of its type, and will eventually run out of its power.~
+@13304 = ~Do you have any idea where this stone came from?~
+@13305 = ~The stone does have a wierd resonance in it. Something I have never come across. But I do recognize these markings here. Although the stone obviously wasn't made by him. I am talkig about Talessyr Tranth. He is a peddlar of transmutation potions and such at the Wide.~ 
+@13306 = ~The Wide? What's that?~ 
+@13307 = ~*Sigh* Where have you lived all your life? In a barrel? It is the central marketplace in Baldur's Gate city.~
+@13308 = ~Aaa. Thank you for your help. I'll be going now~
+@13309 = ~Wait! Before you go. I have a proposition for you. The stone intrigues me, so I am offering to buy it from you. Let's say 500 gold coins. What say you?~ 
+@13310 = ~It's a deal. You keep the stone. I have no need for it.~
+@13311 = ~No thanks. I think I hold on to the stone for now.~
+@13312 = ~Well, it is your loss. Here is the stone. Farewell.~
+@13313 = ~Most wise choice! Here is your gold. Farewell and good luck!~
+
+/////// Halbazzer Drin
+@13314 = ~I heard that you might be someone who could help me identify this item. Care to take a look at this?~
+@13315 = ~Of course. For a price. Let's say 100 gold coins.~
+@13316 = ~The price is too steep. I'll find someone else.~
+@13317 = ~Alright. Tell me what you can find out.~
+@13318 = ~Well, it is your loss. Here is the stone. If you want to use the stone for another purpose before it loses its magic, I would recommend speaking to this rather peculiar inventor who passed here not so long ago. His name escapes me, but he was heading for Cragmyr Keep.~
+
+/////// Officer Elijah Hjout
+@14000 = ~Who are you? I am Officer Elijah Hjout of the Flaming Fist. I lead the unit stationed here on a diplomatic mission, and I don't have time to chit chat. So be quick about it.~ [R#ELJ00]
+@14001 = ~We are adventurers and I suggest you adopt a more civil tone.~
+@14002 = ~My name is <CHARNAME>. I heard that you might be having a problem here with the recent arrival of the Amnian delegation.~
+@14003 = ~I don't have time to trade words with sell-swords that think too highly of themselves. Begone!~ [R#ELJ01]
+@14004 = ~What? Where did you hear this?~
+@14005 = ~Well everyone in Cragmyr Village knows about it. You really can't miss it. Yes?~
+@14006 = ~Yes. What do you want?~ [R#ELJ03]
+@14007 = ~Nothing. Sorry to bother you.~
+@14008 = ~Well I was thinking maybe you needed some help with this Amnian ambassador? If you catch my meaning.~
+@14009 = ~What? You suggest dirty play? I don't even know you. Begone!~
+@14010 = ~Hmmm. Well I did hear good and trustworthy things about you from Scar. I guess you have the best interest of this region in mind. Maybe you can be of help.~
+@14011 = ~We have a problem here in our hands with this Amnian delegation. For sometime now, almost every single trade caravan, which is not many due to the bandit problems, is passing Cragmyr Keep and not stopping here.~
+@14012 = ~I would bet my year's pay that the Amnian ambassador, Iltar, has had his dirty hands in this somehow. The caravans pass the village and the caravaners themselves will tell us nothing.~
+@14013 = ~As you no doubt already know, after the arrival Iltar, he revealed that the Flaming Fist, by issuing a trade block on Cragmyr, is responsible for Cragmyr's supply problems. Lord Kuldak believed Iltar and all the evidence does point to us, so he now blames the Flaming Fist for this a trade block.~ [R#ELJ08]
+@14014 = ~The Flaming Fist is the only one on the Sword Coast who could actually issue such a sanction. However, the Flaming Fist has not issued a trade block. In the mean time, Iltar has promised Lord Kuldak with infinite supply of provisions, if he decides to make an alliance with Amn.~
+@14015 = ~Couldn't the Flaming Fist provide Cragmyr with supplies?~
+@14016 = ~Don't think that hadn't crossed my mind. In a way we could, even if our resources are already stretched thin. But I have strict orders not to provide Cragmyr with supplies or militaristic aid if Lord Kuldak doesn't make an alliance with us since the supplies could end up in the hands of an enemy. Until then, the Flaming Fist or Baldur's Gate won't help Cragmyr militarily or otherwise.~ [R#ELJ09]
+@14017 = ~So, how can I help the Flaming Fist with this matter at hand?~
+@14018 = ~I need you to find out proof that Iltar and Amn is behind this caravan block on Cragmyr Keep and tries to discredit the Flaming Fist. The caravaners won't co-operate with the Flaming Fist, but maybe they will with you.~
+@14019 = ~A small caravan just passed Cragmyr not so long ago heading south. I would suggest that you start your investigation from there. I bet if you hurry you can still catch it. Best of luck!~
+@14020 = ~Alright, I see what I can find out. Farewell.~
+@14021 = ~You've returned. Did you manage to find out anything from the caravaners?~ [R#ELJ13] 
+@14022 = ~Nothing yet.~
+@14023 = ~We found this strange stone in the tent of a gem merchant. It has a... strange resonance in it. It feels like I should avoid Cragmyr when in its proximity. And it feels like the Flaming Fist has commands me to do so. None of the caravaners seemed to be aware of its existence or its influence.~
+@14024 = ~Ah, a curious tale that - and not even other Flaming Fist officers were able to change their mind to stop here. Very curious indeed. I sadly don't know much about this kind of magical items or their origin, and all the Flaming Fist wizards are otherwise engaged.~ [R#ELJ14]
+@14025 = ~But there are a couple of powerful wizards on the Sword Coast who certainly are familiar with such items. I suggest you consult either of them: Thalantyr of High Hedge or Halbazzer Drin in Baldur's Gate. The one behind this must be caught and brought to justice.~
+@14026 = ~Go from building to building, warehouse to warehouse, if need be. Find this deviant before he causes more harm. Good luck!~ [R#ELJ16]
+@14027 = ~Now, I want a full report.~ [R#ELJ17]
+@14028 = ~Nothing to report yet.~
+@14029 = ~I found something very interesting in Baldur's Gate about the trade block. [Give Talessyr's Potion Log]~
+@14030 = ~Sadly I didn't find any hard evidence about the trade block. You should however send men to search a house near the east gates. It will be the end of the trade block.~
+@14031 = ~This evidence will surely turn the tide to our favor and make Lord Kuldak believe the Flaming Fist was not behind the trade block after all.~
+@14032 = ~Well, at least we can break the trade block even if we can't make Lord Kuldak believe that we didn't set it up in the first place.~
+@14033 = ~I would ask you to excuse my rudeness when you first arrived. These negotiations with Lord Kuldak have been chipping away my patience, and now delegation from Amn has arrived.~ [R#ELJ20]
+@14034 = ~Thanks again for all you have done. I however do have more I need from you, if you are interested.~ [R#ELJ21]
+@14035 = ~I am not interested being affiliated with the Flaming Fist more than this.~
+@14036 = ~Sure. I am interested.~
+@14037 = ~You may think you can take your services elsewhere, mercenary. But I guarantee, no other company but the Flaming Fist will hire you on the Sword Coast. We, in the end, are the law.~ [R#ELJ22]
+@14038 = ~You've returned. Have you changed your mind about helping the Flaming Fist once more?~ [R#ELJ13]
+@14039 = ~Yes I have. What do you need of me?~ 
+@14040 = ~As you no doubt already know, the Flaming Fist set up a camp north of Cragmyr to keep an eye on the increasing ogre threat. It is being led by Officer Lendali Firehair. However, now the ogres have turned their attention to our camp and at the moment, I nor any other unit have reinforcements to send. I hear there has already been an attack with some casualties.~ [R#ELJ08]
+@14041 = ~They are well-armed and well-organized - their attack is proof of this. I heard they are being led by an ogre mage called Kohark. There used to be three hordes, so to say, led by ogre magi fighting amongst each other, but something happened to the two of them and only Kohark was left standing.~ [R#ELJ25]
+@14042 = ~Kohark quickly killed all opposition and now all the hobgoblins, ogres and ogrillons are led by only one ogre mage, which makes them a huge threat to Cragmyr Keep and the region. Lord Kuldak refuses to act even if with the situation as dire as it is. If something is not done now, the Flaming Fist Post will be overrun.~
+@14043 = ~I need you to rendezvous with them and assist them in any way you can. The camp must not be lost. It is imperative that we hold that position.~ [R#ELJ27]
+@14044 = ~I will mark the location on your map. You also better take this letter with you. It will explain to Lendali that I have sent you. She can be a little bit suspicious of strangers. And make haste, time is of the essence. Good luck.~ [R#ELJ28]
+@14045 = ~Very well, but I do have some questions before I go.~
+@14046 = ~Very well. I'll do my best.~
+@14047 = ~My name is <CHARNAME>. May I ask a couple of questions?~
+@14048 = ~Very well, but time is short.~ [R#ELJ29]
+@14049 = ~Of course. What is on your mind?~ [R#ELJ30]
+@14050 = ~I have a few questions, if I may.~
+@14051 = ~So, what is that you want with the Cragmyr Keep? Why is the Flaming Fist here?~
+@14052 = ~I heard you had a problem with deserters? Maybe I can help?~
+@14053 = ~We want to keep the area safe, no matter if it's bandits or another nation such as Amn, we will do anything to defend it.~
+@14054 = ~The Flaming Fist wants the Cragmyr Keep as its ally to defend Beregost. The area is otherwise very vulnerable to an attack. Amn only wants it to use the Helmed Horros to attack us, nothing more. Amn wants war.~
+@14055 = ~Good to know. Thanks for the answer. Bye.~ 
+@14056 = ~That is interesting. May ask something else?~
+@14057 = ~Yes, we do have occasional deserters, but nothing we can't handle by ourselves. For now, we do manage.~
+@14058 = ~Nevermind. I changed my mind. Bye.~
+@14059 = ~I heard there are troublesome smugglers somewhere near Cragmyr Keep and you want them gone. Maybe I could help you?~ 
+@14060 = ~Yes we do. I am quite certain that I even know where they are holed up. The old smuggler tunnels west of Cragmyr Keep.~
+@14061 = ~I ordered those caves sealed. But it seems they have managed to reopen them. And what I have heard, is that they are fortifying the tunnels as we speak.~ [R#ELJ35]
+@14062 = ~What concerns me is that sapping takes time, even if they were able to break into the old smuggler tunnels. If we let them fortify it in peace, we will never get them out, or lose a lot of good men in the process.~ [R#ELJ36]
+@14063 = ~As you no doubt already know, Lord Kuldak is reluctant to help us and we ourselves don't have the men power to catch them. He is most likely getting resources from them. The caravans are avoiding Cragmyr, so Lord Kuldak must get resources for his people some other way. He won't admit anything of course.~ [R#ELJ37]
+@14064 = ~Why are the caravans avoiding Cragmyr?~
+@14065 = ~I do not know. I wish I did. However, the tunnels were, and propably are, used as a storage facility away from the long hand of the law. Most likely now they are piling up all kind of resources that might be scarce during a war time. They can then sell them for a huge profit.~ 
+@14066 = ~That kind of effort takes planning. So I doubt a small band of independent smugglers could or would be doing this alone. I suspect Alatos and the Shadow Thieves both being involved somehow. But I cannot prove anything. Yet.~ [R#ELJ39]
+@14067 = ~I will mark the location on your map. Your job is to get rid of them. If they surrender, good. But if not, then you know what must be done.~ [R#ELJ28] 
+@14068 = ~Very well. I'll see what I can do.~
+@14069 = ~Very well. I'll see what I can do. May ask something else?~
+@14070 = ~As you no doubt already know, Lord Kuldak is reluctant to help us and we ourselves don't have the men power to catch them. He is most likely getting resources from them. The caravans are still avoiding Cragmyr, so Lord Kuldak must get resources for his people some other way. He won't admit anything of course.~ [R#ELJ37]
+@14071 = ~What do the smugglers need the tunnels for?~
+@14072 = ~The tunnels were, and propably are, used as a storage facility away from the long hand of the law. Most likely now they are piling up all kind of resources that might be scarce during a war time. They can then sell them with for a huge profit.~
+
+@14497 = ~Don't think that hadn't crossed my mind.~ [R#ELJ97]
+@14498 = ~Yes. What do you want?~ [R#ELJ98]
+@14499 = ~I don't have time to trade words with sell-swords that think too highly of themselves.~ [R#ELJ99]
+
+/////// Officer Lendali Firehair
+@14500 = ~Who are you? What are you doing here? This is a Flaming Fist military compound. You have no business here.~ 
+@14501 = ~My name is <CHARNAME>. We are just travellers looking for gold and glory. Out of curiosity, what is the Flaming Fist doing here in the wild?~
+@14502 = ~We have our orders and I am not about to share them with you. Now, please leave. Do not approach this compound any further or we will be forced to shoot you.~
+@14503 = ~Thanks for the warning.~
+@14504 = ~My name is <CHARNAME>. I have orders from Officer Hjout to come to your aid.~
+@14505 = ~You again. What do you want now? I told you already, you are not allowed here. Move along!~
+@14506 = ~Really? From Elijah Hjout? That's... strange. Well, come up and let me see those orders. Chop-chop! I don't have all day.~
+@14507 = ~Hmmm. Very strange indeed, that Elijah would send adventurers above all else here as reinforcements. He shouldn't even know we are here. Not that I am not pleased, but... it's just strange. However, ss you may have guessed I am Officer Lendali Firehair in charge of this scout unit you see here. Regarding that letter, can I see it?~
+@14508 = ~Sure. Here you go.~
+@14509 = ~Very strange indeed. He works mostly as a diplomat or negotiator and this clearly oversteps his jurisdiction. I know he has close dear friend here, Horben, but still he should know better. Horben has clearly been feeding Elijah with information. How else would he know we are in a need of reinforcements? I should have a word with him.~
+@14510 = ~Horben is Elijah's close friend? He never mentioned that.~
+@14511 = ~Well, yes. They joined the Flaming Fist together not so long ago. As a mage, Horben became a battle wizard. Elijah in the other hand, as an ambitious and charismatic man, was very quick to obtain the rank of an officer, after which he was assigned as a negotiator and diplomat. He has been quite successful in that field too, I have to admit.~
+@14512 = ~I have to report all this to my superiors when I get the chance, but for now, I'll accept all the help I can get.~
+@14513 = ~So, how is your situation here? I saw some graves outside the camp.~
+@14514 = ~Yes. During the first night we were attacked by a band of ogres and hobgoblins, led by a big one they called Bombur. I think he is a renegade and doesn't actually answer to the remaining ogre mage, Kohark. We lost three men in that attack and our horse. So we cannot move the camp as easily now.~
+@14515 = ~The ogre however isn't our biggest problem. We have had our time to fortify ourselves here so we should be able to hold our position. Of course, if you want to use your time chasing after that big one, be my quest. I will even give you a reward for that one.~
+@14516 = ~What about the remaining ogre mage, Kohark? Isn't his lair close by?~
+@14517 = ~Yes, it is. But for now he and his ogres has mostly been avoiding us and we him. I do not know why, but that's what he has done and I do not complain. We are here only to observe. In any case, I wouldn't even have the resources or the men power to take the fight to him. We are a scouting unit after all.~
+@14518 = ~Personal leave. Some family matters I think. However, the biggest issue, which I cannot do anything about now, has been Kohark's assaults against Cragmyr's people. Lord Kuldak's both sons died in an ambush orchestrated by Kohark. By the looks of it, it seemed that Kohark was particularly after them. All the three ogre magi have always had a grudge against Maurancz family, but none of the ogre magi would have dared to do something like that when they were fighting amongst each other.~
+@14519 = ~Why don't you help Cragmyr with this?~
+@14520 = ~All Flaming Fist mercenaries have orders not to help Cragmyr, if Lord Kuldak doesn't ally himself with us. And even if we did take the fight to Kohark, we have no proof that the two other ogre magi are actually dead and gone. At least this one is the youngest and the least powerful of the three. I believe the other two were called Kahrk and Dohrark.~
+@14521 = ~However, my main concern at the moment, that I need your help with, is the deserters whom must be caught. One run away after the first night, called Alarik, was caught and hanged at Cragmyr Keep by Lord Kuldak. I bet Elijah had his hands in that business. He or Lord Kuldak neither had jurisdiction for such an action.~
+@14522 = ~Why not? Aren't deserters always hanged?~
+@14523 = ~Usually yes, but after an offical hearing and by the ruling of our Commanders. Not by someone who isn't even part of the Flaming Fist or by an officer. After all, it's a man's life in question.~
+@14524 = ~But back to the matter at hand. My unit has lost too many men already. And deserters aren't helping the matter. I need them brought back to justice. Two of the Flaming Fist's finest scouts, whom were assigned to me temporarily, became deserters. Horben actually said he might have a lead on them, so I guess you should talk to him. If you have more questions, come back after you have talked to him.~
+@14525 = ~Very well. I shall speak to him and find out the specifics.~
+@14526 = ~If you are a scouting unit why do you have the Battle Wizard Horben with you?~
+@14527 = ~Due to the instability of the area and the huge number of ogres here, our commanders in Baldur's Gate thought it would be best to also bring a battle wizard with us. And since he was already close by in Beregost, they assigned Horben.~
+@14528 = ~He was in Beregost? What was he doing there?~
+
+/////// Horben
+@14700 = ~Talk you Officer Firehair if you want something. She is in command here.~
+@14701 = ~What? What do you want? I am busy can't you see.~
+@14702 = ~Officer Firehair told me to talk to you about the deserters. She said you know the specifics.~
+@14703 = ~Aa yes, I do know the specifics of this matter as I tried to stop them. The specifics are somewhat complicated. There have been a total of three deserters. One was from this scouting unit, and the other two worked independently and were not permanently part of any unit. Although they were assigned to Officer Firehair's unit for the time being due to the casulties.~
+@14704 = ~The one from this unit was called Alarik... ummm... can't seem to remember the last name. Well nonetheless, he was already caught at the Cragmyr Keep and was hanged by Lord Kuldak at the request of Officer Hjout.~
+@14705 = ~I heard you are good friends with Officer Hjout. Is that correct?~
+@14706 = ~Yes we have been friends longer than I care to admit. But let's not get off the topic, since we are all busy here. The two remaining deserters, Quinn and Luci Galan, were a married couple and one of the Flaming Fist's best scouts, or assassins if want to put it that way. Nobody knows for sure why they decided to desert the Flaming Fist. I myself think they hope to get a good price for the magical documents they stole from the Cowled Wizards and plan to retire somewhere out of reach.~
+@14707 = ~Magical documents? What was in these documents?~
+@14708 = ~I do not know, but I think something important since they actually took the time to steal them. They were only supposed to observe the actions of Cowled Wizards in Nashkel. I didn't really get a chance to take a look at them before they had already taken off, but Luci at least has rudimentary knowledge of the Art.~
+@14709 = ~Who saw them actually taking off?~
+@14709 = ~I did. I tried to stop and catch them in the act, but I wasn't prepared to fight two very accomplished and skilled assassins. I warn you, if you come across them, don't hesitate or stop to talk to them. The other one will talk to you while the other one will propably flank and backstab you to death before you can "Turnips".~
+@14710 = ~You have any idea where should I start looking for them?~
+@14711 = ~Well, I wish Alarik was alive. He knew those two quite well. But he got hanged at Cragmyr Keep so there is no talking to him no more. Beyond that I have no clue. I didn't know them that well. Neither did anyone else here in the camp. They were, as I said before, independent scouts and assassins so I guess only few knew them at all. You can bring them back dead or alive. I recommend dead since they are too dangerous to be kept alive. But it is up to you. I wish you good luck in the search. Farewell.~
+@14712 = ~Well, thanks. Farewell.~
+@14713 = ~I am sorry I couldn't help you more than that. I hope you catch those bastards.~
+
+/////// Alarik
+@14725 = ~Hmph. Who are you? I have already twice been called upon and I don't like it.~
+@14726 = ~You already been called upon? Twice? By whom?~ 
+@14727 = ~Well how the hell should I know. He was a Flaming Fist Battle Wizard and kept asking me about Quinn and where he might be hiding.~
+@14728 = ~Only Quinn? Not Luci?~
+@14729 = ~Yeah, only Quinn. It seemed like he knew already where Luci was. I guess they at least got seperated, if nothing worse has happened to Luci.~
+@14730 = ~Why did the Battle Wizard come back for a second time?~ 
+@14731 = ~He came back since he didn't find Quinn in the meeting place the couple had set up if they ever got seperated. I told him, once again, that it was the only place I knew about. After that he left.~ 
+@14732 = ~So where is this secret meeting place?~
+@14733 = ~Just south of Beregost there is a small cave. That's the place.~
+@14734 = ~He, or maybe she, propably won't be there. Like with the Battle Wizard. Is there something else I should know? Like a signal I have to make so he or she knows I am the right person?~
+@14735 = ~Ooouuhh! You are smart! Much smarter than the Battle Wizard. He didn't realize to ask such a thing. And if you don't ask, I don't have to and won't tell anything.~
+@14736 = ~Yeah there is a signal you have to make, so that Quinn or Luci will realize that it's you, and with you I mean the other half of the married couple, and not someone else. You need to drop a dagger and either a silver nccklace or a silver ring into the barrel next to Jovial Juggler. Give it a day or two and he, or she, should show up at the cave. Is that all? Can I go?~
+@14737 = ~Yeah, you can go.~
+
+///////Quinn Galan
+@14800 = ~Luci, how did you manage to escap... What? You are not Luci. Who are you? Was it you who placed the signal?~
+@14801 = ~Fool! You fell into my trap and now it is time to die!~ 
+@14802 = ~Yes, I placed the signal. I came here to capture you for desertion from the Flaming Fist.~
+@14803 = ~Aaaa. That's what Horben is acusing me of then. I knew he would come up with some kind of lie to make me a target for all Flaming Fist mercenaries. Although, I never thought they would send an outsider.~
+@14804 = ~What do you mean come up with a lie? You didn't desert the Flaming Fist?~
+@14805 = ~Enough chit chat! Time to die, you deserter!~
+@14806 = ~No, I did not. Well, at least not in the usual sense. Me and Luci had been with Officer Firehair's unit for a week or so, after which Luci told me that she had found out something very serious and discriminating about Horben and Officer Hjout. However, she didn't want to tell me anything specific before she was sure.~ 
+@14807 = ~Next night she guided me to a quiet place outside the camp and started telling me about the schemes of Horben and Hjout. I couldn't really keep on with her. She was so excited and abhored. Only two things I remember, is that she had proof and they were trapping souls into gems. I do not know whose souls. However, before she could finish, she was shot by same kind of spell she was telling me about. I regocnized the spell. It was Trap the Soul spell. It traps person's soul into a gem. However, I did not see who shot the spell, but I suspect Horben.~
+@14808 = ~I knew if I stayed I would soon end up the same way. So, I ran for it and planned to go back later on to look for the gem she had been trapped in. However, when I went back a few nights later, I couldn't find the stone anywhere. He only had normal gems. So, there are two options left: either Horben took the gem some place else, or something more sinister has happened. I think it must be the second one, since Horben didn't leave the camp at any point. I was watching.~
+@14809 = ~Either way there is no possible way to find Luci, or the evidence she had, without huge magical resources in divination and such. I myself really can't go asking people since I am wanted now, so I must just wait for them to stop chasing me and then seek help from organizations with magical resources.~
+@14810 = ~Who do you mean when you say huge magical resources?~
+@14811 = ~Well someone like the Harpers, or maybe the monks in Candlekeep could help. Or the Cowled Wizards of Amn. Anyone with wizards, time and resources to search for a missing person.~
+@14812 = ~Why not the Flaming Fist?~
+@14813 = ~Hah! We, or I guess it's "they" now, may be a powerful mercenary organization, but they have no real magical resources. Yes, Moruene is notably resourceful, but she is just a single wizard and a busy one at that.~
+@14814 = ~What if I searched for Luci? I need the evidence she might have.~
+@14815 = ~Even if what you say is true, you are still a deserter. So, I guess it's time for you to die!~
+@14816 = ~Well, you can if you want. But I can't help you for now. But if I were you, I would start looking for someone who can locate my wife. If you need me, I'll be staying on a lookout for Horben near Officer Firehair's camp. I need to know what has happened to my wife.~
+@14817 = ~Alright. I'll try to figure out who can help me, or us. You keep your eyes on Horben.~
+@14818 = ~It is a good plan, but I think I still have to take you back. You are, nonetheless, a deserter.~
+@14819 = ~Ouh, it is you again. Can I help you with something?~
+@14820 = ~With nothing for now. Bye.~
+@14821 = ~I heard you have some magical documents. I need them in order to find Luci.~
+@14822 = ~You need the documents to find Luci? You mean you are going to hand them over to Iltar?~
+@14823 = ~Yes, that's the idea.~
+@14824 = ~So he said he was going to help? I doubt that. No, I am not giving up my only bargaining chip so that you can give the documents to him and that bastard can run back to Amn.~
+@14825 = ~But think about it. This is our only chance to find Luci and he has promised to help. I trust him.~
+@14826 = ~Well, as you are not going to give the documents to me, I'll have to take them.~
+@14827 = ~Trust him? You are on his side, aren't you? You Amnian bastards! You'll have to go over my dead body to get the documents!~
+@14828 = ~Wait a min...~
+@14829 = ~You do sound sincere. Very well. I shall give you the documents. I am trusting you now. I hope you know what you are doing.~
+@14830 = ~So do I.~
+@14831 = ~Here are the documents. By the way, as I cannot go back to the Flaming Fist headquarters I might as well tell you about this. There is a chest in the downstairs of Flaming Fist headquarters in Baldur's Gate. You should go and open it up. I have the key right here. Maybe that stuff will help you in the future.~ 
+@14832 = ~Alright. Thank you and farewell.~
+
+/////// Iltar (Tranth)
+@15000 = ~Interesting. You are the one who has been helping Lord Kuldak with the keeps reconstruction and the reactivation of the Helmed Horrors. Yes?~ [R#ILT00]
+@15001 = ~Yes we are. How do you know that?~
+@15002 = ~I... just... know.~ [R#ILT01]
+@15003 = ~Please, accept my hospitality. But first let me introduce myself, I am Iltar of the Cowled Wizards of Amn here on a political mission. And you are <CHARNAME>, yes?~ [R#ILT02]
+@15004 = ~Yes I am. How did yo..~
+@15005 = ~None of your business.~
+@15006 = ~That was a rhetorical question. But...~ [R#ILT03]
+@15007 = ~I agree. It is not my concern because I am already aware of the matter's truth. However...~ [R#ILT04]
+@15008 = ~Now that introductions are all out of the way, let me tell you of our plight. As a friend of Lord Kuldak you might also want to hear our side of the story. The innocent side.~ [R#ILT05]
+@15009 = ~As you may know, the Flaming Fist intends to use Cragmyr Keep to attack Nashkel and Amn. Don't ask how I know, I just do.~
+@15010 = ~However, as you also know, Amn is totally and completely innocent of anything Baldur's Gate is blaming us for. The Flaming Fist is only trying get the Helmed Horrors and the keep on their side to use it to attack Nashkel.~
+@15011 = ~We on the other hand only wish that Cragmyr would be there to aid and defend our helpless town of Nashkel from the vile and cruel fate these northern... barbarians wish for it. In this particular case, Amn has nothing to hide.~
+@15012 = ~Can you *promise* that?~
+@15013 = ~Ha, ha, ha! You must have power over the words. Do not let the words take power over you. A promise is not truth.~ [R#ILT09]
+@15014 = ~I do promise that Amn wishes no ill will to Cragmyr or its people. I am only trying to look after my nation. Let Lord Kuldak know this next time you speak to him.~
+@15015 = ~Greetings again. With what can I help you?~ [R#ILT11]
+@15016 = ~With nothing for now. Bye.~
+@15017 = ~There is an interesting revelation I came across in Baldur's Gate. It seems you and your sister are behind the trade block on Cragmyr, not the Flaming Fist.~  
+@15018 = ~Thank you for sharing that fascinating revelation. However, as you have come to me and told me what you know, my guess is you after something else than the "truth". Yes?~ [R#ILT12]
+@15019 = ~I do possess some evidence that would discredit you and your sister. A offer good enough might make me give it you, not Elijah.~
+@15020 = ~I do possess some evidence that would discredit you and your sister. But there is nothing you can offer me to give it up.~
+@15021 = ~I already gave the evidence to the Flaming Fist. This will put you into a bad position regarding your stay here at Cragmyr.~
+@15022 = ~Very well. I possess this powerful magical robe, a gift meant for my sister. I shall give it to you in exchange for the evidence you possess. Is this acceptable?~
+@15023 = ~That is acceptable. We have a deal.~
+@15024 = ~No, I don't need a robe. Sorry.~
+@15025 = ~Excellent. Here you go. Nice doing business with you.~ [R#ILT13]
+@15026 = ~That is unfortunate, but understandable. Well you must do what you think is right. Now, please, leave me be.~ [R#ILT15]
+@15027 = ~That is unfortunate, but understandable. So, what are you waiting for? Me to attack you? Go. Do what you must and leave me be.~ [R#ILT15]
+@15028 = ~So you come here trying to blackmail me with your wild accusations in your search for your "the truth". After you killed my sister!? Yes, I know it must have been you. You zealous adventurers in search for glory and fame like it was a way to godhood!~
+@15029 = ~I destroyed an entire city of blind zealots just like you. I will not lower myself to your level of barbarism and I will not have my sister died in vain. Now begone!~ [R#ILT18]
+@15030 = ~That is unfortunate, but understandable. So, what are you doing here then? Come to gloat? You have already done what you had to do. Now leave me be.~ [R#ILT15]
+@15031 = ~So you come here to gloat and say that my negotiations are doomed to fail? After you killed my sister!? Yes, I know it must have been you. You zealous adventurers in search for glory and fame like it was a way to godhood!~ 
+@15032 = ~You are part of the Cowled Wizards of Amn, correct? I have something I could need from you and your organization. A missing person of a sort.~
+@15033 = ~It is as I suspected. I have something you need, and you have something I need. Actually I have somethings, in plural if you missed that, I need from you. As we both know, you killed my sister. But I cannot retrieve her body from Baldur's Gate due to the political climate in the air.~ [R#ILT21]
+@15034 = ~I somehow suspect she has been thrown into a gutter or the sewers. You northerners give so little value or thought to your dead. You don't even have a graveyard in Baldur's Gate city.~
+@15035 = ~You do understand that those graveyards attract necromancers, undead and other monsters to them?~
+@15036 = ~True, true. But, back to the matter at hand. I want you to retrieve her body where ever it may lay. I am not about to leave her rotting in a gutter. Ironically, you as her murderer, might as well return her to me. I suspect you could start asking beggars where her body may lay. And then to the other "something" I need from you. Due to this frustrating political tension in the air, I cannot actually do this task on my own either, without provoking Baldur's Gate and the Flaming Fist.~ [R#ILT23]
+@15037 = ~A while ago, someone stole some magical documents from me and I want them back. It was those infamous half-elven, or maybe they were elven, Flaming Fist assassins. I believe they were called Quinn and Luci Galan.~
+@15038 = ~I do not know, if they were there to actually kill me and my colleague or just to observe, but they somehow managed to steal the documents. I thought their fate would be sealed if they approached us due to our magical traps and protections. But it seems not. The male even set off one of our magical traps, which would normally mean death.~
+@15039 = ~How he escaped from his fate, I do not know. It seems I underestimated them. Ever since I have tried to track them, but for some reason, they keep eluding me. If I actually wanted to catch them I would have to return to Athkatla, where I have my divination tools. For some reason however, I get the feeling you know where my documents are. I want those documents back. I do not care if you kill them both, or how you obtain them back, but if you wish my help locating this missing person, you get those documents back for me.~ [R#ILT26]
+@15040 = ~Very well. I'll do what you ask in exchange for your help.~
+@15041 = ~I will not be your errand boy. I will find help somewhere else.~
+@15042 = ~Well, then, your journey is going to be truncated dramatically. As I already know, and maybe so do you, there are none other in the vicinity of your current location who had the resources or the willingness to help you in your current predicament. So, come back when you come to your senses.~ [R#ILT27]
+@15043 = ~It is as I suspected. I have something you need, and you have something I need. Due to this frustrating political tension in the air, I cannot actually do this on my own, without provoking Baldur's Gate and the Flaming Fist.~ [R#ILT21]
+@15044 = ~Excellent! You already know what to do. Get back to me when you are done and then we will see what I can do about your missing person.~
+@15045 = ~I changed my mind. I will do as you asked in exchange for you help.~
+@15046 = ~I have these magical documents you asked for.~
+@15047 = ~I have your sisters body here.~
+@15048 = ~Good. Very good. This is a good start to our business arrangement. Please, do finish the other task too and then we will talk more.~
+@15049 = ~Now that our business here has concluded, and you have kept your end of the deal, it is time for me to fulfill my promise.~ [R#ILT31]
+@15051 = ~So, what can you do about the missing person?~
+@15052 = ~First of all, I need to know who am I supposed to be looking for?~
+@15053 = ~I want you to find Luci Galan. She was supposedly trapped by a mage into a gem.~ 
+@15054 = ~Ha ha ha! I should have guessed. You are looking for the very same person I wanted you to find. Well, at least the other one. So, I guess you found Quinn, but not Luci? If I had known this I had gone back to Amn to find them myself. However, deal is a deal.~ [R#ILT32]
+@15055 = ~Yes, that's correct.~ 
+@15056 = ~Very well. I shall go back to Amn and contact a friend of mine, Tolgerias, who is very good at things like these. We, the Cowled Wizards, will find Luci for you, but it's going to take some time. I'll be back in a week or so. I will meet you here then.~
+@15057 = ~Very well. One week and I'll meet you here.~
+@15058 = ~So you have returned. Did you find out where Luci is?~
+@15059 = ~Yes, indeed I did. However, you are not going to like this. She has been captured by an infamous scoundrel and bounty hunter called Dhan "Untouchable" Menhvor. The Cowled Wizards have had encounters with him in the past, but he has always managed to elude us. He is a man that is almost impossible to find, if he doesn't want to be found.~
+@15060 = ~How did this Dhan manage to capture her? Didn't Horben cast Trap the Soul spell on her?~
+@15061 = ~It took a lot of effort and many favors to get this information, so I suggest that you appreciate it. Tolgerias even had to contact a planar ally of ours to find out how this might have happened. It seems that the Flaming Fist reclaimed the eastern unused seatower in Baldur's Gate. It seems Alatos and Dhan had been storaging illegal goods in there. Just under the noses of the Flaming Fist. One of the items however peeked the interest of several Battle Wizards. A beholder statue belonging to Dhan with faint but strange magical powers.~
+@15062 = ~I was able to track one of them to Nashkel Carnival. I have no idea what it was doing there. These items are actually magical traps. Anyone in the vicinity of the statue getting trapped by a spell such as Trap the Soul, is actually trapped inside the statue, not the gem. But that is not the best part: if a creature's soul is captured inside any of these statues, you can collect it from a different identical statue elsewhere. Meaning if someone is captured in Amn, they could collect the soul in Baldur's Gate. Ingenious! No wonder Dhan and his bounty hunter comrades always deliver even the most difficult targets.~
+@15063 = ~The statues are an infinite storage for souls and instant transportation to anywhere in Faerun, without fearing the prisoners fighting back or escaping. It seems Horben has one of these statues and actually doesn't know anything about its function. The fool.~
+@15064 = ~This doesn't however tell me where Luci might be?~
+@15065 = ~Well of course I cannot be sure, but all the evidence does point to Dhan. He is the one you should contact.~
+@15066 = ~And how the hell am I supposed to find him someone who is impossible to find?~ 
+@15067 = ~Well you are in luck. I think he wants the statues back, as I was informed by my spies that he is actually staying in Elfsong Tavern in Baldur's Gate. That can be the only reason why he is still in Baldur's Gate. As you already know, I cannot contact him there due to the political climate, so the rest is up to you. So, for now I say: farewell.~
+@15068 = ~Well, thanks and farewell.~
+
+@15497 = ~It is as I suspected.~[R#ILT97]
+@15498 = ~Please, accept my hospitality.~[R#ILT98]
+@15499 = ~Interesting.~[R#ILT99]
+
+/////// Robb the Ghost
+@16000 = ~You! You called me! Please, I have nothing to tell you, but that I was captured on a caravan heading to Cragmyr's Keep. Mal was throwing his flaming liquid around and they got me.~ 
+@16001 = ~Please! You can help me. Could you please take my wedding ring to my wife Talisa in Cragmyr village? You can find it around my feet there, if you really look for it. The bandits didn't notice it. I hope all the best for you.~
+@16002 = ~Please, if you see my husband Robb, could you tell him to come home.~
+@16003 = ~I found your husband. I am sorry to say, but he is dead. He wanted me to bring this to you.~
+@16004 = ~Ouh no! No Robb! *sob* He just went to buy new shovels from Baldur's Gate. I... I don't want to hear what happened to him. He is gone. That's all I need to know. I... I don't have much to give you as a reward, but... take this. Maybe it will help you save other womem from becoming widows.~
+
+/////// Tassiter
+@16005 = ~You there! What are you doing here? These sewers are a not a place for a fine <SIRMAAM> like yourself. However, there is a new tax in the city. It is called a Sewer Passage Tax. Everyone except sewer cleaners must pay the tax. It's 1000 gold coins.~
+@16006 = ~Hmmm. Alright. Who are you by the way?~
+@16007 = ~Me? I am just a simple sewer cleaner, who until recently didn't know what power felt like. But now by the touch of one lovely lady, I know. Tassiter is the name. However, I don't like repeating myself. So <SIRMAAM>, can you please pay the tax so we can be on our way?~
+@16008 = ~No way you filty sewer rat. I am not giving you any made up tax gold.~
+@16009 = ~Sure thing. I'll give you the tax.~
+@16010 = ~I think you are mistaken. I am the Sewer Cleaning Coordinator and last month you had an advance on your pay, so you owe me 1000 gold coins.~
+@16011 = ~Rat? Rats can be dangerous you know. Very dangerous. Boys! It looks like fresh meat is back on the menu! Get them!~
+@16012 = ~Very good <SIRMAAM>. Now you are free to roam the sewers as you please. Let's go boys. We have to... clean the sewers... or something.~
+@16013 = ~Ouh really? I am very sorry <SIRMAAM>. I don't have any money. Maybe you will you accept my personal club as payment?~
+@16014 = ~Hmm. Well that will have to do. Thank you.~
+
+/////// Beggar Baldur's Gate
+@16020 = ~I heard you might know where they dump unwanted bodies here? Especially a female wizard body of a shopkeeper at the Wide.~
+@16021 = ~Ouh yes I do. But that information is gonna cost you a lot! Give me one gold coin and I tell ya.~
+@16022 = ~I think not. I find someone else.~
+@16023 = ~Hmm. Alright. Here you go. Now tell me where they dump the bodies.~
+@16024 = ~I saw the Flaming Fist mercenaries dumping the body into the sewers. The eastern part to be exact. You should be able to find her body there.~
+
+/////// Dhan Menvhor
+@17000 = ~Hmph. You here to buy scrolls? I do not have time for small talk.~
+@17001 = ~Yeah sure. I take a look.~
+@17002 = ~Who are you? Why you selling scrolls in a tavern?~
+@17003 = ~That is none of your business. Now get lost. Like I said, I don't have time for small talk.~
+@17004 = ~I heard you have captured a Flaming Fist scout called Luci. Is that true?~
+@17005 = ~I need to find Luci. Do you know where she is? Tell me, please.~ 
+@17006 = ~Hmph. Maybe I have, maybe I haven't. What's it to you? Who are you mugs?~ 
+@17007 = ~My name is <GABBER>. We are looking for answers and I heard you might have the one with the answers. She is called Luci. Do you know where she is?~
+@17008 = ~Ouh, is that so? Well, maybe I do, maybe I don't. Might need a little something-something to jar my memory. Four figures should do it.~
+@17009 = ~Very well. Here is your thousand golden ones.~
+@17010 = ~I am not going to give you my gold. Nevermind.~
+@17011 = ~Ouh yeah, Luci. The last name is Galan if I am correct. I know her. And I even know where she is. But for that I need something more than just gold. I need a favor.~ 
+@17012 = ~A favor? Are you serious? We just gave you thousand gold coins.~
+@17013 = ~Yes, you did. And that will come to good use, since you purchased yourself a key to the place where they are holding her. Well, kind of holding her.~
+@17014 = ~What do you mean?~
+@17015 = ~Well, due to this Iron Crisis, few weeks ago the Flaming Fist reclaimed their old seatower. Before that it had been guarded, but not really used. Just empty military tower. Alatos Thuibuld used to store some items there right under their noses and he was kind enough to let me store some of my valuables too. Even though Alatos was able to get some of the items out before they reclaimed it, all my items were confiscated. I need one of the items destroyed before they find out what it is.~
+@17016 = ~Destroyed? What needs to be destroyed?~
+@17017 = ~Well, maybe more like disabled. My guess is that you already know about the beholder statues since you are here asking about Luci. So, let me explain. Their battle wizards got interested in my beholder statue I had stored in the tower and it is only a matter of time before they find out what it actually does. The whole statue network could be compromised, and we dare not use it since they would surely notice. And that means Luci is also trapped somewhere in there.~
+@17018 = ~One of the Flaming Fist battle wizards took an important network should be fully operational once more. And I can give you Luci. You can do whatever you want with her. I do not care.~
+@17019 = ~We? You mean you and your bounty hunter comrades?~
+@17020 = ~Yes, maybe. And no, I won't tell you more. But back to the matter at hand. The statue is currently in the possession of someone called Horben. I am aware that you know where he is and that you are in are allowed to enter the camp. Which is why I am asking you for this favor. However, to disable it, you will need an Antimagic Field scroll. If you can't find those anywhere else, I would suggest looking into the seatower south of the docks. The same place I and Alatos had items stored. I do suggest you do not let anyone see you when disabling the statue or if you need to break into that seatower.~
+@17021 = ~Why haven't you already done this yourself? And how can I get into that seatower?~
+@17022 = ~Why do something today yourself, when you can make someone else do the same thing tomorrow? And well, you can try bribing the guard or try the sewers. The thieves always used the sewers entrance to enter the tower.~
+@17023 = ~Right. What about the gold? What was that for?~
+@17024 = ~Well, you just bought the rest of my inventory stored in the tower now occupied by the Flaming Fist. Enjoy!~
+@17025 = ~What? That is a cheap trick you pulled!~
+@17026 = ~If you don't want it, the Flaming Fist will surely put it into good use. But you should be happy. The items there are well worth over 1,000 measly gold coins. But now, I have other business to attend to. I shall give you Luci when you have disabled the statue. And don't try to cheat me on this.~ 
+@17027 = ~Sure. I'll be back.~
+@17028 = ~The statue has been disabled. So, can you give me Luci now?~
+@17029 = ~Yes it seems you were successful with your quest. As promised, here is Luci. I have prepared the stone, so that Luci can be freed by anyone. Even by... well, you. But now our business here is concluded. Well, at least for now. I am off. Ta ta!~
+
+/* =====================================================
+
+			JOURNAL
+
+===================================================== */
+
+// The Enemy Within
+@100000 = ~The Enemy Within
+
+Lord Kuldak Maurancz came to speak to me in The Old Plough tavern in the quiet Cragmyr village. He asked me to come and speak to him in his "house" and discuss about business of some sort.~
+
+@100001 = ~The Enemy Within
+
+I spoke to Lord Kuldak and agreed to help him to reconstruct the keep and reactivate the Helmed Horrors to bring safety to the area from an immediate ogre attacks. He instructed me to speak with Captain of Cragmyr militia, Eddard, to got get more details.~
+
+@100014 = ~The Enemy Within
+
+Lord Kuldak has offered me another job: to find out what else the Flaming Fist, beyond the trade block on Cragmyr, might be hiding and scheming. I said I think about it.~
+
+@100015 = ~The Enemy Within
+
+Lord Kuldak has offered me another job: to find out what else the Flaming Fist, beyond the trade block on Cragmyr, might be hiding and scheming. I agreed to help. He said to to talk to their commanding officer Elijah Hjout near the Trade Way in Cragmyr Village and visit their "hidden" military camp north of Cragmyr Keep.~
+
+// Cragmyr Keep's Reconstruction
+@100002 = ~Cragmyr Keep's Reconstruction
+
+Captain of the Cragmyr militia, Eddard, asked me to get rid of the ochre jellies plaguing the keep's dungeon. I agreed.~
+
+@100003 = ~Cragmyr Keep's Reconstruction
+
+Captain of the Cragmyr militia, Eddard, told me that a Baldurian supply caravan supposed to bring equipment for reconstruction has failed to deliver the goods it was supposed to. I am to look for it somewhere between Cragmyr Keep and Baldur's Gate.~
+
+@100004 = ~Cragmyr Keep's Reconstruction
+
+I found the supplies just north of Friendly Arm Inn. I should inform Captain Eddard of their location.~
+
+@100005 = ~Cragmyr Keep's Reconstruction
+
+The supplies for reconstruction of Cragmyr Keep's walls are being fetched. In the meantime I should inform Lord Kuldak.~
+
+@100006 = ~Cragmyr Keep's Reconstruction
+
+Cragmyr Keep's walls are now under reconstrution, thanks to the supplies I recovered.~
+
+// Helmed Horrors of Cragmyr
+@100007 = ~Helmed Horrors of Cragmyr
+
+I met a rather silly man called Mal Swarley who could maybe help Lord Kuldak fix the broken Helmed Horrors. He is staying somewhere in Cragmyr village.~
+
+@100008 = ~Helmed Horrors of Cragmyr
+
+I found an inventor, Mal Swarley, who can help Lord Kuldak fix the broken Helmed Horrors. I should talk to Lord Kuldak about him.~
+
+@100009 = ~Helmed Horrors of Cragmyr
+
+Lord Kuldak asked me to help Mal Swarley to fix the Helmed Horrors and the machine in the Cragmyr dungeon. I agreed.~
+
+@100010 = ~Helmed Horrors of Cragmyr
+
+Mal Swarley wants me to find certain items to fix the gears and other functional parts of the machine. I will need at least one diamond, 5 bundles of fresh spider silk and a lesser magical or Kara-Turian weapon of steel.~
+
+@100011 = ~Helmed Horrors of Cragmyr
+
+Seems Mal Swarley needs one more thing to make the machine work. And it is a spirit of a lightning elemental. He gave me a Portal Breach scrol which should be used to open a gate to the Quasi-Elemental Plane of Lightning at Ulcaster School ruins. I will also need an Aquamarine Gem and a name of a Lightning Elemental. Mal suggested I look through the books in Cragmyr Keep. He also warned me that the summoning circle can't take many summonings no more and most likely will soon break.~
+
+@100012 = ~Helmed Horrors of Cragmyr
+
+The Helmed Horror machine is now fully operational. I should inform Lord Kuldak about our progress.~
+
+@100013 = ~Helmed Horrors of Cragmyr
+
+The Helmed Horror machine is now fully operational. I informed Lord Kuldak about the matter and he was more than pleased. Cragmyr Keep, at least for now, should now be defended and safe from the ogre horde.~
+
+// Trade Block over Cragmyr
+@100100 = ~Trade Block over Cragmyr
+
+Elijah Hjout doesn't seem to trust me. I should somehow gain his trust. Maybe doing something his superiors, Duke Eltan or Scar, would notice and put a good word for me.~
+
+@100101 = ~Trade Block over Cragmyr
+
+Scar has obviously told good things about me to Elijah, since he seemed trusting towards me. According to him, the Flaming Fist is not behind the trade block and he suspects Iltar. He thinks Flaming Fist is being framed and wants to find out how and who is actually doing this. He wanted me to catch up with the last caravan that passed Cragmyr and try to find clues, as the caravaners wouldn't reveal anything to the Flaming Fist.~
+
+@100102 = ~Trade Block over Cragmyr
+
+Wallace, a traveling merchant on his way to Amn, got very upset and distraught when I asked why didn't the caravan stop at Cragmyr. He said the business is between the caravan and the Flaming Fist, even though Elijah knew nothing of this. There is something fishy going on indeed.~
+
+@100103 = ~Trade Block over Cragmyr
+
+I charmed Wallace, a traveling merchant on his way to Amn, and he told me that they felt an urge not to stop at Cragmyr Keep as if commanded by Flaming Fist itself. He also said there is some strange resonance in the gem merchant's tent next to his.~
+
+@100104 = ~Trade Block over Cragmyr
+
+I found a strange stone in the gem merchant's tent at the Isap's Caravan Stop. It clearly has some magical properties. I should take this to Elijah. I doubt he knows what it is, but I guess he might guide me to someone who knows.~
+
+@100105 = ~Trade Block over Cragmyr
+
+Officer Hjout instructed me to speak to either Thalantyr or Halbazzer Drin about the resonance stone and find try to find out its origin.~
+
+@100106 = ~Trade Block over Cragmyr
+
+We spoke to Thalantyr. He wasn't able to conclude the stone's origins or its original creator, but he did recognize markings which belong to a peddlar of transmutation potions called Talessyr Tranth. He sells his potions at the Wide, the central market in Baldur's Gate. Maybe I should give him a visit.~
+
+@100107 = ~Trade Block over Cragmyr
+
+We spoke to Halbazzer Drin. He wasn't able to conclude the stone's origins or its original creator, but he did recognize markings which belong to a peddlar of transmutation potions called Talessyr Tranth. He sells his potions at the Wide, the central market in Baldur's Gate. Maybe I should give him a visit. He also told us that an inventor heading to Cragmyr Keep, most likely Mal Swarley, can maybe use it to create a magical item of some sort.~
+
+@100108 = ~Trade Block over Cragmyr
+
+We spoke to Halbazzer Drin. He wasn't able to conclude the stone's origins or its original creator, but he did recognize markings which belong to a peddlar of transmutation potions called Talessyr Tranth. He sells his potions at the Wide, the central market in Baldur's Gate. Maybe I should give him a visit.~
+
+@100109 = ~Trade Block over Cragmyr
+
+Talessyr Tranth gave us nothing. Where to now?~
+
+@100110 = ~Trade Block over Cragmyr
+
+A beggar outside Talessyr Tranth's tent told us he leaves every night to go somewhere. Maybe I should follow him. I just should make sure he doesn't see me.~
+
+@100111 = ~Trade Block over Cragmyr
+
+Talessyr went into the sewers and met with an illithid. A mind flayer! They spoke about stones, maybe they meant the resonance stones, but I can't be sure. Talessyr said he would be making a delivery the next night. Maybe I should follow him, again.~
+
+@100112 = ~Trade Block over Cragmyr
+
+Talessyr met with two rogues and gave them stones, perhaps the resonance stones, and potions which transformed them into Flaming Fist officers. The officers were to "inspect" caravans and certainly would plant the stones into them. Talessyr spoke about a hideout in north-east Baldur's Gate, with a password "Coconut". That is my only lead for now. Why did the rogues call him "ma'am"?~
+
+@100113 = ~Trade Block over Cragmyr
+
+We broke into Talessyr's house and found her Potion Log. Yes, he is now a she. It seems that Iltar is actually Talessyr's brother, and she arranged the trade block by his wishes. I should take the book back to Elijah, or maybe I should talk to Iltar and ask what he thinks of it.~
+
+@100114 = ~Trade Block over Cragmyr
+
+I took the Talessyr's Potion Log to Iltar and he gave me a magical robe in exchange. I should talk to Elijah and tell him something. The best course of action might be lying.~
+
+@100115 = ~Trade Block over Cragmyr
+
+I wanted to give Talessyr's Potion Log in exchange for something, but he got upset since I had killed her sister. I guess I have no choice, but to give the book to Elijah.~
+
+@100116 = ~Trade Block over Cragmyr
+
+Officer Hjout was very pleased to get his hands on the evidence of the trade block conspiracy. The Flaming Fist should now be able to lift the trade block.~
+
+@100117 = ~Trade Block over Cragmyr
+
+Officer Hjout was a little bit disappointed that he couldn't bring evidence to Lord Kuldak about the trade block conspiracy. However, he was pleased that at least the trade block can now be lifted.~
+
+// The Looming Threat
+
+@100118 = ~The Looming Threat
+
+Officer Hjout had something else for us to do. I refused, but he said to come back, quite abruptly, if we changed our mind.~
+
+@100119 = ~The Looming Threat
+
+Officer Hjout gave us a task to go and help a Flaming Fist scouting unit north of Cragmyr Keep. He marked it on our map. I should hold on to the letter he gave us, otherwise our welcome won't be warm.~
+
+@100120 = ~The Looming Threat
+
+Officer Firehair, in charge of the Flaming Fist scouting unit north of Cragmyr Keep, was surprised that Officer Hjout sent her reinforcements. He is, by her words, overstepping his jurisdiction. Lendali was also surprised that he even knew they are here. Nonetheless, she was pleased to have reinforcements and asked us to speak to Horben about the deserters in her unit.~
+
+@100121 = ~The Looming Threat
+
+Horben, a Battle Wizard temporarily assigned to Officer Firehair's unit, didn't know much about the two deserters still alive, Quinn and Luci Galan. Although he did say that the third deserter, hanged at Cragmyr Keep, knew both Quinn and Luci quite well. Maybe it is a time for Speak with Dead spell?~
+
+@100122 = ~The Looming Threat
+
+Alarik's spirit, the hanged Flaming Fist deserter at Cragmyr Keep, gave us some intriguing information. It seems a Flaming Fist Battle Wizard has actually been looking for Quinn and Luci Galan, and it seems they might have gotten seperated. This would mean that the secret meeting place, a cave south of Beregost, could attract Quinn or Luci there and I could set up a trap. I just have to make a signal, I have to drop a dagger and either a silver necklace or a silver ring into the barrel next to Jovial Juggler, and wait a day or two. After that he should show up at the cave. The Battle Wizard didn't realize to ask anything about a signal from Alarik.~
+
+@100123 = ~The Looming Threat
+
+It seems Quinn might not be a deserter after all. Well, at least not one without a good reason. He told me that Luci knew something about Officer Hjout's and Horben's discriminating dealings. He said I should look for someone who can help finding Luci, an organization with huge magical resources. He suggested Harpers, monks of Candlekeep or the Cowled Wizards. He said he would be staying near Officer Firehair's camp keeping eye on Horben, if I needed him.~
+
+@100124 = ~The Looming Threat
+
+I killed Quinn Galan for desertion of the Flaming Fist. I should return his body to Officer Firehair. However, he did have some interesting things to talk tell me. He told me that Luci knew something about Officer Hjout's and Horben's discriminating dealings. Someone with huge magical resources was needed in order to find her. He suggested Harpers, monks of Candlekeep or the Cowled Wizards.~
+
+@100125 = ~The Looming Threat
+
+I killed Quinn Galan for desertion of the Flaming Fist. I should return his body to Officer Firehair. He however had an interesting note on him. The note said that Luci knew something about Officer Hjout's and Horben's discriminating dealings. Someone with huge magical resources was needed in order to find her. I guess I should look for Harpers, monks of Candlekeep or the Cowled Wizards.~
+
+@100126 = ~The Looming Threat
+
+I talked to Iltar Tranth, the ambassador of Amn and a Cowled Wizard at Cragmyr. He offered to help me find Luci, but only if I help him first. He wants me to get some magical documents back from Quinn and Luci that they stole from him. The irony. If he knew I wanted him to find Luci for me.~
+
+@100127 = ~The Looming Threat
+
+I talked to Iltar Tranth, the ambassador of Amn and a Cowled Wizard at Cragmyr. He offered to help me find Luci, but only if I help him first. He wants me to get some magical documents back from Quinn and Luci that they stole from him. The irony. If he knew I wanted him to find Luci for me. In addition, he wants me to find his sister's body in Baldur's Gate and bring it back to him. He said beggars most likely know where the Flaming Fist dumped her.~
+
+@100128 = ~The Looming Threat
+
+I talked to Iltar Tranth, the ambassador of Amn and a Cowled Wizard at Cragmyr. He offered to help me find Luci, but only if I help him first. I refused. It might well be however, that I cannot find anyone else who had the resources and time to help me find Luci.~
+
+@100129 = ~The Looming Threat
+
+Iltar was amused by the fact that I wanted him to find Luci for him. He however agreed and said he would return in a week to the Old Plough Tavern with everything he can find.~
+
+@100130 = ~The Looming Threat
+
+Iltar told me that Luci has been captured by Dhan "Untouchable" Menhvor. Iltar said Dhan, at least for now, can be found in the Elfsong Tavern in Baldur's Gate. I should enquire about Luci from him.~
+
+// The Smugglers Den
+@100300 = ~The Smugglers Den
+
+We were asked by Officer Elijah Hjout to handle the smuggler situation west of Cragmyr Keep. He mentioned they might have old smuggler tunnels in their use.~
+
+/* =====================================================
+
+			 RUMORS
+
+===================================================== */
+
+@150000 = ~Did you hear what's going on in Cragmyr Keep? They say it is being harrashed by a horde of ogres. Nobody seems to know why they have such sudden interest on the Keep. They never did before.~
+
+@150001 = ~Amn and Flaming Fist are fighting over the alliance of Cragmyr Keep now. This Iron Crisis causes nothing but problems, I tell ya.~
+
+@150002 = ~Lord Kuldak is trying to fix Cragmyr Keep. I say it is all in vain. They should all move somewhere else from that monster infested area.~
+
+@150003 = ~They say Cragmyr Keep is in trouble. I heard all caravans are avoiding the place now, so they have a hard time getting any supplies.~
+
+@150004 = ~Lord Kuldak of Cragmyr Keep hanged a Flaming Fist deserter not so long ago by the request of Officer Elijah Hjout. They say there are more deserters on loose.~
+
+@150005 = ~Lord Kuldak seems to be on the side of the smugglers nowadays. I heard he has been very relucant to help Flaming Fist to get rid of them. Amn supports the Flaming Fist in this. For once they agree on something!~
+
+// Troubles in Cragmyr (rumors)
+
+@160000 = ~Troubles in Cragmyr
+
+Rumors say that Cragmyr Keep is being harrashed by a horde of ogres. Nobody seems to know why they have such sudden interest on the Keep..~
+
+@160001 = ~Troubles in Cragmyr
+
+Amn and Flaming Fist are both trying to get Lord Kuldak to favor their side in case of a war.~
+
+@160002 = ~Troubles in Cragmyr
+
+Lord Kuldak is trying to fix the keep for immediate attacks from ogres.~
+
+@160003 = ~Troubles in Cragmyr
+
+For some reason caravans seem to be avoiding Cragmyr Keep. The village seems to have trouble getting supplies.~
+
+@160004 = ~Troubles in Cragmyr
+
+Flaming Fist is having trouble with deserters. One was hanged at Cragmyr Keep by the request of Officer Elijah Hjout.~
+
+@160005 = ~Troubles in Cragmyr
+
+It seems there are smugglers nested near Cragmyr Keep somewhere. Both the Flaming Fist and Amn wants to get rid of them, but Lord Kuldak is reluctant to help.~
+
+
+/* =====================================================
+
+			TRIGGERS
+
+===================================================== */
+
+// Masons squabble
+@2000000 = ~It seems only the items containing iron were taken by the bandits. All the construction equipment to repair Cragmyr Keep's walls seems to still be here intact.~
+@2000001 = ~Beautiful wall isn't it? And it's all my doing.~
+@2000002 = ~What?! Your doing? I did most of the work!~
+@2000003 = ~Yeah right. Your walls collapse and crumble with a stone throw.~
+@2000004 = ~And your won't? I'll show you!~
+@2000005 = ~*Throws a stone at the wall.*~
+@2000006 = ~Damn, it's still standing.~
+
+// Ogre Caves
+@2000007 = ~Alarm has been sounded. You feel a magic surge running through the cave.~
+
+// Caravan Fire
+@2000008 = ~What happened here?! How did the fire start? Answer me!~
+@2000009 = ~I don't know. I didn't see nothing. Maybe it was a spontaneous combustion?~
+@2000010 = ~Hmph. There goes third of our stock.~
+@2000011 = ~You guards are useless! Next time I am going to hire someone who can actually do their jobs!~
+
+// Mal Ambush
+@2000012 = ~That guy just blew up three of us! Hey Don, you go and have a look if he is still alive.~
+@2000013 = ~No way man! I am not going anywhere near that insane guy! Go yourself!~
+@2000014 = ~You little... What's this? We got some company boys! Let's kill 'em!~
+
+// Caravan Ambush
+@2000015 = ~What should we do? Ambush them?~
+@2000016 = ~No, I think not. There is only two of us and... ummm...~
+@2000017 = ~What comes after two?~
+@2000018 = ~Ummm... Three?~
+@2000019 = ~Yeah! So there is so many more of them than us.~
+@2000020 = ~We better get backup. Let's go.~
+@2000021 = ~Ouh crap. We are being ambushed!~
+@2000022 = ~Ironic isn't it? Hey, I used a smart word correctly!~
+@2000023 = ~My pa is gonna be so proud!~
+
+// Talessyr Trail 1
+@2000100 = ~I will not be followed by nosy adventurers! My business is mine and mine alone!~
+@2000101 = ~Hmph. Why does he always want to meet in the sewers?~
+@2000102 = ~Better drink a potion of zombie to keep the jellies at bay.~
+@2000103 = ~He is late again. Hmph.~
+@2000104 = ~Finally you are here! Do you have the stones I asked for?~
+@2000105 = ~Good. Here is the transformation potions you required.~
+@2000106 = ~Yes, that is true. Till next time.~
+@2000107 = ~Damn rats. I hate rats.~
+@2000108 = ~Plane shift~
+@2000124 = ~No, I think it will have to wait till tomorrow night. I'll do the delivery then.~
+@2000125 = ~I trust the stones' power lasts at least a couple of weeks?~
+
+// Talessyr Trail 2
+@2000109 = ~I thought I heard something.~
+@2000110 = ~Here are the potions and the stones.~
+@2000111 = ~Make sure you hide the stones well and play your part precisely, as you have done so far.~
+@2000112 = ~We don't need the real Flaming Fist coming after us.~
+@2000113 = ~We will. I once made the Dragon Court believe I was the King of Cormyr, so don't worry.~
+@2000114 = ~So, go ahead. Get on with it.~
+@2000115 = ~Good. Now go and make your "caravan inspections".~
+@2000116 = ~One question, ma'am. What, if we run out of stones and potions?~
+@2000117 = ~Should we contact you?~
+@2000118 = ~Absolutely not!~
+@2000119 = ~My brother just bought a house near the eastern gate. You know the place.~
+@2000120 = ~The password to unlock the door is "Coconut".~
+@2000121 = ~If you want to live.~
+@2000122 = ~Sure thing, ma'am.~
+@2000123 = ~We'll be off.~
+@2000126 = ~A bit chilly tonight.~
+@2000127 = ~I will store the stones and potions there.~
+@2000128 = ~The front door is magically sealed to prevent unwanted visitors.~
+@2000129 = ~Make sure you don't go upstairs.~
+@2000130 = ~Alarm has been set off. It is clear that Talessyr knew you were coming.~
+
+// Portal
+@2000500 = ~Although this object seems to have a faint magical aura, its actual purpose appear to be purely ornamental.~
+@2000501 = ~You need a Antimagic Field scroll to disable this magical beholder trap.~
+@2000503 = ~You need to know the specific keyword to use this magical beholder trap in any way.~
+@2000504 = ~You need a Portal Breach scroll to use this magical beholder trap.~
+@2000505 = ~The statue has now been disabled.~
+@2000506 = ~The statue has now been disabled. But it seems your doings haven't gone unnoticed.~
+
+// Trap the Soul
+@2000600 = ~For some reason the creature's life force and material body you were trying to trap into a gem, has disappeared. The gem remains the same.~
+@2000601 = ~You do not currently possess a gem to capture creature this powerful.~
+@2000602 = ~Trap the Soul~
+@2000603 = ~There seems to be no conventional way of removing the magical trap placed on the drawer, and it may be warded against simple spells.~
+
+// Graves & Speak with Dead
+@2000610 = ~This grave seems fresh. Someone must have been buried here not so long ago.~
+@2000611 = ~Nothing seems to happen. No spirits answered your call or you are too far away from their graves.~
+
+// Sailor (male)
+@2001001 = ~The seas are sure rough this time o' year.~ [MALSAL01]
+@2001002 = ~Nothin' like some time ashore... all I needs is some grog an' a good lass on me lap.~ [MALSAL02]
+@2001003 = ~I best not be gone long... 'fore me captain has me hide.~ [MALSAL03]
+@2001004 = ~A quick prayer to Umberlee is all that stands 'tween me an' the sea's bottom, sure enough, eh?~ [MALSAL04]
+@2001005 = ~~ [MALSAL05]
+@2001006 = ~~ [MALSAL06]
+
+// Sailor (female)
+@2001011 = ~A woman on the high seas has t' be tougher than any mate.~ [FEMSAL01]
+@2001012 = ~Ahh, don't look at me like that or I'll gut ye where ye stand!~ [FEMSAL02]
+@2001013 = ~Grog. Grog an' a bath. Aye...~ [FEMSAL03]
+@2001014 = ~So I smells like fish. Begone with ye!~ [FEMSAL04]
+@2001015 = ~~ [FEMSAL05]
+@2001016 = ~~ [FEMSAL06]
+
+// Commoner Swimming Satyr
+@2001100 = ~Beautiful ship that Swimming Satyr. Ain't it?~
+@2001101 = ~Yeah, it is. Did ya hear that the Captain Nathlin is actually a Harper?~
+@2001102 = ~What? This again? You see Harpers everywhere.~
+@2001103 = ~No I don't. What I see is the truth.~
+@2001104 = ~Just last week you told me that Bhaal was actually a Harper before he became a god!~
+@2001105 = ~Well... he was! I say he still is.~
+@2001106 = ~There is no talking to you.~
